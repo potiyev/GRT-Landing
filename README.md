@@ -18,13 +18,6 @@ A clean, professional privacy policy page for the Grid Reaction Timer game.
 
 ## Customization
 
-### Update Contact Information
-
-Edit the contact section in `index.html` to include your actual email address:
-
-```html
-<p><strong>Email:</strong> your-email@example.com</p>
-```
 
 ### Modify Content
 

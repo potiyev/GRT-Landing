@@ -97,17 +97,12 @@ li {
     padding-left: 24px;
     position: relative;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     color: #222222;
 }
 
-li::before {
-    content: "•";
-    color: #ff5a5f;
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-}
+
 
 li strong {
     font-weight: 600;
@@ -117,16 +112,18 @@ li strong {
 .no-tracking-list li {
     margin-bottom: 16px;
     padding: 16px 20px;
+    padding-left: 44px;
     background-color: #f7f7f7;
     border-radius: 8px;
     border-left: 4px solid #00a699;
+    color: #222222;
 }
 
 .no-tracking-list li::before {
     content: "✓";
     color: #00a699;
     font-weight: bold;
-    left: 4px;
+    left: 16px;
 }
 
 /* Intro section */

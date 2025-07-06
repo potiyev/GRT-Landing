@@ -2,10 +2,6 @@
 
 **Last Updated:** July 6, 2025
 
-## What This App Does
-
-Grid Reaction Timer is a simple game that tests your reaction time using Formula 1 style racing lights. You tap the screen when the lights go out, and the app measures how fast you reacted.
-
 ## What Information We Collect
 
 **We don't collect any personal information from you.** Here's what the app does with your data:
@@ -63,7 +59,3 @@ If we ever change how the app works with your data, we'll update this policy. Si
 ## Contact
 
 This app is developed by a hobbyist developer. If you have questions about privacy, you can reach out through the App Store.
-
-## The Bottom Line
-
-Grid Reaction Timer is designed to be simple and private. Your game scores stay on your device, and we don't collect any personal information about you. Play the game, enjoy testing your reaction time, and don't worry about your privacy.
