@@ -10,46 +10,63 @@
     <link href="https://fonts.googleapis.com/css2?family=Cereal:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Grid Reaction Timer</a>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active" data-translate="navHome">Home</a></li>
+                    <li><a href="privacy.html" class="nav-link" data-translate="navPrivacy">Privacy</a></li>
+                    <li><a href="https://apps.apple.com/us/app/grid-reaction-timer/id6748250349" target="_blank" rel="noopener noreferrer" class="nav-link nav-app-store" data-translate="navAppStore">App Store</a></li>
+                </ul>
+                <!-- Language selector will be added here by JavaScript -->
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
-        <header>
-            <h1>Grid Reaction Timer</h1>
-            <p class="last-updated">Simple reaction training — available on the App Store</p>
-        </header>
 
         <main>
             <section class="hero">
                 <div class="hero-inner">
-                    <h2>Practice your reaction time with a clean grid-based game.</h2>
-                    <p class="lead">Short rounds, optional Game Center leaderboards, and local-only data storage.</p>
+                    <h1 data-translate="heroTitle">Grid Reaction Timer</h1>
+                    <p class="lead" data-translate="heroSubtitle">Short rounds, optional Game Center leaderboards, and local-only data storage.</p>
                     <div class="hero-ctas">
                         <a href="https://apps.apple.com/us/app/grid-reaction-timer/id6748250349" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/app-store-badge.svg" alt="Download on the App Store" style="height:40px; display:block;">
+                            <img src="assets/app-store-badge.svg" data-translate-alt="downloadAppStore" alt="Download on the App Store" style="height:40px; display:block;">
                         </a>
-                        <a href="privacy.html" style="align-self:center; margin-left:12px; color:#0070f3; font-weight:600; text-decoration:none;">Privacy Policy</a>
+                        <a href="privacy.html" data-translate="privacyPolicyLink" style="align-self:center; margin-left:12px; color:#0070f3; font-weight:600; text-decoration:none;">Privacy Policy</a>
                     </div>
                 </div>
             </section>
 
             <section>
-                <h2>App Store Description</h2>
-                <p class="lead">Grid Reaction Timer is a compact, focused app to measure and improve your reaction time using a tappable grid. Play short rounds, see your personal bests, and optionally compare scores using Game Center.</p>
+                <h2 data-translate="appStoreDescriptionTitle">App Store Description</h2>
+                <p class="lead" data-translate="appStoreDescription">Grid Reaction Timer is a compact, focused app to measure and improve your reaction time using a tappable grid. Play short rounds, see your personal bests, and optionally compare scores using Game Center.</p>
             </section>
 
             <section>
-                <h2>Screenshots</h2>
+                <h2 data-translate="screenshotsTitle">Screenshots</h2>
                 <div class="screenshot-grid">
-                    <div class="screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/79/c9/2079c966-0ade-52da-ae72-732d57000550/6.5-5.png/643x0w.png" alt="Grid Reaction Timer screenshot 1" style="max-width:100%;border-radius:8px"></div>
-                    <div class="screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/83/88/408388e7-69b3-d424-486e-c46abde28cd5/6.9-1.png/643x0w.png" alt="Grid Reaction Timer screenshot 2" style="max-width:100%;border-radius:8px"></div>
-                    <div class="screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/22/98/432298fa-2ccc-3e04-708e-9cd663c4569a/6.5-4.png/643x0w.png" alt="Grid Reaction Timer screenshot 3" style="max-width:100%;border-radius:8px"></div>
-                    <div class="screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/6b/ce/636bce62-a7d5-13d3-036d-50a38dfacf33/iPad-8.png/643x0w.png" alt="Grid Reaction Timer iPad screenshot" style="max-width:100%;border-radius:8px"></div>
+                    <div class="screenshot"><img id="screenshot1" src="assets/images_for_website/English/Screen 1.png" data-translate-alt="screenshot1Alt" alt="Grid Reaction Timer screenshot 1"></div>
+                    <div class="screenshot"><img id="screenshot2" src="assets/images_for_website/English/Screen 2.png" data-translate-alt="screenshot2Alt" alt="Grid Reaction Timer screenshot 2"></div>
+                    <div class="screenshot"><img id="screenshot3" src="assets/images_for_website/English/Screen 3.png" data-translate-alt="screenshot3Alt" alt="Grid Reaction Timer screenshot 3"></div>
+                    <div class="screenshot"><img id="screenshot4" src="assets/images_for_website/English/Screen 4.png" data-translate-alt="screenshot4Alt" alt="Grid Reaction Timer screenshot 4"></div>
+                    <div class="screenshot"><img id="screenshot5" src="assets/images_for_website/English/Screen 5.png" data-translate-alt="screenshot5Alt" alt="Grid Reaction Timer screenshot 5"></div>
+                    <div class="screenshot"><img id="screenshot6" src="assets/images_for_website/English/Screen 6.png" data-translate-alt="screenshot6Alt" alt="Grid Reaction Timer screenshot 6"></div>
                 </div>
             </section>
 
         </main>
 
         <footer>
-            <p>&copy; 2025 Grid Reaction Timer. <a href="https://apps.apple.com/us/app/grid-reaction-timer/id6748250349">App Store listing</a></p>
+            <p><span data-translate="footerCopyright">&copy; 2025 Grid Reaction Timer.</span> <a href="https://apps.apple.com/us/app/grid-reaction-timer/id6748250349" data-translate="footerAppStoreLink">App Store listing</a></p>
         </footer>
     </div>
+
+    <!-- Translation scripts -->
+    <script src="translations.js"></script>
+    <script src="language-switcher.js"></script>
 </body>
 </html>
