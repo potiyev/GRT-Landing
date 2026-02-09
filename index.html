@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Reaction Timer — Home</title>
+    <title>Lights Out: Reaction Timer — Home</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
     <!-- Top Navigation -->
     <nav class="top-nav">
         <div class="nav-container">
-            <a href="index.html" class="nav-brand">Grid Reaction Timer</a>
+            <a href="index.html" class="nav-brand">Lights Out: Reaction Timer</a>
             <div class="nav-right">
                 <ul class="nav-links">
                     <li><a href="index.html" class="nav-link active" data-translate="navHome">Home</a></li>
@@ -30,8 +30,8 @@
         <main>
             <section class="hero">
                 <div class="hero-inner">
-                    <h1 data-translate="heroTitle">Grid Reaction Timer</h1>
-                    <p class="lead" data-translate="heroSubtitle">Short rounds, optional Game Center leaderboards, and local-only data storage.</p>
+                    <h1 data-translate="heroTitle">Lights Out: Reaction Timer</h1>
+                    <p class="lead" data-translate="heroSubtitle">F1-inspired reaction training with multiple game modes, global leaderboards, and 10 official team themes. Free on iOS.</p>
                     <div class="hero-ctas">
                         <a href="https://apps.apple.com/us/app/grid-reaction-timer/id6748250349" target="_blank" rel="noopener noreferrer">
                             <img src="assets/app-store-badge.svg" data-translate-alt="downloadAppStore" alt="Download on the App Store" style="height:40px; display:block;">
@@ -42,26 +42,102 @@
             </section>
 
             <section>
-                <h2 data-translate="appStoreDescriptionTitle">App Store Description</h2>
-                <p class="lead" data-translate="appStoreDescription">Grid Reaction Timer is a compact, focused app to measure and improve your reaction time using a tappable grid. Play short rounds, see your personal bests, and optionally compare scores using Game Center.</p>
+                <h2 data-translate="gameModesSectionTitle">Four Ways to Play</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">&#127964;</div>
+                        <h3 data-translate="featureLaunchTitle">Launch Sequence</h3>
+                        <p data-translate="featureLaunchDesc">Five lights count down, then go dark. Tap the instant they go out. Millisecond-precision timing with F1 driver comparisons after every round.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#9638;</div>
+                        <h3 data-translate="featureGridTitle">Grid Trainer</h3>
+                        <p data-translate="featureGridDesc">Tap highlighted cells on 3x3, 4x4, or 5x5 grids. Play untimed for accuracy or race the clock in 10-second timed mode.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#128101;</div>
+                        <h3 data-translate="featureTwoPlayerTitle">Two-Player Split Screen</h3>
+                        <p data-translate="featureTwoPlayerDesc">Face off on one device. Both players tap Ready, lights count down, and the fastest reaction wins. Instant rematch support.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#127760;</div>
+                        <h3 data-translate="featureARTitle">AR Mode</h3>
+                        <p data-translate="featureARDesc">Place a 3D launch gantry in your room with augmented reality. Pinch to resize, tap to react. Full particle effects on iOS 18+.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 data-translate="themesSectionTitle">Personalize Everything</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">&#127937;</div>
+                        <h3 data-translate="featureTeamsTitle">10 F1 Team Themes</h3>
+                        <p data-translate="featureTeamsDesc">Red Bull, Ferrari, Mercedes, McLaren, Aston Martin, Alpine, Williams, Haas, Kick Sauber, and RB. Each with authentic team colors.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#127912;</div>
+                        <h3 data-translate="featureStylesTitle">5 Visual Styles</h3>
+                        <p data-translate="featureStylesDesc">Standard, Cyberpunk, Retro Web, Crayola, and Skeuomorphic. Each changes light shapes, fonts, colors, and full-screen overlays.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 data-translate="competeSectionTitle">Compete and Track Progress</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">&#127942;</div>
+                        <h3 data-translate="featureLeaderboardsTitle">Global Leaderboards</h3>
+                        <p data-translate="featureLeaderboardsDesc">Game Center and online leaderboards with weekly resets. See player profiles with emoji avatars, streaks, and stats.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#127941;</div>
+                        <h3 data-translate="featureAchievementsTitle">13 Achievements</h3>
+                        <p data-translate="featureAchievementsDesc">Unlock achievements for reaction speed tiers, cumulative play milestones, and grid trainer records. Synced with Game Center.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#128293;</div>
+                        <h3 data-translate="featureStreaksTitle">Daily Streaks</h3>
+                        <p data-translate="featureStreaksDesc">Play every day to build your streak. Your streak badge shows on leaderboards for everyone to see.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#128200;</div>
+                        <h3 data-translate="featureAnalyticsTitle">Detailed Stats</h3>
+                        <p data-translate="featureAnalyticsDesc">Track personal bests, averages, session history, and accuracy. Compare your times against real F1 driver benchmarks.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 data-translate="moreSectionTitle">And More</h2>
+                <ul class="more-features-list">
+                    <li data-translate="moreFeature1">61 rotating motorsport and reaction speed fun facts</li>
+                    <li data-translate="moreFeature2">Haptic feedback tuned for each game event</li>
+                    <li data-translate="moreFeature3">Background music and sound effects with full audio controls</li>
+                    <li data-translate="moreFeature4">Apple Watch companion app for quick practice</li>
+                    <li data-translate="moreFeature5">Privacy controls: opt out of analytics, disable online sync, or delete your data anytime</li>
+                    <li data-translate="moreFeature6">6 languages: English, Spanish, French, German, Japanese, and Portuguese</li>
+                    <li data-translate="moreFeature7">Completely free with no in-app purchases</li>
+                </ul>
             </section>
 
             <section>
                 <h2 data-translate="screenshotsTitle">Screenshots</h2>
                 <div class="screenshot-grid">
-                    <div class="screenshot"><img id="screenshot1" src="assets/images_for_website/English/Screen 1.png" data-translate-alt="screenshot1Alt" alt="Grid Reaction Timer screenshot 1"></div>
-                    <div class="screenshot"><img id="screenshot2" src="assets/images_for_website/English/Screen 2.png" data-translate-alt="screenshot2Alt" alt="Grid Reaction Timer screenshot 2"></div>
-                    <div class="screenshot"><img id="screenshot3" src="assets/images_for_website/English/Screen 3.png" data-translate-alt="screenshot3Alt" alt="Grid Reaction Timer screenshot 3"></div>
-                    <div class="screenshot"><img id="screenshot4" src="assets/images_for_website/English/Screen 4.png" data-translate-alt="screenshot4Alt" alt="Grid Reaction Timer screenshot 4"></div>
-                    <div class="screenshot"><img id="screenshot5" src="assets/images_for_website/English/Screen 5.png" data-translate-alt="screenshot5Alt" alt="Grid Reaction Timer screenshot 5"></div>
-                    <div class="screenshot"><img id="screenshot6" src="assets/images_for_website/English/Screen 6.png" data-translate-alt="screenshot6Alt" alt="Grid Reaction Timer screenshot 6"></div>
+                    <div class="screenshot"><img id="screenshot1" src="assets/images_for_website/English/Screen 1.png" data-translate-alt="screenshot1Alt" alt="Launch Sequence game mode"></div>
+                    <div class="screenshot"><img id="screenshot2" src="assets/images_for_website/English/Screen 2.png" data-translate-alt="screenshot2Alt" alt="Grid Trainer game mode"></div>
+                    <div class="screenshot"><img id="screenshot3" src="assets/images_for_website/English/Screen 3.png" data-translate-alt="screenshot3Alt" alt="Game results with F1 comparison"></div>
+                    <div class="screenshot"><img id="screenshot4" src="assets/images_for_website/English/Screen 4.png" data-translate-alt="screenshot4Alt" alt="F1 team theme selection"></div>
+                    <div class="screenshot"><img id="screenshot5" src="assets/images_for_website/English/Screen 5.png" data-translate-alt="screenshot5Alt" alt="Global leaderboards"></div>
+                    <div class="screenshot"><img id="screenshot6" src="assets/images_for_website/English/Screen 6.png" data-translate-alt="screenshot6Alt" alt="Visual style customization"></div>
                 </div>
             </section>
 
         </main>
 
         <footer>
-            <p><span data-translate="footerCopyright">&copy; 2025 Grid Reaction Timer.</span> <a href="https://apps.apple.com/us/app/grid-reaction-timer/id6748250349" data-translate="footerAppStoreLink">App Store listing</a></p>
+            <p><span data-translate="footerCopyright">&copy; 2026 Lights Out: Reaction Timer.</span> <a href="https://apps.apple.com/us/app/grid-reaction-timer/id6748250349" data-translate="footerAppStoreLink">App Store listing</a></p>
         </footer>
     </div>
 

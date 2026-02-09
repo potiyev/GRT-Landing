@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Grid Reaction Timer</title>
+    <title>Privacy Policy - Lights Out: Reaction Timer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
     <!-- Top Navigation -->
     <nav class="top-nav">
         <div class="nav-container">
-            <a href="index.html" class="nav-brand">Grid Reaction Timer</a>
+            <a href="index.html" class="nav-brand">Lights Out: Reaction Timer</a>
             <div class="nav-right">
                 <ul class="nav-links">
                     <li><a href="index.html" class="nav-link" data-translate="navHome">Home</a></li>
@@ -27,18 +27,18 @@
 
     <div class="container">
         <header>
-            <h1 data-translate="privacyHeaderTitle">Privacy Policy for Grid Reaction Timer</h1>
-            <p class="last-updated" data-translate="privacyLastUpdated">Last Updated: August 17, 2025</p>
+            <h1 data-translate="privacyHeaderTitle">Privacy Policy for Lights Out: Reaction Timer</h1>
+            <p class="last-updated" data-translate="privacyLastUpdated">Last Updated: February 9, 2026</p>
         </header>
 
         <main>
             <section>
                 <h2 data-translate="simpleVersionTitle">The Simple Version</h2>
-                <p class="lead" data-translate="simpleVersionText">We made this game app fun and safe! We show ads to keep the app free, but we don't spy on you or collect your personal information.</p>
+                <p class="lead" data-translate="simpleVersionText">We made this game app fun and safe! We show ads to keep the app free. You have full control over what data is shared, and you can delete your online data at any time from the app.</p>
             </section>
 
             <section>
-                <h2 data-translate="whatWeDontTakeTitle">What We DON'T Take From You</h2>
+                <h2 data-translate="whatWeDontTakeTitle">What We DON'T Collect</h2>
                 <ul class="no-tracking-list">
                     <li data-translate="whatWeDontTake1">We don't ask for your name, email, or phone number</li>
                     <li data-translate="whatWeDontTake2">We don't look at your photos or contacts</li>
@@ -49,118 +49,98 @@
             </section>
 
             <section>
-                <h2 data-translate="whatStaysOnPhoneTitle">What Stays Just On Your Phone</h2>
+                <h2 data-translate="analyticsTitle">Analytics (Firebase Analytics)</h2>
+                <p data-translate="analyticsText1">The app uses Firebase Analytics to collect anonymous usage data such as screen views, game events (starts, completions, false starts), and session counts. This helps us understand how the app is used and improve it.</p>
+                <p data-translate="analyticsText2">No personally identifiable information is collected through analytics.</p>
+                <p><strong data-translate="analyticsOptOut">You can disable analytics at any time in Settings &gt; Privacy &gt; Share Analytics.</strong></p>
+                <p data-translate="analyticsProvider">Firebase Analytics is provided by Google. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+            </section>
+
+            <section>
+                <h2 data-translate="aboutAdsTitle">Advertising (Google AdMob)</h2>
+                <p data-translate="aboutAdsText">We show ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. Google AdMob may use your device's Advertising Identifier (IDFA) if you grant permission through Apple's App Tracking Transparency prompt.</p>
+                <p data-translate="aboutAdsPersonalization">If you decline tracking, ads will still be shown but will not be personalized.</p>
+                <p data-translate="aboutAdsProvider">See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for details on ad-related data collection.</p>
+            </section>
+
+            <section>
+                <h2 data-translate="leaderboardTitle">Online Leaderboards &amp; Profiles (Supabase)</h2>
+                <p data-translate="leaderboardText">The app uses Supabase to store online leaderboard scores and player profiles. When Leaderboard Sync is enabled, the following data is stored:</p>
+                <ul>
+                    <li data-translate="leaderboard1">An anonymous device-generated UUID (player ID)</li>
+                    <li data-translate="leaderboard2">Game Center display name (if authenticated)</li>
+                    <li data-translate="leaderboard3">Selected emoji avatar and theme</li>
+                    <li data-translate="leaderboard4">Game scores, streaks, and statistics</li>
+                </ul>
+                <p data-translate="leaderboardNoEmail">No email address, real name, or contact information is collected.</p>
+                <p><strong data-translate="leaderboardOptOut">You can disable online sync at any time in Settings &gt; Privacy &gt; Leaderboard Sync.</strong></p>
+            </section>
+
+            <section>
+                <h2 data-translate="whatStaysOnPhoneTitle">What Stays On Your Phone</h2>
                 <div class="subsection">
-                    <h3 data-translate="gameStuffTitle">Your Game Stuff</h3>
+                    <h3 data-translate="gameStuffTitle">Your Game Data</h3>
                     <ul>
-                        <li><strong data-translate="scoresText">Your Scores:</strong> <span data-translate="scoresDescription">All your reaction times stay on your phone. We never see them.</span></li>
-                        <li><strong data-translate="settingsText">Your Settings:</strong> <span data-translate="settingsDescription">Things like colors, sounds, and vibration choices stay on your phone.</span></li>
+                        <li><strong data-translate="scoresText">Your Scores:</strong> <span data-translate="scoresDescription">All your reaction times are saved locally on your phone.</span></li>
+                        <li><strong data-translate="settingsText">Your Settings:</strong> <span data-translate="settingsDescription">Preferences like colors, sounds, and vibration choices stay on your phone.</span></li>
                         <li><strong data-translate="appIconText">Your App Icon:</strong> <span data-translate="appIconDescription">The app icon you pick stays on your phone.</span></li>
                     </ul>
                 </div>
 
                 <div class="subsection">
-                    <h3 data-translate="gameCenterTitle">Game Center (If You Want)</h3>
+                    <h3 data-translate="gameCenterTitle">Game Center (Apple GameKit)</h3>
                     <ul>
-                        <li data-translate="gameCenter1">You can choose to connect to Apple's Game Center to compete with friends</li>
-                        <li data-translate="gameCenter2">This is totally optional - you can play without it</li>
-                        <li data-translate="gameCenter3">Apple handles this, not us</li>
-                    </ul>
-                </div>
-
-                <div class="subsection">
-                    <h3 data-translate="guestModeTitle">Guest Mode</h3>
-                    <ul>
-                        <li data-translate="guestMode1">When someone else plays on your phone, their scores disappear when they're done</li>
-                        <li data-translate="guestMode2">Your real scores stay safe</li>
+                        <li data-translate="gameCenter1">The app integrates with Apple Game Center for leaderboards and achievements</li>
+                        <li data-translate="gameCenter2">This is optional - you can play without it</li>
+                        <li data-translate="gameCenter3">Game Center data is managed entirely by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a></li>
                     </ul>
                 </div>
             </section>
 
             <section>
-                <h2 data-translate="aboutAdsTitle">About The Ads</h2>
-                <p data-translate="aboutAdsText">We show ads to keep the app free. Google helps us show these ads.</p>
-                
-                <div class="subsection">
-                    <h3 data-translate="whatGoogleSeesTitle">What Google Might See</h3>
-                    <ul>
-                        <li data-translate="googleSees1">What kind of phone you have</li>
-                        <li data-translate="googleSees2">Roughly what city you're in (not your exact address)</li>
-                        <li data-translate="googleSees3">If you tap on ads</li>
-                        <li data-translate="googleSees4">If the app crashes</li>
-                    </ul>
-                </div>
-
-                <p><strong data-translate="whyText">Why:</strong> <span data-translate="whyDescription">To show ads, see if they work, and stop bad people from cheating.</span></p>
-                <p><strong data-translate="importantText">Important:</strong> <span data-translate="importantDescription">The ads are the same for everyone - they're not special just for you.</span></p>
+                <h2 data-translate="dataSharingTitle">Data Sharing</h2>
+                <p data-translate="dataSharingText">We do not sell, trade, or share your personal information with third parties. Data is only shared with the service providers listed above (Google, Apple, Supabase) as necessary to provide app functionality.</p>
             </section>
 
             <section>
-                <h2 data-translate="safetyTitle">How We Keep Things Safe</h2>
-                <ul>
-                    <li data-translate="safety1">We don't save your personal stuff on our computers</li>
-                    <li data-translate="safety2">Google handles ad information safely</li>
-                </ul>
+                <h2 data-translate="dataDeletionTitle">Data Deletion</h2>
+                <p data-translate="dataDeletionText1">You can delete all your online data (Supabase profile and scores) at any time by going to <strong>Settings &gt; Privacy &gt; Delete My Data</strong>. This permanently removes your online profile and scores, and assigns you a new anonymous identity.</p>
+                <p data-translate="dataDeletionText2">Local data (saved on your device) and Game Center records are managed separately and are not affected by this action. To remove Game Center data, manage it through your device's Game Center settings.</p>
             </section>
 
             <section>
-                <h2 data-translate="kidsParentsTitle">For Kids and Parents</h2>
-                <p data-translate="kidsParentsText">This app is safe for kids to play. We don't collect personal information from children.</p>
-            </section>
-
-            <section>
-                <h2 data-translate="tipJarTitle">Tip Jar (Optional)</h2>
-                <p data-translate="tipJarText">You can give us tips to help make the app better:</p>
-                <ul>
-                    <li data-translate="tipJar1">Apple handles all the money stuff</li>
-                    <li data-translate="tipJar2">We never see your payment information</li>
-                    <li data-translate="tipJar3">It's totally optional - the app works great without tips!</li>
-                </ul>
+                <h2 data-translate="kidsParentsTitle">Children's Privacy</h2>
+                <p data-translate="kidsParentsText">The app does not knowingly collect information from children under 13. All data collection is anonymous and does not include personal identifiers.</p>
             </section>
 
             <section>
                 <h2 data-translate="controlTitle">What You Can Control</h2>
                 <ul>
-                    <li data-translate="control1">Delete the app anytime to remove all your stuff</li>
-                    <li data-translate="control2">Use Guest Mode when friends want to play</li>
-                    <li data-translate="control3">Choose if you want Game Center or not</li>
-                    <li data-translate="control4">Change ad settings in your phone's privacy settings</li>
+                    <li data-translate="control1">Disable analytics in Settings &gt; Privacy &gt; Share Analytics</li>
+                    <li data-translate="control2">Disable online leaderboard sync in Settings &gt; Privacy &gt; Leaderboard Sync</li>
+                    <li data-translate="control3">Delete your online data in Settings &gt; Privacy &gt; Delete My Data</li>
+                    <li data-translate="control4">Choose if you want Game Center or not</li>
+                    <li data-translate="control5">Change ad tracking in your phone's privacy settings</li>
+                    <li data-translate="control6">Delete the app to remove all local data</li>
                 </ul>
             </section>
 
             <section>
-                <h2 data-translate="permissionsTitle">What The App Might Ask For</h2>
-                <ul>
-                    <li><strong data-translate="vibrationText">Vibration:</strong> <span data-translate="vibrationDescription">To make your phone buzz when you play (you can turn this off)</span></li>
-                    <li><strong data-translate="gameCenterPermissionText">Game Center:</strong> <span data-translate="gameCenterPermissionDescription">To save scores and compete with friends (optional)</span></li>
-                </ul>
+                <h2 data-translate="changesTitle">Changes to This Policy</h2>
+                <p data-translate="changesText">We may update this policy from time to time. Changes will be posted on this page with an updated date.</p>
             </section>
 
             <section>
-                <h2 data-translate="learnMoreTitle">If You Want To Learn More</h2>
-                <p data-translate="learnMoreText">Google has their own rules about ads and privacy:</p>
-                <ul>
-                    <li><a href="https://policies.google.com/technologies/ads" data-translate="googleAdRules">Google's Ad Rules</a></li>
-                    <li><a href="https://policies.google.com/privacy" data-translate="googlePrivacyRules">Google's Privacy Rules</a></li>
-                </ul>
-            </section>
-
-            <section>
-                <h2 data-translate="changesTitle">If We Change Something</h2>
-                <p data-translate="changesText">If we update this privacy stuff, we'll put the new version here. Check back once in a while if you're curious!</p>
-            </section>
-
-            <section>
-                <h2 data-translate="questionsTitle">Questions?</h2>
+                <h2 data-translate="questionsTitle">Contact</h2>
                 <div class="contact-info">
-                    <p>Have questions about privacy? Visit <a href="https://gridreactiontimer.com">https://gridreactiontimer.com</a> to contact us!</p>
+                    <p>If you have questions about this privacy policy, contact us at <a href="mailto:GRT.feedback@pm.me">GRT.feedback@pm.me</a>.</p>
                 </div>
             </section>
 
         </main>
 
         <footer>
-            <p><span data-translate="footerCopyright">&copy; 2025 Grid Reaction Timer.</span> All rights reserved. <a href="index.html">Home</a></p>
+            <p><span data-translate="footerCopyright">&copy; 2026 Lights Out: Reaction Timer.</span> All rights reserved. <a href="index.html">Home</a></p>
         </footer>
     </div>
 

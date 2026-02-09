@@ -1,749 +1,865 @@
-// Translation system for Grid Reaction Timer website
+// Translation system for Lights Out: Reaction Timer website
 const translations = {
     en: {
         // Language selector
         currentLanguage: "English",
         languages: {
             en: "English",
-            es: "Español", 
+            es: "Español",
             ja: "日本語",
             de: "Deutsch",
             fr: "Français",
             pt: "Português"
         },
-        
+
         // Common elements
-        title: "Grid Reaction Timer — Home",
-        privacyTitle: "Privacy Policy - Grid Reaction Timer",
-        
+        title: "Lights Out: Reaction Timer — Home",
+        privacyTitle: "Privacy Policy - Lights Out: Reaction Timer",
+
         // Navigation
         navHome: "Home",
         navPrivacy: "Privacy",
         navAppStore: "App Store",
-        
-        // Header
-        headerTitle: "Grid Reaction Timer",
-        headerSubtitle: "Simple reaction training — available on the App Store",
-        
+
         // Homepage - Hero section
-        heroTitle: "Grid Reaction Timer",
-        heroSubtitle: "Short rounds, optional Game Center leaderboards, and local-only data storage.",
+        heroTitle: "Lights Out: Reaction Timer",
+        heroSubtitle: "F1-inspired reaction training with multiple game modes, global leaderboards, and 10 official team themes. Free on iOS.",
         downloadAppStore: "Download on the App Store",
         privacyPolicyLink: "Privacy Policy",
-        
-        // Homepage - App Store Description
-        appStoreDescriptionTitle: "App Store Description",
-        appStoreDescription: "Grid Reaction Timer is a compact, focused app to measure and improve your reaction time using a tappable grid. Play short rounds, see your personal bests, and optionally compare scores using Game Center.",
-        
+
+        // Homepage - Game Modes
+        gameModesSectionTitle: "Four Ways to Play",
+        featureLaunchTitle: "Launch Sequence",
+        featureLaunchDesc: "Five lights count down, then go dark. Tap the instant they go out. Millisecond-precision timing with F1 driver comparisons after every round.",
+        featureGridTitle: "Grid Trainer",
+        featureGridDesc: "Tap highlighted cells on 3x3, 4x4, or 5x5 grids. Play untimed for accuracy or race the clock in 10-second timed mode.",
+        featureTwoPlayerTitle: "Two-Player Split Screen",
+        featureTwoPlayerDesc: "Face off on one device. Both players tap Ready, lights count down, and the fastest reaction wins. Instant rematch support.",
+        featureARTitle: "AR Mode",
+        featureARDesc: "Place a 3D launch gantry in your room with augmented reality. Pinch to resize, tap to react. Full particle effects on iOS 18+.",
+
+        // Homepage - Themes
+        themesSectionTitle: "Personalize Everything",
+        featureTeamsTitle: "10 F1 Team Themes",
+        featureTeamsDesc: "Red Bull, Ferrari, Mercedes, McLaren, Aston Martin, Alpine, Williams, Haas, Kick Sauber, and RB. Each with authentic team colors.",
+        featureStylesTitle: "5 Visual Styles",
+        featureStylesDesc: "Standard, Cyberpunk, Retro Web, Crayola, and Skeuomorphic. Each changes light shapes, fonts, colors, and full-screen overlays.",
+
+        // Homepage - Compete
+        competeSectionTitle: "Compete and Track Progress",
+        featureLeaderboardsTitle: "Global Leaderboards",
+        featureLeaderboardsDesc: "Game Center and online leaderboards with weekly resets. See player profiles with emoji avatars, streaks, and stats.",
+        featureAchievementsTitle: "13 Achievements",
+        featureAchievementsDesc: "Unlock achievements for reaction speed tiers, cumulative play milestones, and grid trainer records. Synced with Game Center.",
+        featureStreaksTitle: "Daily Streaks",
+        featureStreaksDesc: "Play every day to build your streak. Your streak badge shows on leaderboards for everyone to see.",
+        featureAnalyticsTitle: "Detailed Stats",
+        featureAnalyticsDesc: "Track personal bests, averages, session history, and accuracy. Compare your times against real F1 driver benchmarks.",
+
+        // Homepage - More
+        moreSectionTitle: "And More",
+        moreFeature1: "61 rotating motorsport and reaction speed fun facts",
+        moreFeature2: "Haptic feedback tuned for each game event",
+        moreFeature3: "Background music and sound effects with full audio controls",
+        moreFeature4: "Apple Watch companion app for quick practice",
+        moreFeature5: "Privacy controls: opt out of analytics, disable online sync, or delete your data anytime",
+        moreFeature6: "6 languages: English, Spanish, French, German, Japanese, and Portuguese",
+        moreFeature7: "Completely free with no in-app purchases",
+
         // Homepage - Screenshots
         screenshotsTitle: "Screenshots",
-        screenshot1Alt: "Grid Reaction Timer screenshot 1",
-        screenshot2Alt: "Grid Reaction Timer screenshot 2", 
-        screenshot3Alt: "Grid Reaction Timer screenshot 3",
-        screenshot4Alt: "Grid Reaction Timer screenshot 4",
-        screenshot5Alt: "Grid Reaction Timer screenshot 5",
-        screenshot6Alt: "Grid Reaction Timer screenshot 6",
-        
+        screenshot1Alt: "Launch Sequence game mode",
+        screenshot2Alt: "Grid Trainer game mode",
+        screenshot3Alt: "Game results with F1 comparison",
+        screenshot4Alt: "F1 team theme selection",
+        screenshot5Alt: "Global leaderboards",
+        screenshot6Alt: "Visual style customization",
+
         // Footer
-        footerCopyright: "© 2025 Grid Reaction Timer.",
+        footerCopyright: "\u00A9 2026 Lights Out: Reaction Timer.",
         footerAppStoreLink: "App Store listing",
-        
+
         // Privacy Policy page
-        privacyHeaderTitle: "Privacy Policy for Grid Reaction Timer",
-        privacyLastUpdated: "Last Updated: August 17, 2025",
-        
-        // Privacy sections
+        privacyHeaderTitle: "Privacy Policy for Lights Out: Reaction Timer",
+        privacyLastUpdated: "Last Updated: February 9, 2026",
+
         simpleVersionTitle: "The Simple Version",
-        simpleVersionText: "We made this game app fun and safe! We show ads to keep the app free, but we don't spy on you or collect your personal information.",
-        
-        whatWeDontTakeTitle: "What We DON'T Take From You",
+        simpleVersionText: "We made this game app fun and safe! We show ads to keep the app free. You have full control over what data is shared, and you can delete your online data at any time from the app.",
+
+        whatWeDontTakeTitle: "What We DON'T Collect",
         whatWeDontTake1: "We don't ask for your name, email, or phone number",
         whatWeDontTake2: "We don't look at your photos or contacts",
         whatWeDontTake3: "We don't track where you go or what other apps you use",
         whatWeDontTake4: "We don't record you or listen to your conversations",
         whatWeDontTake5: "We don't know your exact location",
-        
-        whatStaysOnPhoneTitle: "What Stays Just On Your Phone",
-        gameStuffTitle: "Your Game Stuff",
+
+        analyticsTitle: "Analytics (Firebase Analytics)",
+        analyticsText1: "The app uses Firebase Analytics to collect anonymous usage data such as screen views, game events (starts, completions, false starts), and session counts. This helps us understand how the app is used and improve it.",
+        analyticsText2: "No personally identifiable information is collected through analytics.",
+        analyticsOptOut: "You can disable analytics at any time in Settings > Privacy > Share Analytics.",
+        analyticsProvider: "Firebase Analytics is provided by Google. See Google's Privacy Policy.",
+
+        aboutAdsTitle: "Advertising (Google AdMob)",
+        aboutAdsText: "We show ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. Google AdMob may use your device's Advertising Identifier (IDFA) if you grant permission through Apple's App Tracking Transparency prompt.",
+        aboutAdsPersonalization: "If you decline tracking, ads will still be shown but will not be personalized.",
+        aboutAdsProvider: "See Google's Privacy Policy for details on ad-related data collection.",
+
+        leaderboardTitle: "Online Leaderboards & Profiles (Supabase)",
+        leaderboardText: "The app uses Supabase to store online leaderboard scores and player profiles. When Leaderboard Sync is enabled, the following data is stored:",
+        leaderboard1: "An anonymous device-generated UUID (player ID)",
+        leaderboard2: "Game Center display name (if authenticated)",
+        leaderboard3: "Selected emoji avatar and theme",
+        leaderboard4: "Game scores, streaks, and statistics",
+        leaderboardNoEmail: "No email address, real name, or contact information is collected.",
+        leaderboardOptOut: "You can disable online sync at any time in Settings > Privacy > Leaderboard Sync.",
+
+        whatStaysOnPhoneTitle: "What Stays On Your Phone",
+        gameStuffTitle: "Your Game Data",
         scoresText: "Your Scores:",
-        scoresDescription: "All your reaction times stay on your phone. We never see them.",
+        scoresDescription: "All your reaction times are saved locally on your phone.",
         settingsText: "Your Settings:",
-        settingsDescription: "Things like colors, sounds, and vibration choices stay on your phone.",
+        settingsDescription: "Preferences like colors, sounds, and vibration choices stay on your phone.",
         appIconText: "Your App Icon:",
         appIconDescription: "The app icon you pick stays on your phone.",
-        
-        gameCenterTitle: "Game Center (If You Want)",
-        gameCenter1: "You can choose to connect to Apple's Game Center to compete with friends",
-        gameCenter2: "This is totally optional - you can play without it",
-        gameCenter3: "Apple handles this, not us",
-        
-        guestModeTitle: "Guest Mode",
-        guestMode1: "When someone else plays on your phone, their scores disappear when they're done",
-        guestMode2: "Your real scores stay safe",
-        
-        aboutAdsTitle: "About The Ads",
-        aboutAdsText: "We show ads to keep the app free. Google helps us show these ads.",
-        whatGoogleSeesTitle: "What Google Might See",
-        googleSees1: "What kind of phone you have",
-        googleSees2: "Roughly what city you're in (not your exact address)",
-        googleSees3: "If you tap on ads",
-        googleSees4: "If the app crashes",
-        whyText: "Why:",
-        whyDescription: "To show ads, see if they work, and stop bad people from cheating.",
-        importantText: "Important:",
-        importantDescription: "The ads are the same for everyone - they're not special just for you.",
-        
-        safetyTitle: "How We Keep Things Safe",
-        safety1: "We don't save your personal stuff on our computers",
-        safety2: "Google handles ad information safely",
-        
-        kidsParentsTitle: "For Kids and Parents",
-        kidsParentsText: "This app is safe for kids to play. We don't collect personal information from children.",
-        
-        tipJarTitle: "Tip Jar (Optional)",
-        tipJarText: "You can give us tips to help make the app better:",
-        tipJar1: "Apple handles all the money stuff",
-        tipJar2: "We never see your payment information",
-        tipJar3: "It's totally optional - the app works great without tips!",
-        
+
+        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenter1: "The app integrates with Apple Game Center for leaderboards and achievements",
+        gameCenter2: "This is optional - you can play without it",
+        gameCenter3: "Game Center data is managed entirely by Apple under Apple's Privacy Policy",
+
+        dataSharingTitle: "Data Sharing",
+        dataSharingText: "We do not sell, trade, or share your personal information with third parties. Data is only shared with the service providers listed above (Google, Apple, Supabase) as necessary to provide app functionality.",
+
+        dataDeletionTitle: "Data Deletion",
+        dataDeletionText1: "You can delete all your online data (Supabase profile and scores) at any time by going to Settings > Privacy > Delete My Data. This permanently removes your online profile and scores, and assigns you a new anonymous identity.",
+        dataDeletionText2: "Local data (saved on your device) and Game Center records are managed separately and are not affected by this action. To remove Game Center data, manage it through your device's Game Center settings.",
+
+        kidsParentsTitle: "Children's Privacy",
+        kidsParentsText: "The app does not knowingly collect information from children under 13. All data collection is anonymous and does not include personal identifiers.",
+
         controlTitle: "What You Can Control",
-        control1: "Delete the app anytime to remove all your stuff",
-        control2: "Use Guest Mode when friends want to play",
-        control3: "Choose if you want Game Center or not",
-        control4: "Change ad settings in your phone's privacy settings",
-        
-        permissionsTitle: "What The App Might Ask For",
-        vibrationText: "Vibration:",
-        vibrationDescription: "To make your phone buzz when you play (you can turn this off)",
-        gameCenterPermissionText: "Game Center:",
-        gameCenterPermissionDescription: "To save scores and compete with friends (optional)",
-        
-        learnMoreTitle: "If You Want To Learn More",
-        learnMoreText: "Google has their own rules about ads and privacy:",
-        googleAdRules: "Google's Ad Rules",
-        googlePrivacyRules: "Google's Privacy Rules",
-        
-        changesTitle: "If We Change Something",
-        changesText: "If we update this privacy stuff, we'll put the new version here. Check back once in a while if you're curious!",
-        
-        questionsTitle: "Questions?",
-        questionsText: "Have questions about privacy? Visit",
-        contactWebsite: "https://gridreactiontimer.com",
-        contactEmail: "or email \"GRT.Feedback AT pm.me\""
+        control1: "Disable analytics in Settings > Privacy > Share Analytics",
+        control2: "Disable online leaderboard sync in Settings > Privacy > Leaderboard Sync",
+        control3: "Delete your online data in Settings > Privacy > Delete My Data",
+        control4: "Choose if you want Game Center or not",
+        control5: "Change ad tracking in your phone's privacy settings",
+        control6: "Delete the app to remove all local data",
+
+        changesTitle: "Changes to This Policy",
+        changesText: "We may update this policy from time to time. Changes will be posted on this page with an updated date.",
+
+        questionsTitle: "Contact",
+        questionsText: "If you have questions about this privacy policy, contact us at",
+        contactEmail: "GRT.feedback@pm.me"
     },
-    
+
     es: {
         currentLanguage: "Español",
         languages: {
             en: "English",
-            es: "Español", 
+            es: "Español",
             ja: "日本語",
             de: "Deutsch",
             fr: "Français",
             pt: "Português"
         },
-        
-        title: "Grid Reaction Timer — Inicio",
-        privacyTitle: "Política de Privacidad - Grid Reaction Timer",
-        
-        // Navigation
+
+        title: "Lights Out: Reaction Timer — Inicio",
+        privacyTitle: "Politica de Privacidad - Lights Out: Reaction Timer",
+
         navHome: "Inicio",
         navPrivacy: "Privacidad",
         navAppStore: "App Store",
-        
-        headerTitle: "Grid Reaction Timer",
-        headerSubtitle: "Entrenamiento de reacciones simples — disponible en el App Store",
-        
-        heroTitle: "Grid Reaction Timer",
-        heroSubtitle: "Rondas cortas, tablas de clasificación opcionales de Game Center y almacenamiento de datos solo local.",
+
+        heroTitle: "Lights Out: Reaction Timer",
+        heroSubtitle: "Entrenamiento de reaccion inspirado en la F1 con multiples modos de juego, clasificaciones globales y 10 temas de equipos oficiales. Gratis en iOS.",
         downloadAppStore: "Descargar en el App Store",
-        privacyPolicyLink: "Política de Privacidad",
-        
-        appStoreDescriptionTitle: "Descripción del App Store",
-        appStoreDescription: "Grid Reaction Timer es una aplicación compacta y enfocada para medir y mejorar tu tiempo de reacción usando una cuadrícula táctil. Juega rondas cortas, ve tus mejores marcas personales y compara puntuaciones opcionalmente usando Game Center.",
-        
+        privacyPolicyLink: "Politica de Privacidad",
+
+        gameModesSectionTitle: "Cuatro Formas de Jugar",
+        featureLaunchTitle: "Secuencia de Salida",
+        featureLaunchDesc: "Cinco luces cuentan hacia atras y luego se apagan. Toca en el instante en que se apagan. Precision de milisegundos con comparaciones de pilotos de F1 despues de cada ronda.",
+        featureGridTitle: "Entrenador de Cuadricula",
+        featureGridDesc: "Toca las celdas resaltadas en cuadriculas de 3x3, 4x4 o 5x5. Juega sin tiempo para precision o contra el reloj en modo de 10 segundos.",
+        featureTwoPlayerTitle: "Pantalla Dividida para Dos",
+        featureTwoPlayerDesc: "Compite en un dispositivo. Ambos jugadores tocan Listo, las luces cuentan y la reaccion mas rapida gana. Revancha instantanea.",
+        featureARTitle: "Modo AR",
+        featureARDesc: "Coloca un portico de salida 3D en tu habitacion con realidad aumentada. Pellizca para redimensionar, toca para reaccionar. Efectos de particulas en iOS 18+.",
+
+        themesSectionTitle: "Personaliza Todo",
+        featureTeamsTitle: "10 Temas de Equipos F1",
+        featureTeamsDesc: "Red Bull, Ferrari, Mercedes, McLaren, Aston Martin, Alpine, Williams, Haas, Kick Sauber y RB. Cada uno con colores autenticos del equipo.",
+        featureStylesTitle: "5 Estilos Visuales",
+        featureStylesDesc: "Estandar, Cyberpunk, Retro Web, Crayola y Esqueomorfico. Cada uno cambia formas de luces, fuentes, colores y superposiciones.",
+
+        competeSectionTitle: "Compite y Sigue tu Progreso",
+        featureLeaderboardsTitle: "Clasificaciones Globales",
+        featureLeaderboardsDesc: "Game Center y clasificaciones en linea con reinicios semanales. Ve perfiles de jugadores con avatares emoji, rachas y estadisticas.",
+        featureAchievementsTitle: "13 Logros",
+        featureAchievementsDesc: "Desbloquea logros por niveles de velocidad de reaccion, hitos de juego acumulativo y records del entrenador de cuadricula. Sincronizados con Game Center.",
+        featureStreaksTitle: "Rachas Diarias",
+        featureStreaksDesc: "Juega todos los dias para construir tu racha. Tu insignia de racha se muestra en las clasificaciones para que todos la vean.",
+        featureAnalyticsTitle: "Estadisticas Detalladas",
+        featureAnalyticsDesc: "Rastrea mejores marcas personales, promedios, historial de sesiones y precision. Compara tus tiempos con los de pilotos reales de F1.",
+
+        moreSectionTitle: "Y Mas",
+        moreFeature1: "61 datos curiosos rotativos sobre automovilismo y velocidad de reaccion",
+        moreFeature2: "Retroalimentacion haptica ajustada para cada evento del juego",
+        moreFeature3: "Musica de fondo y efectos de sonido con controles de audio completos",
+        moreFeature4: "App complementaria para Apple Watch para practica rapida",
+        moreFeature5: "Controles de privacidad: desactiva analiticas, sincronizacion en linea o elimina tus datos en cualquier momento",
+        moreFeature6: "6 idiomas: ingles, espanol, frances, aleman, japones y portugues",
+        moreFeature7: "Completamente gratis sin compras en la aplicacion",
+
         screenshotsTitle: "Capturas de Pantalla",
-        screenshot1Alt: "Captura de pantalla 1 de Grid Reaction Timer",
-        screenshot2Alt: "Captura de pantalla 2 de Grid Reaction Timer",
-        screenshot3Alt: "Captura de pantalla 3 de Grid Reaction Timer",
-        screenshot4Alt: "Captura de pantalla 4 de Grid Reaction Timer",
-        screenshot5Alt: "Captura de pantalla 5 de Grid Reaction Timer",
-        screenshot6Alt: "Captura de pantalla 6 de Grid Reaction Timer",
-        
-        footerCopyright: "© 2025 Grid Reaction Timer.",
+        screenshot1Alt: "Modo de juego Secuencia de Salida",
+        screenshot2Alt: "Modo de juego Entrenador de Cuadricula",
+        screenshot3Alt: "Resultados del juego con comparacion F1",
+        screenshot4Alt: "Seleccion de tema de equipo F1",
+        screenshot5Alt: "Clasificaciones globales",
+        screenshot6Alt: "Personalizacion de estilo visual",
+
+        footerCopyright: "\u00A9 2026 Lights Out: Reaction Timer.",
         footerAppStoreLink: "Listado del App Store",
-        
-        privacyHeaderTitle: "Política de Privacidad para Grid Reaction Timer",
-        privacyLastUpdated: "Última actualización: 17 de agosto de 2025",
-        
-        simpleVersionTitle: "La Versión Simple",
-        simpleVersionText: "¡Hicimos esta aplicación de juego divertida y segura! Mostramos anuncios para mantener la aplicación gratuita, pero no te espiamos ni recopilamos tu información personal.",
-        
-        whatWeDontTakeTitle: "Lo Que NO Tomamos De Ti",
-        whatWeDontTake1: "No pedimos tu nombre, correo electrónico o número de teléfono",
+
+        privacyHeaderTitle: "Politica de Privacidad para Lights Out: Reaction Timer",
+        privacyLastUpdated: "Ultima actualizacion: 9 de febrero de 2026",
+
+        simpleVersionTitle: "La Version Simple",
+        simpleVersionText: "Hicimos esta aplicacion divertida y segura! Mostramos anuncios para mantener la app gratuita. Tienes control total sobre que datos se comparten, y puedes eliminar tus datos en linea en cualquier momento desde la app.",
+
+        whatWeDontTakeTitle: "Lo Que NO Recopilamos",
+        whatWeDontTake1: "No pedimos tu nombre, correo electronico o numero de telefono",
         whatWeDontTake2: "No miramos tus fotos o contactos",
-        whatWeDontTake3: "No rastreamos a dónde vas o qué otras aplicaciones usas",
+        whatWeDontTake3: "No rastreamos a donde vas o que otras aplicaciones usas",
         whatWeDontTake4: "No te grabamos ni escuchamos tus conversaciones",
-        whatWeDontTake5: "No conocemos tu ubicación exacta",
-        
-        whatStaysOnPhoneTitle: "Lo Que Se Queda Solo En Tu Teléfono",
-        gameStuffTitle: "Tus Cosas del Juego",
+        whatWeDontTake5: "No conocemos tu ubicacion exacta",
+
+        analyticsTitle: "Analiticas (Firebase Analytics)",
+        analyticsText1: "La app usa Firebase Analytics para recopilar datos de uso anonimos como vistas de pantalla, eventos de juego (inicios, finalizaciones, salidas falsas) y conteos de sesiones. Esto nos ayuda a entender como se usa la app y mejorarla.",
+        analyticsText2: "No se recopila informacion de identificacion personal a traves de las analiticas.",
+        analyticsOptOut: "Puedes desactivar las analiticas en cualquier momento en Ajustes > Privacidad > Compartir Analiticas.",
+        analyticsProvider: "Firebase Analytics es proporcionado por Google. Consulta la Politica de Privacidad de Google.",
+
+        aboutAdsTitle: "Publicidad (Google AdMob)",
+        aboutAdsText: "Mostramos anuncios para mantener la app gratuita. Los anuncios se muestran durante periodos de espera activados por salidas falsas repetidas. Google AdMob puede usar el Identificador de Publicidad (IDFA) de tu dispositivo si otorgas permiso a traves del aviso de Transparencia de Seguimiento de Apple.",
+        aboutAdsPersonalization: "Si rechazas el seguimiento, los anuncios se seguiran mostrando pero no seran personalizados.",
+        aboutAdsProvider: "Consulta la Politica de Privacidad de Google para detalles sobre la recopilacion de datos publicitarios.",
+
+        leaderboardTitle: "Clasificaciones y Perfiles en Linea (Supabase)",
+        leaderboardText: "La app usa Supabase para almacenar puntuaciones de clasificacion en linea y perfiles de jugadores. Cuando la Sincronizacion de Clasificaciones esta habilitada, se almacenan los siguientes datos:",
+        leaderboard1: "Un UUID anonimo generado por el dispositivo (ID de jugador)",
+        leaderboard2: "Nombre de Game Center (si esta autenticado)",
+        leaderboard3: "Avatar emoji y tema seleccionados",
+        leaderboard4: "Puntuaciones del juego, rachas y estadisticas",
+        leaderboardNoEmail: "No se recopila correo electronico, nombre real ni informacion de contacto.",
+        leaderboardOptOut: "Puedes desactivar la sincronizacion en linea en cualquier momento en Ajustes > Privacidad > Sincronizacion de Clasificaciones.",
+
+        whatStaysOnPhoneTitle: "Lo Que Se Queda en Tu Telefono",
+        gameStuffTitle: "Tus Datos del Juego",
         scoresText: "Tus Puntuaciones:",
-        scoresDescription: "Todos tus tiempos de reacción se quedan en tu teléfono. Nunca los vemos.",
+        scoresDescription: "Todos tus tiempos de reaccion se guardan localmente en tu telefono.",
         settingsText: "Tus Configuraciones:",
-        settingsDescription: "Cosas como colores, sonidos y opciones de vibración se quedan en tu teléfono.",
-        appIconText: "Tu Icono de Aplicación:",
-        appIconDescription: "El icono de aplicación que elijas se queda en tu teléfono.",
-        
-        gameCenterTitle: "Game Center (Si Quieres)",
-        gameCenter1: "Puedes elegir conectarte al Game Center de Apple para competir con amigos",
-        gameCenter2: "Esto es totalmente opcional - puedes jugar sin él",
-        gameCenter3: "Apple maneja esto, no nosotros",
-        
-        guestModeTitle: "Modo Invitado",
-        guestMode1: "Cuando alguien más juega en tu teléfono, sus puntuaciones desaparecen cuando terminan",
-        guestMode2: "Tus puntuaciones reales se mantienen seguras",
-        
-        aboutAdsTitle: "Acerca de Los Anuncios",
-        aboutAdsText: "Mostramos anuncios para mantener la aplicación gratuita. Google nos ayuda a mostrar estos anuncios.",
-        whatGoogleSeesTitle: "Lo Que Google Podría Ver",
-        googleSees1: "Qué tipo de teléfono tienes",
-        googleSees2: "Aproximadamente en qué ciudad estás (no tu dirección exacta)",
-        googleSees3: "Si tocas los anuncios",
-        googleSees4: "Si la aplicación se bloquea",
-        whyText: "Por qué:",
-        whyDescription: "Para mostrar anuncios, ver si funcionan y detener a personas malas que hacen trampa.",
-        importantText: "Importante:",
-        importantDescription: "Los anuncios son iguales para todos - no son especiales solo para ti.",
-        
-        safetyTitle: "Cómo Mantenemos Las Cosas Seguras",
-        safety1: "No guardamos tus cosas personales en nuestras computadoras",
-        safety2: "Google maneja la información de anuncios de forma segura",
-        
-        kidsParentsTitle: "Para Niños y Padres",
-        kidsParentsText: "Esta aplicación es segura para que jueguen los niños. No recopilamos información personal de niños.",
-        
-        tipJarTitle: "Frasco de Propinas (Opcional)",
-        tipJarText: "Puedes darnos propinas para ayudar a mejorar la aplicación:",
-        tipJar1: "Apple maneja todo el asunto del dinero",
-        tipJar2: "Nunca vemos tu información de pago",
-        tipJar3: "¡Es totalmente opcional - la aplicación funciona genial sin propinas!",
-        
+        settingsDescription: "Preferencias como colores, sonidos y opciones de vibracion se quedan en tu telefono.",
+        appIconText: "Tu Icono de Aplicacion:",
+        appIconDescription: "El icono de aplicacion que elijas se queda en tu telefono.",
+
+        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenter1: "La app se integra con Apple Game Center para clasificaciones y logros",
+        gameCenter2: "Esto es opcional - puedes jugar sin el",
+        gameCenter3: "Los datos de Game Center son gestionados completamente por Apple bajo la Politica de Privacidad de Apple",
+
+        dataSharingTitle: "Comparticion de Datos",
+        dataSharingText: "No vendemos, intercambiamos ni compartimos tu informacion personal con terceros. Los datos solo se comparten con los proveedores de servicios mencionados (Google, Apple, Supabase) segun sea necesario para la funcionalidad de la app.",
+
+        dataDeletionTitle: "Eliminacion de Datos",
+        dataDeletionText1: "Puedes eliminar todos tus datos en linea (perfil y puntuaciones de Supabase) en cualquier momento yendo a Ajustes > Privacidad > Eliminar Mis Datos. Esto elimina permanentemente tu perfil y puntuaciones en linea, y te asigna una nueva identidad anonima.",
+        dataDeletionText2: "Los datos locales (guardados en tu dispositivo) y los registros de Game Center se gestionan por separado y no se ven afectados por esta accion. Para eliminar datos de Game Center, gestionalos a traves de los ajustes de Game Center de tu dispositivo.",
+
+        kidsParentsTitle: "Privacidad de los Ninos",
+        kidsParentsText: "La app no recopila intencionalmente informacion de ninos menores de 13 anos. Toda la recopilacion de datos es anonima y no incluye identificadores personales.",
+
         controlTitle: "Lo Que Puedes Controlar",
-        control1: "Elimina la aplicación en cualquier momento para quitar todas tus cosas",
-        control2: "Usa el Modo Invitado cuando los amigos quieran jugar",
-        control3: "Elige si quieres Game Center o no",
-        control4: "Cambia la configuración de anuncios en la configuración de privacidad de tu teléfono",
-        
-        permissionsTitle: "Lo Que La Aplicación Podría Pedir",
-        vibrationText: "Vibración:",
-        vibrationDescription: "Para hacer que tu teléfono vibre cuando juegas (puedes apagarlo)",
-        gameCenterPermissionText: "Game Center:",
-        gameCenterPermissionDescription: "Para guardar puntuaciones y competir con amigos (opcional)",
-        
-        learnMoreTitle: "Si Quieres Aprender Más",
-        learnMoreText: "Google tiene sus propias reglas sobre anuncios y privacidad:",
-        googleAdRules: "Reglas de Anuncios de Google",
-        googlePrivacyRules: "Reglas de Privacidad de Google",
-        
-        changesTitle: "Si Cambiamos Algo",
-        changesText: "¡Si actualizamos estas cosas de privacidad, pondremos la nueva versión aquí. Vuelve a revisar de vez en cuando si tienes curiosidad!",
-        
-        questionsTitle: "¿Preguntas?",
-        questionsText: "¿Tienes preguntas sobre privacidad? Visita",
-        contactWebsite: "https://gridreactiontimer.com",
-        contactEmail: "o envía un email a \"GRT.Feedback AT pm.me\""
+        control1: "Desactivar analiticas en Ajustes > Privacidad > Compartir Analiticas",
+        control2: "Desactivar sincronizacion de clasificaciones en Ajustes > Privacidad > Sincronizacion de Clasificaciones",
+        control3: "Eliminar tus datos en linea en Ajustes > Privacidad > Eliminar Mis Datos",
+        control4: "Elegir si quieres Game Center o no",
+        control5: "Cambiar el seguimiento de anuncios en los ajustes de privacidad de tu telefono",
+        control6: "Eliminar la app para borrar todos los datos locales",
+
+        changesTitle: "Cambios a Esta Politica",
+        changesText: "Podemos actualizar esta politica de vez en cuando. Los cambios se publicaran en esta pagina con una fecha actualizada.",
+
+        questionsTitle: "Contacto",
+        questionsText: "Si tienes preguntas sobre esta politica de privacidad, contactanos en",
+        contactEmail: "GRT.feedback@pm.me"
     },
-    
+
     ja: {
         currentLanguage: "日本語",
         languages: {
             en: "English",
-            es: "Español", 
+            es: "Español",
             ja: "日本語",
             de: "Deutsch",
             fr: "Français",
             pt: "Português"
         },
-        
-        title: "Grid Reaction Timer — ホーム",
-        privacyTitle: "プライバシーポリシー - Grid Reaction Timer",
-        
-        // Navigation
+
+        title: "Lights Out: Reaction Timer — ホーム",
+        privacyTitle: "プライバシーポリシー - Lights Out: Reaction Timer",
+
         navHome: "ホーム",
         navPrivacy: "プライバシー",
         navAppStore: "App Store",
-        
-        headerTitle: "Grid Reaction Timer",
-        headerSubtitle: "シンプルな反応トレーニング — App Storeで利用可能",
-        
-        heroTitle: "Grid Reaction Timer",
-        heroSubtitle: "短いラウンド、オプションのGame Centerリーダーボード、そしてローカルのみのデータストレージ。",
+
+        heroTitle: "Lights Out: Reaction Timer",
+        heroSubtitle: "F1にインスパイアされた反応トレーニング。複数のゲームモード、グローバルリーダーボード、10チームの公式テーマ。iOSで無料。",
         downloadAppStore: "App Storeでダウンロード",
         privacyPolicyLink: "プライバシーポリシー",
-        
-        appStoreDescriptionTitle: "App Store説明",
-        appStoreDescription: "Grid Reaction Timerは、タップ可能なグリッドを使用して反応時間を測定し改善するコンパクトで集中的なアプリです。短いラウンドをプレイし、個人ベストを確認し、Game Centerを使用してオプションでスコアを比較できます。",
-        
+
+        gameModesSectionTitle: "4つの遊び方",
+        featureLaunchTitle: "ローンチシーケンス",
+        featureLaunchDesc: "5つのライトがカウントダウンし、消灯。消えた瞬間にタップ。ミリ秒単位の精度で、毎ラウンドF1ドライバーとの比較が表示されます。",
+        featureGridTitle: "グリッドトレーナー",
+        featureGridDesc: "3x3、4x4、5x5のグリッドでハイライトされたセルをタップ。精度を重視したタイムなしモードか、10秒のタイムアタックモードで遊べます。",
+        featureTwoPlayerTitle: "2人対戦スプリットスクリーン",
+        featureTwoPlayerDesc: "1台のデバイスで対決。両プレイヤーがReadyをタップし、ライトがカウントダウン、最速リアクションの勝ち。即座にリマッチ可能。",
+        featureARTitle: "ARモード",
+        featureARDesc: "拡張現実で部屋に3Dの発進ガントリーを設置。ピンチでサイズ変更、タップでリアクション。iOS 18+でフルパーティクルエフェクト。",
+
+        themesSectionTitle: "すべてをカスタマイズ",
+        featureTeamsTitle: "10のF1チームテーマ",
+        featureTeamsDesc: "レッドブル、フェラーリ、メルセデス、マクラーレン、アストンマーティン、アルピーヌ、ウィリアムズ、ハース、キックザウバー、RB。各チームの本物のカラーで。",
+        featureStylesTitle: "5つのビジュアルスタイル",
+        featureStylesDesc: "スタンダード、サイバーパンク、レトロウェブ、クレヨン、スキューモーフィック。それぞれライトの形、フォント、色、フルスクリーンオーバーレイが変わります。",
+
+        competeSectionTitle: "競い合い、進捗を追跡",
+        featureLeaderboardsTitle: "グローバルリーダーボード",
+        featureLeaderboardsDesc: "Game Centerとオンラインリーダーボード（週間リセット付き）。絵文字アバター、連続記録、統計付きのプレイヤープロフィールを表示。",
+        featureAchievementsTitle: "13の実績",
+        featureAchievementsDesc: "反応速度ティア、累計プレイマイルストーン、グリッドトレーナー記録の実績をアンロック。Game Centerと同期。",
+        featureStreaksTitle: "デイリーストリーク",
+        featureStreaksDesc: "毎日プレイしてストリークを構築。ストリークバッジはリーダーボードに表示され、みんなに見えます。",
+        featureAnalyticsTitle: "詳細な統計",
+        featureAnalyticsDesc: "自己ベスト、平均、セッション履歴、精度を追跡。実際のF1ドライバーベンチマークとタイムを比較。",
+
+        moreSectionTitle: "その他の機能",
+        moreFeature1: "61のモータースポーツと反応速度に関する豆知識がローテーション",
+        moreFeature2: "各ゲームイベントに合わせたハプティックフィードバック",
+        moreFeature3: "BGMとサウンドエフェクト（フルオーディオコントロール付き）",
+        moreFeature4: "Apple Watchコンパニオンアプリで素早く練習",
+        moreFeature5: "プライバシーコントロール：分析のオプトアウト、オンライン同期の無効化、いつでもデータ削除",
+        moreFeature6: "6言語対応：英語、スペイン語、フランス語、ドイツ語、日本語、ポルトガル語",
+        moreFeature7: "アプリ内課金なしの完全無料",
+
         screenshotsTitle: "スクリーンショット",
-        screenshot1Alt: "Grid Reaction Timer スクリーンショット 1",
-        screenshot2Alt: "Grid Reaction Timer スクリーンショット 2",
-        screenshot3Alt: "Grid Reaction Timer スクリーンショット 3",
-        screenshot4Alt: "Grid Reaction Timer スクリーンショット 4",
-        screenshot5Alt: "Grid Reaction Timer スクリーンショット 5",
-        screenshot6Alt: "Grid Reaction Timer スクリーンショット 6",
-        
-        footerCopyright: "© 2025 Grid Reaction Timer.",
+        screenshot1Alt: "ローンチシーケンスゲームモード",
+        screenshot2Alt: "グリッドトレーナーゲームモード",
+        screenshot3Alt: "F1比較付きゲーム結果",
+        screenshot4Alt: "F1チームテーマ選択",
+        screenshot5Alt: "グローバルリーダーボード",
+        screenshot6Alt: "ビジュアルスタイルカスタマイズ",
+
+        footerCopyright: "\u00A9 2026 Lights Out: Reaction Timer.",
         footerAppStoreLink: "App Store リスト",
-        
-        privacyHeaderTitle: "Grid Reaction Timer のプライバシーポリシー",
-        privacyLastUpdated: "最終更新：2025年8月17日",
-        
+
+        privacyHeaderTitle: "Lights Out: Reaction Timer のプライバシーポリシー",
+        privacyLastUpdated: "最終更新：2026年2月9日",
+
         simpleVersionTitle: "シンプル版",
-        simpleVersionText: "このゲームアプリを楽しく安全に作りました！アプリを無料に保つために広告を表示しますが、あなたをスパイしたり個人情報を収集したりはしません。",
-        
-        whatWeDontTakeTitle: "私たちがあなたから取らないもの",
+        simpleVersionText: "このゲームアプリを楽しく安全に作りました！アプリを無料に保つために広告を表示します。共有されるデータは完全にコントロールでき、アプリからいつでもオンラインデータを削除できます。",
+
+        whatWeDontTakeTitle: "私たちが収集しないもの",
         whatWeDontTake1: "お名前、メールアドレス、電話番号は求めません",
         whatWeDontTake2: "写真や連絡先は見ません",
         whatWeDontTake3: "どこに行くか、他のアプリを何に使うかは追跡しません",
         whatWeDontTake4: "録音や会話の盗聴はしません",
         whatWeDontTake5: "正確な位置は知りません",
-        
-        whatStaysOnPhoneTitle: "あなたの電話にだけ残るもの",
-        gameStuffTitle: "あなたのゲームのもの",
+
+        analyticsTitle: "アナリティクス（Firebase Analytics）",
+        analyticsText1: "アプリはFirebase Analyticsを使用して、画面表示、ゲームイベント（開始、完了、フライング）、セッション数などの匿名の使用データを収集します。これにより、アプリの使用方法を理解し改善するのに役立ちます。",
+        analyticsText2: "アナリティクスを通じて個人を特定できる情報は収集されません。",
+        analyticsOptOut: "設定 > プライバシー > アナリティクスの共有でいつでもアナリティクスを無効にできます。",
+        analyticsProvider: "Firebase AnalyticsはGoogleが提供しています。Googleのプライバシーポリシーをご覧ください。",
+
+        aboutAdsTitle: "広告（Google AdMob）",
+        aboutAdsText: "アプリを無料に保つために広告を表示します。広告は繰り返しのフライングによるクールダウン期間中に表示されます。Appleのアプリトラッキング透明性プロンプトで許可を与えた場合、Google AdMobはデバイスの広告識別子（IDFA）を使用する場合があります。",
+        aboutAdsPersonalization: "トラッキングを拒否しても広告は表示されますが、パーソナライズされません。",
+        aboutAdsProvider: "広告関連のデータ収集の詳細については、Googleのプライバシーポリシーをご覧ください。",
+
+        leaderboardTitle: "オンラインリーダーボードとプロフィール（Supabase）",
+        leaderboardText: "アプリはSupabaseを使用してオンラインリーダーボードのスコアとプレイヤープロフィールを保存します。リーダーボード同期が有効な場合、以下のデータが保存されます：",
+        leaderboard1: "匿名のデバイス生成UUID（プレイヤーID）",
+        leaderboard2: "Game Center表示名（認証済みの場合）",
+        leaderboard3: "選択した絵文字アバターとテーマ",
+        leaderboard4: "ゲームスコア、連続記録、統計",
+        leaderboardNoEmail: "メールアドレス、本名、連絡先情報は収集されません。",
+        leaderboardOptOut: "設定 > プライバシー > リーダーボード同期でいつでもオンライン同期を無効にできます。",
+
+        whatStaysOnPhoneTitle: "あなたの電話に残るもの",
+        gameStuffTitle: "あなたのゲームデータ",
         scoresText: "あなたのスコア：",
-        scoresDescription: "すべての反応時間はあなたの電話に残ります。私たちには見えません。",
+        scoresDescription: "すべての反応時間はあなたの電話にローカルに保存されます。",
         settingsText: "あなたの設定：",
-        settingsDescription: "色、音、振動の選択などはあなたの電話に残ります。",
+        settingsDescription: "色、音、振動の選択などの設定はあなたの電話に残ります。",
         appIconText: "あなたのアプリアイコン：",
         appIconDescription: "選択したアプリアイコンはあなたの電話に残ります。",
-        
-        gameCenterTitle: "Game Center（お望みなら）",
-        gameCenter1: "友達と競争するためにAppleのGame Centerに接続することを選択できます",
-        gameCenter2: "これは完全にオプションです - それなしでプレイできます",
-        gameCenter3: "Appleがこれを処理します、私たちではありません",
-        
-        guestModeTitle: "ゲストモード",
-        guestMode1: "他の誰かがあなたの電話でプレイするとき、彼らのスコアは終了時に消えます",
-        guestMode2: "あなたの本当のスコアは安全に保たれます",
-        
-        aboutAdsTitle: "広告について",
-        aboutAdsText: "アプリを無料に保つために広告を表示します。Googleがこれらの広告の表示を手伝ってくれます。",
-        whatGoogleSeesTitle: "Googleが見る可能性があるもの",
-        googleSees1: "あなたが持っている電話の種類",
-        googleSees2: "大体どの都市にいるか（正確な住所ではありません）",
-        googleSees3: "広告をタップするかどうか",
-        googleSees4: "アプリがクラッシュするかどうか",
-        whyText: "なぜ：",
-        whyDescription: "広告を表示し、機能するかどうかを見て、不正をする悪い人を止めるため。",
-        importantText: "重要：",
-        importantDescription: "広告はみんな同じです - あなた専用の特別なものではありません。",
-        
-        safetyTitle: "物事を安全に保つ方法",
-        safety1: "私たちのコンピューターにあなたの個人的なものは保存しません",
-        safety2: "Googleが広告情報を安全に処理します",
-        
-        kidsParentsTitle: "子供と親のために",
-        kidsParentsText: "このアプリは子供がプレイするのに安全です。子供から個人情報を収集しません。",
-        
-        tipJarTitle: "チップジャー（オプション）",
-        tipJarText: "アプリをより良くするために私たちにチップをくれることができます：",
-        tipJar1: "Appleがすべてのお金のことを処理します",
-        tipJar2: "あなたの支払い情報は見ません",
-        tipJar3: "完全にオプションです - チップなしでもアプリは素晴らしく動作します！",
-        
+
+        gameCenterTitle: "Game Center（Apple GameKit）",
+        gameCenter1: "アプリはApple Game Centerと連携してリーダーボードと実績を提供します",
+        gameCenter2: "これはオプションです - なしでもプレイできます",
+        gameCenter3: "Game CenterのデータはAppleのプライバシーポリシーの下でAppleが完全に管理します",
+
+        dataSharingTitle: "データ共有",
+        dataSharingText: "私たちはあなたの個人情報を第三者に販売、取引、共有しません。データはアプリの機能を提供するために必要な範囲でのみ、上記のサービスプロバイダー（Google、Apple、Supabase）と共有されます。",
+
+        dataDeletionTitle: "データ削除",
+        dataDeletionText1: "設定 > プライバシー > データを削除からいつでもすべてのオンラインデータ（Supabaseプロフィールとスコア）を削除できます。これによりオンラインプロフィールとスコアが完全に削除され、新しい匿名IDが割り当てられます。",
+        dataDeletionText2: "ローカルデータ（デバイスに保存）とGame Centerの記録は別途管理され、この操作の影響を受けません。Game Centerのデータを削除するには、デバイスのGame Center設定から管理してください。",
+
+        kidsParentsTitle: "子どものプライバシー",
+        kidsParentsText: "アプリは13歳未満の子どもから意図的に情報を収集しません。すべてのデータ収集は匿名であり、個人識別子は含まれません。",
+
         controlTitle: "あなたが制御できるもの",
-        control1: "いつでもアプリを削除してすべてのものを削除できます",
-        control2: "友達がプレイしたいときはゲストモードを使用",
-        control3: "Game Centerが欲しいかどうかを選択",
-        control4: "電話のプライバシー設定で広告設定を変更",
-        
-        permissionsTitle: "アプリが求める可能性があるもの",
-        vibrationText: "振動：",
-        vibrationDescription: "プレイ時に電話を振動させるため（オフにできます）",
-        gameCenterPermissionText: "Game Center：",
-        gameCenterPermissionDescription: "スコアを保存し友達と競争するため（オプション）",
-        
-        learnMoreTitle: "もっと学びたい場合",
-        learnMoreText: "Googleには広告とプライバシーについて独自のルールがあります：",
-        googleAdRules: "Googleの広告ルール",
-        googlePrivacyRules: "Googleのプライバシールール",
-        
-        changesTitle: "何か変更する場合",
-        changesText: "このプライバシーの内容を更新する場合、新しいバージョンをここに置きます。興味があれば時々確認してください！",
-        
-        questionsTitle: "質問？",
-        questionsText: "プライバシーについて質問がありますか？",
-        contactWebsite: "https://gridreactiontimer.com",
-        contactEmail: "または\"GRT.Feedback AT pm.me\"にメールしてください"
+        control1: "設定 > プライバシー > アナリティクスの共有でアナリティクスを無効化",
+        control2: "設定 > プライバシー > リーダーボード同期でオンラインリーダーボード同期を無効化",
+        control3: "設定 > プライバシー > データを削除でオンラインデータを削除",
+        control4: "Game Centerを使うかどうかを選択",
+        control5: "電話のプライバシー設定で広告トラッキングを変更",
+        control6: "アプリを削除してすべてのローカルデータを削除",
+
+        changesTitle: "このポリシーの変更",
+        changesText: "このポリシーは随時更新される場合があります。変更は更新日とともにこのページに掲載されます。",
+
+        questionsTitle: "お問い合わせ",
+        questionsText: "このプライバシーポリシーについてご質問がある場合は、こちらまでご連絡ください：",
+        contactEmail: "GRT.feedback@pm.me"
     },
-    
+
     de: {
         currentLanguage: "Deutsch",
         languages: {
             en: "English",
-            es: "Español", 
+            es: "Español",
             ja: "日本語",
             de: "Deutsch",
             fr: "Français",
             pt: "Português"
         },
-        
-        title: "Grid Reaction Timer — Startseite",
-        privacyTitle: "Datenschutzrichtlinie - Grid Reaction Timer",
-        
-        // Navigation
+
+        title: "Lights Out: Reaction Timer — Startseite",
+        privacyTitle: "Datenschutzrichtlinie - Lights Out: Reaction Timer",
+
         navHome: "Startseite",
         navPrivacy: "Datenschutz",
         navAppStore: "App Store",
-        
-        headerTitle: "Grid Reaction Timer",
-        headerSubtitle: "Einfaches Reaktionstraining — verfügbar im App Store",
-        
-        heroTitle: "Grid Reaction Timer",
-        heroSubtitle: "Kurze Runden, optionale Game Center-Bestenlisten und nur lokale Datenspeicherung.",
+
+        heroTitle: "Lights Out: Reaction Timer",
+        heroSubtitle: "Von der F1 inspiriertes Reaktionstraining mit mehreren Spielmodi, globalen Bestenlisten und 10 offiziellen Teamthemen. Kostenlos auf iOS.",
         downloadAppStore: "Im App Store herunterladen",
         privacyPolicyLink: "Datenschutzrichtlinie",
-        
-        appStoreDescriptionTitle: "App Store Beschreibung",
-        appStoreDescription: "Grid Reaction Timer ist eine kompakte, fokussierte App zur Messung und Verbesserung deiner Reaktionszeit mit einem berührbaren Gitter. Spiele kurze Runden, sieh deine persönlichen Bestzeiten und vergleiche optional Punkte mit Game Center.",
-        
+
+        gameModesSectionTitle: "Vier Spielweisen",
+        featureLaunchTitle: "Startsequenz",
+        featureLaunchDesc: "Fuenf Lichter zaehlen herunter und erloeschen. Tippe im Moment des Erloeschens. Millisekundengenau mit F1-Fahrervergleichen nach jeder Runde.",
+        featureGridTitle: "Gittertrainer",
+        featureGridDesc: "Tippe hervorgehobene Zellen auf 3x3, 4x4 oder 5x5 Gittern. Spiele ohne Zeitlimit fuer Genauigkeit oder gegen die Uhr im 10-Sekunden-Modus.",
+        featureTwoPlayerTitle: "Zwei-Spieler-Splitscreen",
+        featureTwoPlayerDesc: "Tritt auf einem Geraet gegeneinander an. Beide Spieler tippen Bereit, die Lichter zaehlen herunter und die schnellste Reaktion gewinnt. Sofortige Revanche.",
+        featureARTitle: "AR-Modus",
+        featureARDesc: "Platziere einen 3D-Startgalgen in deinem Raum mit Augmented Reality. Zusammenziehen zum Skalieren, Tippen zum Reagieren. Volle Partikeleffekte auf iOS 18+.",
+
+        themesSectionTitle: "Alles Personalisieren",
+        featureTeamsTitle: "10 F1-Teamthemen",
+        featureTeamsDesc: "Red Bull, Ferrari, Mercedes, McLaren, Aston Martin, Alpine, Williams, Haas, Kick Sauber und RB. Jeweils mit authentischen Teamfarben.",
+        featureStylesTitle: "5 Visuelle Stile",
+        featureStylesDesc: "Standard, Cyberpunk, Retro Web, Crayola und Skeuomorphisch. Jeder aendert Lichtformen, Schriften, Farben und Vollbild-Overlays.",
+
+        competeSectionTitle: "Konkurrieren und Fortschritt Verfolgen",
+        featureLeaderboardsTitle: "Globale Bestenlisten",
+        featureLeaderboardsDesc: "Game Center und Online-Bestenlisten mit woechentlichen Resets. Spielerprofile mit Emoji-Avataren, Serien und Statistiken anzeigen.",
+        featureAchievementsTitle: "13 Erfolge",
+        featureAchievementsDesc: "Schalte Erfolge fuer Reaktionsgeschwindigkeitsstufen, kumulative Spielmeilensteine und Gittertrainer-Rekorde frei. Mit Game Center synchronisiert.",
+        featureStreaksTitle: "Taegliche Serien",
+        featureStreaksDesc: "Spiele jeden Tag, um deine Serie aufzubauen. Dein Serien-Abzeichen wird auf den Bestenlisten fuer alle sichtbar angezeigt.",
+        featureAnalyticsTitle: "Detaillierte Statistiken",
+        featureAnalyticsDesc: "Verfolge persoenliche Bestzeiten, Durchschnitte, Sitzungsverlauf und Genauigkeit. Vergleiche deine Zeiten mit echten F1-Fahrer-Benchmarks.",
+
+        moreSectionTitle: "Und Mehr",
+        moreFeature1: "61 rotierende Fakten ueber Motorsport und Reaktionsgeschwindigkeit",
+        moreFeature2: "Haptisches Feedback abgestimmt auf jedes Spielereignis",
+        moreFeature3: "Hintergrundmusik und Soundeffekte mit vollen Audiosteuerungen",
+        moreFeature4: "Apple Watch Begleit-App fuer schnelles Ueben",
+        moreFeature5: "Datenschutzkontrollen: Analytik deaktivieren, Online-Sync ausschalten oder Daten jederzeit loeschen",
+        moreFeature6: "6 Sprachen: Englisch, Spanisch, Franzoesisch, Deutsch, Japanisch und Portugiesisch",
+        moreFeature7: "Komplett kostenlos ohne In-App-Kaeufe",
+
         screenshotsTitle: "Screenshots",
-        screenshot1Alt: "Grid Reaction Timer Screenshot 1",
-        screenshot2Alt: "Grid Reaction Timer Screenshot 2",
-        screenshot3Alt: "Grid Reaction Timer Screenshot 3",
-        screenshot4Alt: "Grid Reaction Timer Screenshot 4",
-        screenshot5Alt: "Grid Reaction Timer Screenshot 5",
-        screenshot6Alt: "Grid Reaction Timer Screenshot 6",
-        
-        footerCopyright: "© 2025 Grid Reaction Timer.",
-        footerAppStoreLink: "App Store Auflistung",
-        
-        privacyHeaderTitle: "Datenschutzrichtlinie für Grid Reaction Timer",
-        privacyLastUpdated: "Zuletzt aktualisiert: 17. August 2025",
-        
+        screenshot1Alt: "Startsequenz-Spielmodus",
+        screenshot2Alt: "Gittertrainer-Spielmodus",
+        screenshot3Alt: "Spielergebnis mit F1-Vergleich",
+        screenshot4Alt: "F1-Teamthema-Auswahl",
+        screenshot5Alt: "Globale Bestenlisten",
+        screenshot6Alt: "Visueller Stil-Anpassung",
+
+        footerCopyright: "\u00A9 2026 Lights Out: Reaction Timer.",
+        footerAppStoreLink: "App Store Eintrag",
+
+        privacyHeaderTitle: "Datenschutzrichtlinie fuer Lights Out: Reaction Timer",
+        privacyLastUpdated: "Zuletzt aktualisiert: 9. Februar 2026",
+
         simpleVersionTitle: "Die Einfache Version",
-        simpleVersionText: "Wir haben diese Spiele-App spaßig und sicher gemacht! Wir zeigen Werbung, um die App kostenlos zu halten, aber wir spionieren dich nicht aus oder sammeln deine persönlichen Informationen.",
-        
-        whatWeDontTakeTitle: "Was wir NICHT von dir nehmen",
+        simpleVersionText: "Wir haben diese Spiele-App spassig und sicher gemacht! Wir zeigen Werbung, um die App kostenlos zu halten. Du hast volle Kontrolle darueber, welche Daten geteilt werden, und kannst deine Online-Daten jederzeit aus der App loeschen.",
+
+        whatWeDontTakeTitle: "Was wir NICHT Erfassen",
         whatWeDontTake1: "Wir fragen nicht nach deinem Namen, E-Mail oder Telefonnummer",
         whatWeDontTake2: "Wir schauen nicht auf deine Fotos oder Kontakte",
         whatWeDontTake3: "Wir verfolgen nicht, wohin du gehst oder welche anderen Apps du benutzt",
-        whatWeDontTake4: "Wir nehmen dich nicht auf oder hören deine Gespräche ab",
+        whatWeDontTake4: "Wir nehmen dich nicht auf oder hoeren deine Gespraeche ab",
         whatWeDontTake5: "Wir kennen deinen genauen Standort nicht",
-        
-        whatStaysOnPhoneTitle: "Was nur auf deinem Telefon bleibt",
-        gameStuffTitle: "Deine Spielsachen",
+
+        analyticsTitle: "Analytik (Firebase Analytics)",
+        analyticsText1: "Die App verwendet Firebase Analytics, um anonyme Nutzungsdaten wie Bildschirmaufrufe, Spielereignisse (Starts, Abschluesse, Fehlstarts) und Sitzungszahlen zu erfassen. Dies hilft uns zu verstehen, wie die App genutzt wird, und sie zu verbessern.",
+        analyticsText2: "Es werden keine persoenlich identifizierbaren Informationen durch Analytik erfasst.",
+        analyticsOptOut: "Du kannst Analytik jederzeit unter Einstellungen > Datenschutz > Analytik Teilen deaktivieren.",
+        analyticsProvider: "Firebase Analytics wird von Google bereitgestellt. Siehe Googles Datenschutzrichtlinie.",
+
+        aboutAdsTitle: "Werbung (Google AdMob)",
+        aboutAdsText: "Wir zeigen Werbung, um die App kostenlos zu halten. Werbung wird waehrend Abkuehlungsphasen angezeigt, die durch wiederholte Fehlstarts ausgeloest werden. Google AdMob kann die Werbe-ID (IDFA) deines Geraets verwenden, wenn du die Erlaubnis ueber Apples App-Tracking-Transparenz-Aufforderung erteilst.",
+        aboutAdsPersonalization: "Wenn du das Tracking ablehnst, wird weiterhin Werbung angezeigt, aber nicht personalisiert.",
+        aboutAdsProvider: "Siehe Googles Datenschutzrichtlinie fuer Details zur werbebezogenen Datenerfassung.",
+
+        leaderboardTitle: "Online-Bestenlisten und Profile (Supabase)",
+        leaderboardText: "Die App verwendet Supabase, um Online-Bestenlisten-Punktzahlen und Spielerprofile zu speichern. Wenn die Bestenlisten-Synchronisierung aktiviert ist, werden folgende Daten gespeichert:",
+        leaderboard1: "Eine anonyme, vom Geraet generierte UUID (Spieler-ID)",
+        leaderboard2: "Game Center Anzeigename (falls authentifiziert)",
+        leaderboard3: "Ausgewaehlter Emoji-Avatar und Thema",
+        leaderboard4: "Spielpunktzahlen, Serien und Statistiken",
+        leaderboardNoEmail: "Es werden keine E-Mail-Adresse, kein echter Name und keine Kontaktinformationen erfasst.",
+        leaderboardOptOut: "Du kannst die Online-Synchronisierung jederzeit unter Einstellungen > Datenschutz > Bestenlisten-Sync deaktivieren.",
+
+        whatStaysOnPhoneTitle: "Was auf deinem Telefon Bleibt",
+        gameStuffTitle: "Deine Spieldaten",
         scoresText: "Deine Punkte:",
-        scoresDescription: "Alle deine Reaktionszeiten bleiben auf deinem Telefon. Wir sehen sie nie.",
+        scoresDescription: "Alle deine Reaktionszeiten werden lokal auf deinem Telefon gespeichert.",
         settingsText: "Deine Einstellungen:",
-        settingsDescription: "Dinge wie Farben, Töne und Vibrationsauswahl bleiben auf deinem Telefon.",
+        settingsDescription: "Einstellungen wie Farben, Toene und Vibrationsauswahl bleiben auf deinem Telefon.",
         appIconText: "Dein App-Symbol:",
-        appIconDescription: "Das App-Symbol, das du auswählst, bleibt auf deinem Telefon.",
-        
-        gameCenterTitle: "Game Center (wenn du willst)",
-        gameCenter1: "Du kannst wählen, dich mit Apples Game Center zu verbinden, um mit Freunden zu konkurrieren",
-        gameCenter2: "Das ist völlig optional - du kannst ohne spielen",
-        gameCenter3: "Apple handhabt das, nicht wir",
-        
-        guestModeTitle: "Gastmodus",
-        guestMode1: "Wenn jemand anderes auf deinem Telefon spielt, verschwinden ihre Punkte, wenn sie fertig sind",
-        guestMode2: "Deine echten Punkte bleiben sicher",
-        
-        aboutAdsTitle: "Über die Werbung",
-        aboutAdsText: "Wir zeigen Werbung, um die App kostenlos zu halten. Google hilft uns, diese Werbung zu zeigen.",
-        whatGoogleSeesTitle: "Was Google möglicherweise sieht",
-        googleSees1: "Welche Art von Telefon du hast",
-        googleSees2: "Ungefähr in welcher Stadt du bist (nicht deine genaue Adresse)",
-        googleSees3: "Ob du auf Werbung tippst",
-        googleSees4: "Ob die App abstürzt",
-        whyText: "Warum:",
-        whyDescription: "Um Werbung zu zeigen, zu sehen ob sie funktioniert und schlechte Leute vom Schummeln abzuhalten.",
-        importantText: "Wichtig:",
-        importantDescription: "Die Werbung ist für alle gleich - sie sind nicht speziell nur für dich.",
-        
-        safetyTitle: "Wie wir die Dinge sicher halten",
-        safety1: "Wir speichern deine persönlichen Sachen nicht auf unseren Computern",
-        safety2: "Google handhabt Werbeinformationen sicher",
-        
-        kidsParentsTitle: "Für Kinder und Eltern",
-        kidsParentsText: "Diese App ist sicher für Kinder zu spielen. Wir sammeln keine persönlichen Informationen von Kindern.",
-        
-        tipJarTitle: "Trinkgeldglas (Optional)",
-        tipJarText: "Du kannst uns Trinkgeld geben, um zu helfen, die App besser zu machen:",
-        tipJar1: "Apple handhabt alle Geldsachen",
-        tipJar2: "Wir sehen deine Zahlungsinformationen nie",
-        tipJar3: "Es ist völlig optional - die App funktioniert großartig ohne Trinkgeld!",
-        
-        controlTitle: "Was du kontrollieren kannst",
-        control1: "Lösche die App jederzeit, um alle deine Sachen zu entfernen",
-        control2: "Benutze den Gastmodus, wenn Freunde spielen wollen",
-        control3: "Wähle, ob du Game Center willst oder nicht",
-        control4: "Ändere Werbeeinstellungen in deinen Telefon-Datenschutzeinstellungen",
-        
-        permissionsTitle: "Was die App möglicherweise anfragt",
-        vibrationText: "Vibration:",
-        vibrationDescription: "Um dein Telefon beim Spielen vibrieren zu lassen (du kannst das ausschalten)",
-        gameCenterPermissionText: "Game Center:",
-        gameCenterPermissionDescription: "Um Punkte zu speichern und mit Freunden zu konkurrieren (optional)",
-        
-        learnMoreTitle: "Wenn du mehr lernen willst",
-        learnMoreText: "Google hat seine eigenen Regeln über Werbung und Datenschutz:",
-        googleAdRules: "Googles Werberegeln",
-        googlePrivacyRules: "Googles Datenschutzregeln",
-        
-        changesTitle: "Wenn wir etwas ändern",
-        changesText: "Wenn wir diese Datenschutzsachen aktualisieren, setzen wir die neue Version hier hin. Schau gelegentlich vorbei, wenn du neugierig bist!",
-        
-        questionsTitle: "Fragen?",
-        questionsText: "Hast du Fragen zum Datenschutz? Besuche",
-        contactWebsite: "https://gridreactiontimer.com",
-        contactEmail: "oder sende eine E-Mail an \"GRT.Feedback AT pm.me\""
+        appIconDescription: "Das App-Symbol, das du auswaehlst, bleibt auf deinem Telefon.",
+
+        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenter1: "Die App integriert sich mit Apple Game Center fuer Bestenlisten und Erfolge",
+        gameCenter2: "Das ist optional - du kannst ohne spielen",
+        gameCenter3: "Game Center-Daten werden vollstaendig von Apple unter Apples Datenschutzrichtlinie verwaltet",
+
+        dataSharingTitle: "Datenweitergabe",
+        dataSharingText: "Wir verkaufen, handeln oder teilen deine persoenlichen Informationen nicht mit Dritten. Daten werden nur mit den oben aufgefuehrten Dienstanbietern (Google, Apple, Supabase) geteilt, soweit dies fuer die App-Funktionalitaet erforderlich ist.",
+
+        dataDeletionTitle: "Datenloeschung",
+        dataDeletionText1: "Du kannst alle deine Online-Daten (Supabase-Profil und Punktzahlen) jederzeit unter Einstellungen > Datenschutz > Meine Daten Loeschen entfernen. Dies loescht dauerhaft dein Online-Profil und deine Punktzahlen und weist dir eine neue anonyme Identitaet zu.",
+        dataDeletionText2: "Lokale Daten (auf deinem Geraet gespeichert) und Game Center-Eintraege werden separat verwaltet und sind von dieser Aktion nicht betroffen. Um Game Center-Daten zu entfernen, verwalte sie ueber die Game Center-Einstellungen deines Geraets.",
+
+        kidsParentsTitle: "Datenschutz fuer Kinder",
+        kidsParentsText: "Die App erfasst wissentlich keine Informationen von Kindern unter 13 Jahren. Alle Datenerfassung ist anonym und enthaelt keine persoenlichen Identifikatoren.",
+
+        controlTitle: "Was du Kontrollieren Kannst",
+        control1: "Analytik deaktivieren unter Einstellungen > Datenschutz > Analytik Teilen",
+        control2: "Online-Bestenlisten-Sync deaktivieren unter Einstellungen > Datenschutz > Bestenlisten-Sync",
+        control3: "Online-Daten loeschen unter Einstellungen > Datenschutz > Meine Daten Loeschen",
+        control4: "Waehle, ob du Game Center willst oder nicht",
+        control5: "Aendere Werbe-Tracking in deinen Telefon-Datenschutzeinstellungen",
+        control6: "Loesche die App, um alle lokalen Daten zu entfernen",
+
+        changesTitle: "Aenderungen dieser Richtlinie",
+        changesText: "Wir koennen diese Richtlinie von Zeit zu Zeit aktualisieren. Aenderungen werden mit einem aktualisierten Datum auf dieser Seite veroeffentlicht.",
+
+        questionsTitle: "Kontakt",
+        questionsText: "Bei Fragen zu dieser Datenschutzrichtlinie kontaktiere uns unter",
+        contactEmail: "GRT.feedback@pm.me"
     },
-    
+
     fr: {
         currentLanguage: "Français",
         languages: {
             en: "English",
-            es: "Español", 
+            es: "Español",
             ja: "日本語",
             de: "Deutsch",
             fr: "Français",
             pt: "Português"
         },
-        
-        title: "Grid Reaction Timer — Accueil",
-        privacyTitle: "Politique de Confidentialité - Grid Reaction Timer",
-        
-        // Navigation
+
+        title: "Lights Out: Reaction Timer — Accueil",
+        privacyTitle: "Politique de Confidentialite - Lights Out: Reaction Timer",
+
         navHome: "Accueil",
-        navPrivacy: "Confidentialité",
+        navPrivacy: "Confidentialite",
         navAppStore: "App Store",
-        
-        headerTitle: "Grid Reaction Timer",
-        headerSubtitle: "Entraînement de réaction simple — disponible sur l'App Store",
-        
-        heroTitle: "Grid Reaction Timer",
-        heroSubtitle: "Rondes courtes, classements Game Center optionnels et stockage de données local uniquement.",
-        downloadAppStore: "Télécharger sur l'App Store",
-        privacyPolicyLink: "Politique de Confidentialité",
-        
-        appStoreDescriptionTitle: "Description de l'App Store",
-        appStoreDescription: "Grid Reaction Timer est une application compacte et ciblée pour mesurer et améliorer votre temps de réaction en utilisant une grille tactile. Jouez des rondes courtes, voyez vos meilleurs scores personnels et comparez optionnellement les scores en utilisant Game Center.",
-        
-        screenshotsTitle: "Captures d'écran",
-        screenshot1Alt: "Capture d'écran 1 de Grid Reaction Timer",
-        screenshot2Alt: "Capture d'écran 2 de Grid Reaction Timer",
-        screenshot3Alt: "Capture d'écran 3 de Grid Reaction Timer",
-        screenshot4Alt: "Capture d'écran 4 de Grid Reaction Timer",
-        screenshot5Alt: "Capture d'écran 5 de Grid Reaction Timer",
-        screenshot6Alt: "Capture d'écran 6 de Grid Reaction Timer",
-        
-        footerCopyright: "© 2025 Grid Reaction Timer.",
-        footerAppStoreLink: "Liste de l'App Store",
-        
-        privacyHeaderTitle: "Politique de Confidentialité pour Grid Reaction Timer",
-        privacyLastUpdated: "Dernière mise à jour : 17 août 2025",
-        
+
+        heroTitle: "Lights Out: Reaction Timer",
+        heroSubtitle: "Entrainement de reaction inspire de la F1 avec plusieurs modes de jeu, classements mondiaux et 10 themes d'equipes officiels. Gratuit sur iOS.",
+        downloadAppStore: "Telecharger sur l'App Store",
+        privacyPolicyLink: "Politique de Confidentialite",
+
+        gameModesSectionTitle: "Quatre Facons de Jouer",
+        featureLaunchTitle: "Sequence de Depart",
+        featureLaunchDesc: "Cinq feux comptent a rebours puis s'eteignent. Touchez a l'instant ou ils s'eteignent. Precision a la milliseconde avec des comparaisons de pilotes F1 apres chaque manche.",
+        featureGridTitle: "Entraineur de Grille",
+        featureGridDesc: "Touchez les cellules en surbrillance sur des grilles 3x3, 4x4 ou 5x5. Jouez sans chrono pour la precision ou contre la montre en mode 10 secondes.",
+        featureTwoPlayerTitle: "Ecran Partage Deux Joueurs",
+        featureTwoPlayerDesc: "Affrontez-vous sur un seul appareil. Les deux joueurs touchent Pret, les feux comptent et la reaction la plus rapide gagne. Revanche instantanee.",
+        featureARTitle: "Mode AR",
+        featureARDesc: "Placez un portique de depart 3D dans votre piece avec la realite augmentee. Pincez pour redimensionner, touchez pour reagir. Effets de particules complets sur iOS 18+.",
+
+        themesSectionTitle: "Tout Personnaliser",
+        featureTeamsTitle: "10 Themes d'Equipes F1",
+        featureTeamsDesc: "Red Bull, Ferrari, Mercedes, McLaren, Aston Martin, Alpine, Williams, Haas, Kick Sauber et RB. Chacun avec les couleurs authentiques de l'equipe.",
+        featureStylesTitle: "5 Styles Visuels",
+        featureStylesDesc: "Standard, Cyberpunk, Retro Web, Crayola et Skeuomorphique. Chacun change les formes des feux, les polices, les couleurs et les superpositions plein ecran.",
+
+        competeSectionTitle: "Concourir et Suivre sa Progression",
+        featureLeaderboardsTitle: "Classements Mondiaux",
+        featureLeaderboardsDesc: "Game Center et classements en ligne avec reinitialisation hebdomadaire. Voyez les profils des joueurs avec avatars emoji, series et statistiques.",
+        featureAchievementsTitle: "13 Succes",
+        featureAchievementsDesc: "Debloquez des succes pour les niveaux de vitesse de reaction, les jalons de jeu cumulatifs et les records de l'entraineur de grille. Synchronises avec Game Center.",
+        featureStreaksTitle: "Series Quotidiennes",
+        featureStreaksDesc: "Jouez chaque jour pour construire votre serie. Votre badge de serie s'affiche sur les classements pour que tout le monde le voie.",
+        featureAnalyticsTitle: "Statistiques Detaillees",
+        featureAnalyticsDesc: "Suivez vos records personnels, moyennes, historique de sessions et precision. Comparez vos temps aux benchmarks de vrais pilotes de F1.",
+
+        moreSectionTitle: "Et Plus Encore",
+        moreFeature1: "61 anecdotes rotatives sur le sport automobile et la vitesse de reaction",
+        moreFeature2: "Retour haptique adapte a chaque evenement de jeu",
+        moreFeature3: "Musique de fond et effets sonores avec controles audio complets",
+        moreFeature4: "Application Apple Watch pour s'entrainer rapidement",
+        moreFeature5: "Controles de confidentialite : desactivez les analyses, la synchronisation en ligne ou supprimez vos donnees a tout moment",
+        moreFeature6: "6 langues : anglais, espagnol, francais, allemand, japonais et portugais",
+        moreFeature7: "Entierement gratuit sans achats integres",
+
+        screenshotsTitle: "Captures d'Ecran",
+        screenshot1Alt: "Mode de jeu Sequence de Depart",
+        screenshot2Alt: "Mode de jeu Entraineur de Grille",
+        screenshot3Alt: "Resultats avec comparaison F1",
+        screenshot4Alt: "Selection de theme d'equipe F1",
+        screenshot5Alt: "Classements mondiaux",
+        screenshot6Alt: "Personnalisation du style visuel",
+
+        footerCopyright: "\u00A9 2026 Lights Out: Reaction Timer.",
+        footerAppStoreLink: "Fiche App Store",
+
+        privacyHeaderTitle: "Politique de Confidentialite pour Lights Out: Reaction Timer",
+        privacyLastUpdated: "Derniere mise a jour : 9 fevrier 2026",
+
         simpleVersionTitle: "La Version Simple",
-        simpleVersionText: "Nous avons rendu cette application de jeu amusante et sûre ! Nous montrons des publicités pour garder l'application gratuite, mais nous ne vous espionnons pas ou ne collectons pas vos informations personnelles.",
-        
-        whatWeDontTakeTitle: "Ce que nous ne prenons PAS de vous",
-        whatWeDontTake1: "Nous ne demandons pas votre nom, email ou numéro de téléphone",
+        simpleVersionText: "Nous avons rendu cette application de jeu amusante et sure ! Nous montrons des publicites pour garder l'application gratuite. Vous avez le controle total sur les donnees partagees, et vous pouvez supprimer vos donnees en ligne a tout moment depuis l'application.",
+
+        whatWeDontTakeTitle: "Ce Que Nous ne Collectons PAS",
+        whatWeDontTake1: "Nous ne demandons pas votre nom, email ou numero de telephone",
         whatWeDontTake2: "Nous ne regardons pas vos photos ou contacts",
-        whatWeDontTake3: "Nous ne suivons pas où vous allez ou quelles autres applications vous utilisez",
-        whatWeDontTake4: "Nous ne vous enregistrons pas ou n'écoutons pas vos conversations",
+        whatWeDontTake3: "Nous ne suivons pas ou vous allez ou quelles autres applications vous utilisez",
+        whatWeDontTake4: "Nous ne vous enregistrons pas ou n'ecoutons pas vos conversations",
         whatWeDontTake5: "Nous ne connaissons pas votre localisation exacte",
-        
-        whatStaysOnPhoneTitle: "Ce qui reste juste sur votre téléphone",
-        gameStuffTitle: "Vos trucs de jeu",
-        scoresText: "Vos scores :",
-        scoresDescription: "Tous vos temps de réaction restent sur votre téléphone. Nous ne les voyons jamais.",
-        settingsText: "Vos paramètres :",
-        settingsDescription: "Des choses comme les couleurs, sons et choix de vibration restent sur votre téléphone.",
-        appIconText: "Votre icône d'application :",
-        appIconDescription: "L'icône d'application que vous choisissez reste sur votre téléphone.",
-        
-        gameCenterTitle: "Game Center (si vous voulez)",
-        gameCenter1: "Vous pouvez choisir de vous connecter au Game Center d'Apple pour concourir avec des amis",
-        gameCenter2: "C'est totalement optionnel - vous pouvez jouer sans",
-        gameCenter3: "Apple gère cela, pas nous",
-        
-        guestModeTitle: "Mode invité",
-        guestMode1: "Quand quelqu'un d'autre joue sur votre téléphone, leurs scores disparaissent quand ils ont fini",
-        guestMode2: "Vos vrais scores restent en sécurité",
-        
-        aboutAdsTitle: "À propos des publicités",
-        aboutAdsText: "Nous montrons des publicités pour garder l'application gratuite. Google nous aide à montrer ces publicités.",
-        whatGoogleSeesTitle: "Ce que Google pourrait voir",
-        googleSees1: "Quel type de téléphone vous avez",
-        googleSees2: "Approximativement dans quelle ville vous êtes (pas votre adresse exacte)",
-        googleSees3: "Si vous touchez les publicités",
-        googleSees4: "Si l'application plante",
-        whyText: "Pourquoi :",
-        whyDescription: "Pour montrer des publicités, voir si elles fonctionnent et empêcher les méchants de tricher.",
-        importantText: "Important :",
-        importantDescription: "Les publicités sont les mêmes pour tout le monde - elles ne sont pas spéciales juste pour vous.",
-        
-        safetyTitle: "Comment nous gardons les choses sûres",
-        safety1: "Nous ne sauvegardons pas vos affaires personnelles sur nos ordinateurs",
-        safety2: "Google gère les informations publicitaires en toute sécurité",
-        
-        kidsParentsTitle: "Pour les enfants et parents",
-        kidsParentsText: "Cette application est sûre pour que les enfants jouent. Nous ne collectons pas d'informations personnelles des enfants.",
-        
-        tipJarTitle: "Pot à pourboires (optionnel)",
-        tipJarText: "Vous pouvez nous donner des pourboires pour aider à améliorer l'application :",
-        tipJar1: "Apple gère toutes les affaires d'argent",
-        tipJar2: "Nous ne voyons jamais vos informations de paiement",
-        tipJar3: "C'est totalement optionnel - l'application fonctionne très bien sans pourboires !",
-        
-        controlTitle: "Ce que vous pouvez contrôler",
-        control1: "Supprimez l'application à tout moment pour enlever toutes vos affaires",
-        control2: "Utilisez le mode invité quand les amis veulent jouer",
-        control3: "Choisissez si vous voulez Game Center ou non",
-        control4: "Changez les paramètres de publicité dans les paramètres de confidentialité de votre téléphone",
-        
-        permissionsTitle: "Ce que l'application pourrait demander",
-        vibrationText: "Vibration :",
-        vibrationDescription: "Pour faire vibrer votre téléphone quand vous jouez (vous pouvez l'éteindre)",
-        gameCenterPermissionText: "Game Center :",
-        gameCenterPermissionDescription: "Pour sauvegarder les scores et concourir avec des amis (optionnel)",
-        
-        learnMoreTitle: "Si vous voulez en apprendre plus",
-        learnMoreText: "Google a ses propres règles sur les publicités et la confidentialité :",
-        googleAdRules: "Règles publicitaires de Google",
-        googlePrivacyRules: "Règles de confidentialité de Google",
-        
-        changesTitle: "Si nous changeons quelque chose",
-        changesText: "Si nous mettons à jour ces trucs de confidentialité, nous mettrons la nouvelle version ici. Revenez de temps en temps si vous êtes curieux !",
-        
-        questionsTitle: "Questions ?",
-        questionsText: "Avez-vous des questions sur la confidentialité ? Visitez",
-        contactWebsite: "https://gridreactiontimer.com",
-        contactEmail: "ou envoyez un email à \"GRT.Feedback AT pm.me\""
+
+        analyticsTitle: "Analyses (Firebase Analytics)",
+        analyticsText1: "L'application utilise Firebase Analytics pour collecter des donnees d'utilisation anonymes telles que les vues d'ecran, les evenements de jeu (demarrages, completions, faux departs) et les comptages de sessions. Cela nous aide a comprendre comment l'application est utilisee et a l'ameliorer.",
+        analyticsText2: "Aucune information personnellement identifiable n'est collectee via les analyses.",
+        analyticsOptOut: "Vous pouvez desactiver les analyses a tout moment dans Parametres > Confidentialite > Partager les Analyses.",
+        analyticsProvider: "Firebase Analytics est fourni par Google. Voir la Politique de Confidentialite de Google.",
+
+        aboutAdsTitle: "Publicite (Google AdMob)",
+        aboutAdsText: "Nous montrons des publicites pour garder l'application gratuite. Les publicites sont affichees pendant les periodes de refroidissement declenchees par des faux departs repetes. Google AdMob peut utiliser l'identifiant publicitaire (IDFA) de votre appareil si vous accordez l'autorisation via l'invite de Transparence du Suivi d'Apple.",
+        aboutAdsPersonalization: "Si vous refusez le suivi, les publicites seront toujours affichees mais ne seront pas personnalisees.",
+        aboutAdsProvider: "Voir la Politique de Confidentialite de Google pour les details sur la collecte de donnees publicitaires.",
+
+        leaderboardTitle: "Classements en Ligne et Profils (Supabase)",
+        leaderboardText: "L'application utilise Supabase pour stocker les scores des classements en ligne et les profils des joueurs. Lorsque la Synchronisation des Classements est activee, les donnees suivantes sont stockees :",
+        leaderboard1: "Un UUID anonyme genere par l'appareil (ID joueur)",
+        leaderboard2: "Nom d'affichage Game Center (si authentifie)",
+        leaderboard3: "Avatar emoji et theme selectionnes",
+        leaderboard4: "Scores de jeu, series et statistiques",
+        leaderboardNoEmail: "Aucune adresse email, nom reel ou information de contact n'est collecte.",
+        leaderboardOptOut: "Vous pouvez desactiver la synchronisation en ligne a tout moment dans Parametres > Confidentialite > Sync Classements.",
+
+        whatStaysOnPhoneTitle: "Ce Qui Reste sur Votre Telephone",
+        gameStuffTitle: "Vos Donnees de Jeu",
+        scoresText: "Vos Scores :",
+        scoresDescription: "Tous vos temps de reaction sont sauvegardes localement sur votre telephone.",
+        settingsText: "Vos Parametres :",
+        settingsDescription: "Les preferences comme les couleurs, sons et choix de vibration restent sur votre telephone.",
+        appIconText: "Votre Icone d'Application :",
+        appIconDescription: "L'icone d'application que vous choisissez reste sur votre telephone.",
+
+        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenter1: "L'application s'integre avec Apple Game Center pour les classements et les succes",
+        gameCenter2: "C'est optionnel - vous pouvez jouer sans",
+        gameCenter3: "Les donnees Game Center sont entierement gerees par Apple sous la Politique de Confidentialite d'Apple",
+
+        dataSharingTitle: "Partage de Donnees",
+        dataSharingText: "Nous ne vendons, echangeons ou partageons pas vos informations personnelles avec des tiers. Les donnees ne sont partagees qu'avec les fournisseurs de services listes ci-dessus (Google, Apple, Supabase) dans la mesure necessaire pour fournir les fonctionnalites de l'application.",
+
+        dataDeletionTitle: "Suppression de Donnees",
+        dataDeletionText1: "Vous pouvez supprimer toutes vos donnees en ligne (profil et scores Supabase) a tout moment en allant dans Parametres > Confidentialite > Supprimer Mes Donnees. Cela supprime definitivement votre profil et vos scores en ligne, et vous attribue une nouvelle identite anonyme.",
+        dataDeletionText2: "Les donnees locales (sauvegardees sur votre appareil) et les enregistrements Game Center sont geres separement et ne sont pas affectes par cette action. Pour supprimer les donnees Game Center, gerez-les via les parametres Game Center de votre appareil.",
+
+        kidsParentsTitle: "Confidentialite des Enfants",
+        kidsParentsText: "L'application ne collecte pas sciemment des informations aupres d'enfants de moins de 13 ans. Toute collecte de donnees est anonyme et n'inclut pas d'identifiants personnels.",
+
+        controlTitle: "Ce Que Vous Pouvez Controler",
+        control1: "Desactiver les analyses dans Parametres > Confidentialite > Partager les Analyses",
+        control2: "Desactiver la synchronisation des classements dans Parametres > Confidentialite > Sync Classements",
+        control3: "Supprimer vos donnees en ligne dans Parametres > Confidentialite > Supprimer Mes Donnees",
+        control4: "Choisir si vous voulez Game Center ou non",
+        control5: "Modifier le suivi publicitaire dans les parametres de confidentialite de votre telephone",
+        control6: "Supprimer l'application pour retirer toutes les donnees locales",
+
+        changesTitle: "Modifications de Cette Politique",
+        changesText: "Nous pouvons mettre a jour cette politique de temps en temps. Les modifications seront publiees sur cette page avec une date mise a jour.",
+
+        questionsTitle: "Contact",
+        questionsText: "Si vous avez des questions sur cette politique de confidentialite, contactez-nous a",
+        contactEmail: "GRT.feedback@pm.me"
     },
-    
+
     pt: {
         currentLanguage: "Português",
         languages: {
             en: "English",
-            es: "Español", 
+            es: "Español",
             ja: "日本語",
             de: "Deutsch",
             fr: "Français",
             pt: "Português"
         },
-        
-        title: "Grid Reaction Timer — Início",
-        privacyTitle: "Política de Privacidade - Grid Reaction Timer",
-        
-        // Navigation
-        navHome: "Início",
+
+        title: "Lights Out: Reaction Timer — Inicio",
+        privacyTitle: "Politica de Privacidade - Lights Out: Reaction Timer",
+
+        navHome: "Inicio",
         navPrivacy: "Privacidade",
         navAppStore: "App Store",
-        
-        headerTitle: "Grid Reaction Timer",
-        headerSubtitle: "Treinamento de reação simples — disponível na App Store",
-        
-        heroTitle: "Grid Reaction Timer",
-        heroSubtitle: "Rodadas curtas, placares opcionais do Game Center e armazenamento de dados apenas local.",
+
+        heroTitle: "Lights Out: Reaction Timer",
+        heroSubtitle: "Treinamento de reacao inspirado na F1 com multiplos modos de jogo, placares globais e 10 temas de equipes oficiais. Gratis no iOS.",
         downloadAppStore: "Baixar na App Store",
-        privacyPolicyLink: "Política de Privacidade",
-        
-        appStoreDescriptionTitle: "Descrição da App Store",
-        appStoreDescription: "Grid Reaction Timer é um aplicativo compacto e focado para medir e melhorar seu tempo de reação usando uma grade tocável. Jogue rodadas curtas, veja seus melhores pessoais e compare pontuações opcionalmente usando Game Center.",
-        
+        privacyPolicyLink: "Politica de Privacidade",
+
+        gameModesSectionTitle: "Quatro Modos de Jogar",
+        featureLaunchTitle: "Sequencia de Largada",
+        featureLaunchDesc: "Cinco luzes contam regressivamente e depois apagam. Toque no instante em que apagam. Precisao de milissegundos com comparacoes de pilotos de F1 apos cada rodada.",
+        featureGridTitle: "Treinador de Grade",
+        featureGridDesc: "Toque nas celulas destacadas em grades de 3x3, 4x4 ou 5x5. Jogue sem tempo para precisao ou contra o relogio no modo de 10 segundos.",
+        featureTwoPlayerTitle: "Tela Dividida para Dois",
+        featureTwoPlayerDesc: "Dispute em um dispositivo. Ambos os jogadores tocam Pronto, as luzes contam e a reacao mais rapida vence. Revanche instantanea.",
+        featureARTitle: "Modo AR",
+        featureARDesc: "Coloque um portico de largada 3D na sua sala com realidade aumentada. Pince para redimensionar, toque para reagir. Efeitos de particulas completos no iOS 18+.",
+
+        themesSectionTitle: "Personalize Tudo",
+        featureTeamsTitle: "10 Temas de Equipes F1",
+        featureTeamsDesc: "Red Bull, Ferrari, Mercedes, McLaren, Aston Martin, Alpine, Williams, Haas, Kick Sauber e RB. Cada um com cores autenticas da equipe.",
+        featureStylesTitle: "5 Estilos Visuais",
+        featureStylesDesc: "Padrao, Cyberpunk, Retro Web, Crayola e Esqueomorfico. Cada um muda formas de luzes, fontes, cores e sobreposicoes em tela cheia.",
+
+        competeSectionTitle: "Compita e Acompanhe o Progresso",
+        featureLeaderboardsTitle: "Placares Globais",
+        featureLeaderboardsDesc: "Game Center e placares online com resets semanais. Veja perfis de jogadores com avatares emoji, sequencias e estatisticas.",
+        featureAchievementsTitle: "13 Conquistas",
+        featureAchievementsDesc: "Desbloqueie conquistas para niveis de velocidade de reacao, marcos de jogo cumulativos e recordes do treinador de grade. Sincronizados com Game Center.",
+        featureStreaksTitle: "Sequencias Diarias",
+        featureStreaksDesc: "Jogue todos os dias para construir sua sequencia. Seu emblema de sequencia aparece nos placares para todos verem.",
+        featureAnalyticsTitle: "Estatisticas Detalhadas",
+        featureAnalyticsDesc: "Acompanhe melhores marcas pessoais, medias, historico de sessoes e precisao. Compare seus tempos com benchmarks de pilotos reais de F1.",
+
+        moreSectionTitle: "E Mais",
+        moreFeature1: "61 curiosidades rotativas sobre automobilismo e velocidade de reacao",
+        moreFeature2: "Feedback haptico ajustado para cada evento do jogo",
+        moreFeature3: "Musica de fundo e efeitos sonoros com controles de audio completos",
+        moreFeature4: "App complementar para Apple Watch para pratica rapida",
+        moreFeature5: "Controles de privacidade: desative analiticas, sincronizacao online ou exclua seus dados a qualquer momento",
+        moreFeature6: "6 idiomas: ingles, espanhol, frances, alemao, japones e portugues",
+        moreFeature7: "Completamente gratis sem compras no aplicativo",
+
         screenshotsTitle: "Capturas de Tela",
-        screenshot1Alt: "Captura de tela 1 do Grid Reaction Timer",
-        screenshot2Alt: "Captura de tela 2 do Grid Reaction Timer",
-        screenshot3Alt: "Captura de tela 3 do Grid Reaction Timer",
-        screenshot4Alt: "Captura de tela 4 do Grid Reaction Timer",
-        screenshot5Alt: "Captura de tela 5 do Grid Reaction Timer",
-        screenshot6Alt: "Captura de tela 6 do Grid Reaction Timer",
-        
-        footerCopyright: "© 2025 Grid Reaction Timer.",
+        screenshot1Alt: "Modo de jogo Sequencia de Largada",
+        screenshot2Alt: "Modo de jogo Treinador de Grade",
+        screenshot3Alt: "Resultados do jogo com comparacao F1",
+        screenshot4Alt: "Selecao de tema de equipe F1",
+        screenshot5Alt: "Placares globais",
+        screenshot6Alt: "Personalizacao de estilo visual",
+
+        footerCopyright: "\u00A9 2026 Lights Out: Reaction Timer.",
         footerAppStoreLink: "Listagem da App Store",
-        
-        privacyHeaderTitle: "Política de Privacidade para Grid Reaction Timer",
-        privacyLastUpdated: "Última atualização: 17 de agosto de 2025",
-        
-        simpleVersionTitle: "A Versão Simples",
-        simpleVersionText: "Fizemos este aplicativo de jogo divertido e seguro! Mostramos anúncios para manter o aplicativo gratuito, mas não espiamos você ou coletamos suas informações pessoais.",
-        
-        whatWeDontTakeTitle: "O que NÃO pegamos de você",
-        whatWeDontTake1: "Não pedimos seu nome, email ou número de telefone",
-        whatWeDontTake2: "Não olhamos suas fotos ou contatos",
-        whatWeDontTake3: "Não rastreamos onde você vai ou que outros aplicativos você usa",
-        whatWeDontTake4: "Não gravamos você ou ouvimos suas conversas",
-        whatWeDontTake5: "Não sabemos sua localização exata",
-        
-        whatStaysOnPhoneTitle: "O que fica apenas no seu telefone",
-        gameStuffTitle: "Suas coisas do jogo",
-        scoresText: "Suas pontuações:",
-        scoresDescription: "Todos os seus tempos de reação ficam no seu telefone. Nunca os vemos.",
-        settingsText: "Suas configurações:",
-        settingsDescription: "Coisas como cores, sons e escolhas de vibração ficam no seu telefone.",
-        appIconText: "Seu ícone do aplicativo:",
-        appIconDescription: "O ícone do aplicativo que você escolher fica no seu telefone.",
-        
-        gameCenterTitle: "Game Center (se você quiser)",
-        gameCenter1: "Você pode escolher se conectar ao Game Center da Apple para competir com amigos",
-        gameCenter2: "Isso é totalmente opcional - você pode jogar sem ele",
-        gameCenter3: "A Apple cuida disso, não nós",
-        
-        guestModeTitle: "Modo convidado",
-        guestMode1: "Quando outra pessoa joga no seu telefone, as pontuações dela desaparecem quando terminam",
-        guestMode2: "Suas pontuações reais ficam seguras",
-        
-        aboutAdsTitle: "Sobre os anúncios",
-        aboutAdsText: "Mostramos anúncios para manter o aplicativo gratuito. O Google nos ajuda a mostrar esses anúncios.",
-        whatGoogleSeesTitle: "O que o Google pode ver",
-        googleSees1: "Que tipo de telefone você tem",
-        googleSees2: "Aproximadamente em que cidade você está (não seu endereço exato)",
-        googleSees3: "Se você toca nos anúncios",
-        googleSees4: "Se o aplicativo trava",
-        whyText: "Por quê:",
-        whyDescription: "Para mostrar anúncios, ver se funcionam e parar pessoas más de trapacear.",
-        importantText: "Importante:",
-        importantDescription: "Os anúncios são iguais para todos - não são especiais só para você.",
-        
-        safetyTitle: "Como mantemos as coisas seguras",
-        safety1: "Não salvamos suas coisas pessoais nos nossos computadores",
-        safety2: "O Google cuida das informações de anúncios com segurança",
-        
-        kidsParentsTitle: "Para crianças e pais",
-        kidsParentsText: "Este aplicativo é seguro para crianças jogarem. Não coletamos informações pessoais de crianças.",
-        
-        tipJarTitle: "Pote de gorjetas (opcional)",
-        tipJarText: "Você pode nos dar gorjetas para ajudar a melhorar o aplicativo:",
-        tipJar1: "A Apple cuida de todas as coisas de dinheiro",
-        tipJar2: "Nunca vemos suas informações de pagamento",
-        tipJar3: "É totalmente opcional - o aplicativo funciona ótimo sem gorjetas!",
-        
-        controlTitle: "O que você pode controlar",
-        control1: "Exclua o aplicativo a qualquer momento para remover todas as suas coisas",
-        control2: "Use o modo convidado quando amigos quiserem jogar",
-        control3: "Escolha se quer Game Center ou não",
-        control4: "Mude configurações de anúncios nas configurações de privacidade do seu telefone",
-        
-        permissionsTitle: "O que o aplicativo pode pedir",
-        vibrationText: "Vibração:",
-        vibrationDescription: "Para fazer seu telefone vibrar quando você joga (você pode desligar)",
-        gameCenterPermissionText: "Game Center:",
-        gameCenterPermissionDescription: "Para salvar pontuações e competir com amigos (opcional)",
-        
-        learnMoreTitle: "Se você quiser aprender mais",
-        learnMoreText: "O Google tem suas próprias regras sobre anúncios e privacidade:",
-        googleAdRules: "Regras de anúncios do Google",
-        googlePrivacyRules: "Regras de privacidade do Google",
-        
-        changesTitle: "Se mudarmos algo",
-        changesText: "Se atualizarmos essas coisas de privacidade, colocaremos a nova versão aqui. Volte de vez em quando se estiver curioso!",
-        
-        questionsTitle: "Perguntas?",
-        questionsText: "Tem perguntas sobre privacidade? Visite",
-        contactWebsite: "https://gridreactiontimer.com",
-        contactEmail: "ou envie um email para \"GRT.Feedback AT pm.me\""
+
+        privacyHeaderTitle: "Politica de Privacidade para Lights Out: Reaction Timer",
+        privacyLastUpdated: "Ultima atualizacao: 9 de fevereiro de 2026",
+
+        simpleVersionTitle: "A Versao Simples",
+        simpleVersionText: "Fizemos este aplicativo de jogo divertido e seguro! Mostramos anuncios para manter o app gratuito. Voce tem controle total sobre quais dados sao compartilhados, e pode excluir seus dados online a qualquer momento pelo app.",
+
+        whatWeDontTakeTitle: "O Que NAO Coletamos",
+        whatWeDontTake1: "Nao pedimos seu nome, email ou numero de telefone",
+        whatWeDontTake2: "Nao olhamos suas fotos ou contatos",
+        whatWeDontTake3: "Nao rastreamos para onde voce vai ou que outros aplicativos voce usa",
+        whatWeDontTake4: "Nao gravamos voce ou ouvimos suas conversas",
+        whatWeDontTake5: "Nao sabemos sua localizacao exata",
+
+        analyticsTitle: "Analiticas (Firebase Analytics)",
+        analyticsText1: "O app usa Firebase Analytics para coletar dados de uso anonimos como visualizacoes de tela, eventos de jogo (inicios, conclusoes, largadas falsas) e contagens de sessoes. Isso nos ajuda a entender como o app e usado e melhora-lo.",
+        analyticsText2: "Nenhuma informacao pessoalmente identificavel e coletada atraves das analiticas.",
+        analyticsOptOut: "Voce pode desativar as analiticas a qualquer momento em Ajustes > Privacidade > Compartilhar Analiticas.",
+        analyticsProvider: "Firebase Analytics e fornecido pelo Google. Veja a Politica de Privacidade do Google.",
+
+        aboutAdsTitle: "Publicidade (Google AdMob)",
+        aboutAdsText: "Mostramos anuncios para manter o app gratuito. Os anuncios sao exibidos durante periodos de espera acionados por largadas falsas repetidas. O Google AdMob pode usar o Identificador de Publicidade (IDFA) do seu dispositivo se voce conceder permissao atraves do aviso de Transparencia de Rastreamento da Apple.",
+        aboutAdsPersonalization: "Se voce recusar o rastreamento, os anuncios ainda serao exibidos mas nao serao personalizados.",
+        aboutAdsProvider: "Veja a Politica de Privacidade do Google para detalhes sobre a coleta de dados publicitarios.",
+
+        leaderboardTitle: "Placares Online e Perfis (Supabase)",
+        leaderboardText: "O app usa Supabase para armazenar pontuacoes de placares online e perfis de jogadores. Quando a Sincronizacao de Placares esta ativada, os seguintes dados sao armazenados:",
+        leaderboard1: "Um UUID anonimo gerado pelo dispositivo (ID do jogador)",
+        leaderboard2: "Nome de exibicao do Game Center (se autenticado)",
+        leaderboard3: "Avatar emoji e tema selecionados",
+        leaderboard4: "Pontuacoes do jogo, sequencias e estatisticas",
+        leaderboardNoEmail: "Nenhum endereco de email, nome real ou informacao de contato e coletado.",
+        leaderboardOptOut: "Voce pode desativar a sincronizacao online a qualquer momento em Ajustes > Privacidade > Sincronizacao de Placares.",
+
+        whatStaysOnPhoneTitle: "O Que Fica no Seu Telefone",
+        gameStuffTitle: "Seus Dados do Jogo",
+        scoresText: "Suas Pontuacoes:",
+        scoresDescription: "Todos os seus tempos de reacao sao salvos localmente no seu telefone.",
+        settingsText: "Suas Configuracoes:",
+        settingsDescription: "Preferencias como cores, sons e opcoes de vibracao ficam no seu telefone.",
+        appIconText: "Seu Icone do Aplicativo:",
+        appIconDescription: "O icone do aplicativo que voce escolher fica no seu telefone.",
+
+        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenter1: "O app se integra com o Apple Game Center para placares e conquistas",
+        gameCenter2: "Isso e opcional - voce pode jogar sem ele",
+        gameCenter3: "Os dados do Game Center sao gerenciados inteiramente pela Apple sob a Politica de Privacidade da Apple",
+
+        dataSharingTitle: "Compartilhamento de Dados",
+        dataSharingText: "Nao vendemos, trocamos ou compartilhamos suas informacoes pessoais com terceiros. Os dados sao compartilhados apenas com os provedores de servicos listados acima (Google, Apple, Supabase) conforme necessario para fornecer a funcionalidade do app.",
+
+        dataDeletionTitle: "Exclusao de Dados",
+        dataDeletionText1: "Voce pode excluir todos os seus dados online (perfil e pontuacoes do Supabase) a qualquer momento indo em Ajustes > Privacidade > Excluir Meus Dados. Isso remove permanentemente seu perfil e pontuacoes online, e atribui uma nova identidade anonima.",
+        dataDeletionText2: "Dados locais (salvos no seu dispositivo) e registros do Game Center sao gerenciados separadamente e nao sao afetados por esta acao. Para remover dados do Game Center, gerencie-os atraves das configuracoes do Game Center do seu dispositivo.",
+
+        kidsParentsTitle: "Privacidade das Criancas",
+        kidsParentsText: "O app nao coleta intencionalmente informacoes de criancas menores de 13 anos. Toda coleta de dados e anonima e nao inclui identificadores pessoais.",
+
+        controlTitle: "O Que Voce Pode Controlar",
+        control1: "Desativar analiticas em Ajustes > Privacidade > Compartilhar Analiticas",
+        control2: "Desativar sincronizacao de placares em Ajustes > Privacidade > Sincronizacao de Placares",
+        control3: "Excluir seus dados online em Ajustes > Privacidade > Excluir Meus Dados",
+        control4: "Escolher se quer Game Center ou nao",
+        control5: "Alterar rastreamento de anuncios nas configuracoes de privacidade do seu telefone",
+        control6: "Excluir o app para remover todos os dados locais",
+
+        changesTitle: "Alteracoes Nesta Politica",
+        changesText: "Podemos atualizar esta politica de tempos em tempos. As alteracoes serao publicadas nesta pagina com uma data atualizada.",
+
+        questionsTitle: "Contato",
+        questionsText: "Se voce tiver duvidas sobre esta politica de privacidade, entre em contato conosco em",
+        contactEmail: "GRT.feedback@pm.me"
     }
 };
