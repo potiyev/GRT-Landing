@@ -23,7 +23,7 @@ const translations = {
 
         // Homepage - Hero section
         heroTitle: "Lights Out: Reaction Timer",
-        heroSubtitle: "F1-inspired reaction training with multiple game modes, global leaderboards, and 10 official team themes. Free on iOS.",
+        heroSubtitle: "F1-inspired reaction training with multiple game modes, global leaderboards, and 10 official team themes. Free on iOS and Apple TV.",
         downloadAppStore: "Download on the App Store",
         privacyPolicyLink: "Privacy Policy",
 
@@ -84,7 +84,9 @@ const translations = {
         privacyLastUpdated: "Last Updated: February 9, 2026",
 
         simpleVersionTitle: "The Simple Version",
-        simpleVersionText: "We made this game app fun and safe! We show ads to keep the app free. You have full control over what data is shared, and you can delete your online data at any time from the app.",
+        privacyAppliesTo: "This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone) and tvOS (Apple TV).",
+
+        simpleVersionText: "We made this game app fun and safe! We show ads on iOS to keep the app free. The Apple TV version has no ads. You have full control over what data is shared, and you can delete your online data at any time from the app.",
 
         whatWeDontTakeTitle: "What We DON'T Collect",
         whatWeDontTake1: "We don't ask for your name, email, or phone number",
@@ -102,6 +104,7 @@ const translations = {
         aboutAdsTitle: "Advertising (Google AdMob)",
         aboutAdsText: "We show ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. Google AdMob may use your device's Advertising Identifier (IDFA) if you grant permission through Apple's App Tracking Transparency prompt.",
         aboutAdsPersonalization: "If you decline tracking, ads will still be shown but will not be personalized.",
+        aboutAdsTvos: "Apple TV (tvOS): The tvOS version of the app does not include advertising. No ads are shown and no advertising identifiers are collected on Apple TV.",
         aboutAdsProvider: "See Google's Privacy Policy for details on ad-related data collection.",
 
         leaderboardTitle: "Online Leaderboards & Profiles (Supabase)",
@@ -113,19 +116,26 @@ const translations = {
         leaderboardNoEmail: "No email address, real name, or contact information is collected.",
         leaderboardOptOut: "You can disable online sync at any time in Settings > Privacy > Leaderboard Sync.",
 
-        whatStaysOnPhoneTitle: "What Stays On Your Phone",
+        whatStaysOnPhoneTitle: "What Stays On Your Device",
         gameStuffTitle: "Your Game Data",
         scoresText: "Your Scores:",
-        scoresDescription: "All your reaction times are saved locally on your phone.",
+        scoresDescription: "All your reaction times are saved locally on your device.",
         settingsText: "Your Settings:",
-        settingsDescription: "Preferences like colors, sounds, and vibration choices stay on your phone.",
+        settingsDescription: "Preferences like colors, sounds, and vibration choices stay on your device.",
         appIconText: "Your App Icon:",
-        appIconDescription: "The app icon you pick stays on your phone.",
+        appIconDescription: "The app icon you pick stays on your device (iOS only).",
 
         gameCenterTitle: "Game Center (Apple GameKit)",
         gameCenter1: "The app integrates with Apple Game Center for leaderboards and achievements",
         gameCenter2: "This is optional - you can play without it",
         gameCenter3: "Game Center data is managed entirely by Apple under Apple's Privacy Policy",
+
+        tvosTitle: "Apple TV (tvOS) Specific",
+        tvosText: "The tvOS version of Lights Out: Reaction Timer shares most privacy characteristics with the iOS version, with the following differences:",
+        tvos1: "No advertising: The tvOS app does not include Google AdMob or any advertising framework. No ads are displayed and no advertising identifiers are collected.",
+        tvos2: "No app tracking: There is no App Tracking Transparency prompt on Apple TV since no advertising data is collected.",
+        tvos3: "Controller input: The app uses the Siri Remote via Apple's Game Controller framework. No additional device permissions are required.",
+        tvos4: "Same online features: Firebase Analytics, Supabase leaderboards, and Game Center work the same as on iOS and can be controlled through the in-app Settings.",
 
         dataSharingTitle: "Data Sharing",
         dataSharingText: "We do not sell, trade, or share your personal information with third parties. Data is only shared with the service providers listed above (Google, Apple, Supabase) as necessary to provide app functionality.",
@@ -142,7 +152,7 @@ const translations = {
         control2: "Disable online leaderboard sync in Settings > Privacy > Leaderboard Sync",
         control3: "Delete your online data in Settings > Privacy > Delete My Data",
         control4: "Choose if you want Game Center or not",
-        control5: "Change ad tracking in your phone's privacy settings",
+        control5: "Change ad tracking in your device's privacy settings (iOS only)",
         control6: "Delete the app to remove all local data",
 
         changesTitle: "Changes to This Policy",
@@ -172,7 +182,7 @@ const translations = {
         navAppStore: "App Store",
 
         heroTitle: "Lights Out: Reaction Timer",
-        heroSubtitle: "Entrenamiento de reaccion inspirado en la F1 con multiples modos de juego, clasificaciones globales y 10 temas de equipos oficiales. Gratis en iOS.",
+        heroSubtitle: "Entrenamiento de reaccion inspirado en la F1 con multiples modos de juego, clasificaciones globales y 10 temas de equipos oficiales. Gratis en iOS y Apple TV.",
         downloadAppStore: "Descargar en el App Store",
         privacyPolicyLink: "Politica de Privacidad",
 
@@ -225,8 +235,10 @@ const translations = {
         privacyHeaderTitle: "Politica de Privacidad para Lights Out: Reaction Timer",
         privacyLastUpdated: "Ultima actualizacion: 9 de febrero de 2026",
 
+        privacyAppliesTo: "Esta politica se aplica a Lights Out: Reaction Timer en todas las plataformas, incluyendo iOS (iPhone) y tvOS (Apple TV).",
+
         simpleVersionTitle: "La Version Simple",
-        simpleVersionText: "Hicimos esta aplicacion divertida y segura! Mostramos anuncios para mantener la app gratuita. Tienes control total sobre que datos se comparten, y puedes eliminar tus datos en linea en cualquier momento desde la app.",
+        simpleVersionText: "Hicimos esta aplicacion divertida y segura! Mostramos anuncios en iOS para mantener la app gratuita. La version de Apple TV no tiene anuncios. Tienes control total sobre que datos se comparten, y puedes eliminar tus datos en linea en cualquier momento desde la app.",
 
         whatWeDontTakeTitle: "Lo Que NO Recopilamos",
         whatWeDontTake1: "No pedimos tu nombre, correo electronico o numero de telefono",
@@ -244,6 +256,7 @@ const translations = {
         aboutAdsTitle: "Publicidad (Google AdMob)",
         aboutAdsText: "Mostramos anuncios para mantener la app gratuita. Los anuncios se muestran durante periodos de espera activados por salidas falsas repetidas. Google AdMob puede usar el Identificador de Publicidad (IDFA) de tu dispositivo si otorgas permiso a traves del aviso de Transparencia de Seguimiento de Apple.",
         aboutAdsPersonalization: "Si rechazas el seguimiento, los anuncios se seguiran mostrando pero no seran personalizados.",
+        aboutAdsTvos: "Apple TV (tvOS): La version de tvOS de la app no incluye publicidad. No se muestran anuncios ni se recopilan identificadores publicitarios en Apple TV.",
         aboutAdsProvider: "Consulta la Politica de Privacidad de Google para detalles sobre la recopilacion de datos publicitarios.",
 
         leaderboardTitle: "Clasificaciones y Perfiles en Linea (Supabase)",
@@ -255,19 +268,26 @@ const translations = {
         leaderboardNoEmail: "No se recopila correo electronico, nombre real ni informacion de contacto.",
         leaderboardOptOut: "Puedes desactivar la sincronizacion en linea en cualquier momento en Ajustes > Privacidad > Sincronizacion de Clasificaciones.",
 
-        whatStaysOnPhoneTitle: "Lo Que Se Queda en Tu Telefono",
+        whatStaysOnPhoneTitle: "Lo Que Se Queda en Tu Dispositivo",
         gameStuffTitle: "Tus Datos del Juego",
         scoresText: "Tus Puntuaciones:",
-        scoresDescription: "Todos tus tiempos de reaccion se guardan localmente en tu telefono.",
+        scoresDescription: "Todos tus tiempos de reaccion se guardan localmente en tu dispositivo.",
         settingsText: "Tus Configuraciones:",
-        settingsDescription: "Preferencias como colores, sonidos y opciones de vibracion se quedan en tu telefono.",
+        settingsDescription: "Preferencias como colores, sonidos y opciones de vibracion se quedan en tu dispositivo.",
         appIconText: "Tu Icono de Aplicacion:",
-        appIconDescription: "El icono de aplicacion que elijas se queda en tu telefono.",
+        appIconDescription: "El icono de aplicacion que elijas se queda en tu dispositivo (solo iOS).",
 
         gameCenterTitle: "Game Center (Apple GameKit)",
         gameCenter1: "La app se integra con Apple Game Center para clasificaciones y logros",
         gameCenter2: "Esto es opcional - puedes jugar sin el",
         gameCenter3: "Los datos de Game Center son gestionados completamente por Apple bajo la Politica de Privacidad de Apple",
+
+        tvosTitle: "Especifico de Apple TV (tvOS)",
+        tvosText: "La version tvOS de Lights Out: Reaction Timer comparte la mayoria de las caracteristicas de privacidad con la version iOS, con las siguientes diferencias:",
+        tvos1: "Sin publicidad: La app de tvOS no incluye Google AdMob ni ningun framework publicitario. No se muestran anuncios y no se recopilan identificadores publicitarios.",
+        tvos2: "Sin rastreo de apps: No hay solicitud de Transparencia de Seguimiento en Apple TV ya que no se recopilan datos publicitarios.",
+        tvos3: "Control remoto: La app usa el Siri Remote a traves del framework Game Controller de Apple. No se requieren permisos adicionales del dispositivo.",
+        tvos4: "Mismas funciones en linea: Firebase Analytics, clasificaciones de Supabase y Game Center funcionan igual que en iOS y se pueden controlar desde los Ajustes de la app.",
 
         dataSharingTitle: "Comparticion de Datos",
         dataSharingText: "No vendemos, intercambiamos ni compartimos tu informacion personal con terceros. Los datos solo se comparten con los proveedores de servicios mencionados (Google, Apple, Supabase) segun sea necesario para la funcionalidad de la app.",
@@ -284,7 +304,7 @@ const translations = {
         control2: "Desactivar sincronizacion de clasificaciones en Ajustes > Privacidad > Sincronizacion de Clasificaciones",
         control3: "Eliminar tus datos en linea en Ajustes > Privacidad > Eliminar Mis Datos",
         control4: "Elegir si quieres Game Center o no",
-        control5: "Cambiar el seguimiento de anuncios en los ajustes de privacidad de tu telefono",
+        control5: "Cambiar el seguimiento de anuncios en los ajustes de privacidad de tu dispositivo (solo iOS)",
         control6: "Eliminar la app para borrar todos los datos locales",
 
         changesTitle: "Cambios a Esta Politica",
@@ -314,7 +334,7 @@ const translations = {
         navAppStore: "App Store",
 
         heroTitle: "Lights Out: Reaction Timer",
-        heroSubtitle: "F1にインスパイアされた反応トレーニング。複数のゲームモード、グローバルリーダーボード、10チームの公式テーマ。iOSで無料。",
+        heroSubtitle: "F1にインスパイアされた反応トレーニング。複数のゲームモード、グローバルリーダーボード、10チームの公式テーマ。iOSとApple TVで無料。",
         downloadAppStore: "App Storeでダウンロード",
         privacyPolicyLink: "プライバシーポリシー",
 
@@ -367,8 +387,10 @@ const translations = {
         privacyHeaderTitle: "Lights Out: Reaction Timer のプライバシーポリシー",
         privacyLastUpdated: "最終更新：2026年2月9日",
 
+        privacyAppliesTo: "このポリシーは、iOS（iPhone）およびtvOS（Apple TV）を含むすべてのプラットフォームのLights Out: Reaction Timerに適用されます。",
+
         simpleVersionTitle: "シンプル版",
-        simpleVersionText: "このゲームアプリを楽しく安全に作りました！アプリを無料に保つために広告を表示します。共有されるデータは完全にコントロールでき、アプリからいつでもオンラインデータを削除できます。",
+        simpleVersionText: "このゲームアプリを楽しく安全に作りました！iOSではアプリを無料に保つために広告を表示します。Apple TV版には広告はありません。共有されるデータは完全にコントロールでき、アプリからいつでもオンラインデータを削除できます。",
 
         whatWeDontTakeTitle: "私たちが収集しないもの",
         whatWeDontTake1: "お名前、メールアドレス、電話番号は求めません",
@@ -386,6 +408,7 @@ const translations = {
         aboutAdsTitle: "広告（Google AdMob）",
         aboutAdsText: "アプリを無料に保つために広告を表示します。広告は繰り返しのフライングによるクールダウン期間中に表示されます。Appleのアプリトラッキング透明性プロンプトで許可を与えた場合、Google AdMobはデバイスの広告識別子（IDFA）を使用する場合があります。",
         aboutAdsPersonalization: "トラッキングを拒否しても広告は表示されますが、パーソナライズされません。",
+        aboutAdsTvos: "Apple TV（tvOS）：tvOS版のアプリには広告は含まれていません。Apple TVでは広告は表示されず、広告識別子も収集されません。",
         aboutAdsProvider: "広告関連のデータ収集の詳細については、Googleのプライバシーポリシーをご覧ください。",
 
         leaderboardTitle: "オンラインリーダーボードとプロフィール（Supabase）",
@@ -397,19 +420,26 @@ const translations = {
         leaderboardNoEmail: "メールアドレス、本名、連絡先情報は収集されません。",
         leaderboardOptOut: "設定 > プライバシー > リーダーボード同期でいつでもオンライン同期を無効にできます。",
 
-        whatStaysOnPhoneTitle: "あなたの電話に残るもの",
+        whatStaysOnPhoneTitle: "あなたのデバイスに残るもの",
         gameStuffTitle: "あなたのゲームデータ",
         scoresText: "あなたのスコア：",
-        scoresDescription: "すべての反応時間はあなたの電話にローカルに保存されます。",
+        scoresDescription: "すべての反応時間はあなたのデバイスにローカルに保存されます。",
         settingsText: "あなたの設定：",
-        settingsDescription: "色、音、振動の選択などの設定はあなたの電話に残ります。",
+        settingsDescription: "色、音、振動の選択などの設定はあなたのデバイスに残ります。",
         appIconText: "あなたのアプリアイコン：",
-        appIconDescription: "選択したアプリアイコンはあなたの電話に残ります。",
+        appIconDescription: "選択したアプリアイコンはあなたのデバイスに残ります（iOSのみ）。",
 
         gameCenterTitle: "Game Center（Apple GameKit）",
         gameCenter1: "アプリはApple Game Centerと連携してリーダーボードと実績を提供します",
         gameCenter2: "これはオプションです - なしでもプレイできます",
         gameCenter3: "Game CenterのデータはAppleのプライバシーポリシーの下でAppleが完全に管理します",
+
+        tvosTitle: "Apple TV（tvOS）固有の事項",
+        tvosText: "Lights Out: Reaction TimerのtvOS版は、iOS版とほとんどのプライバシー特性を共有していますが、以下の違いがあります：",
+        tvos1: "広告なし：tvOSアプリにはGoogle AdMobやその他の広告フレームワークは含まれていません。広告は表示されず、広告識別子も収集されません。",
+        tvos2: "アプリトラッキングなし：広告データが収集されないため、Apple TVにはアプリトラッキング透明性のプロンプトはありません。",
+        tvos3: "コントローラー入力：アプリはAppleのGame Controllerフレームワークを通じてSiri Remoteを使用します。追加のデバイス権限は必要ありません。",
+        tvos4: "同じオンライン機能：Firebase Analytics、Supabaseリーダーボード、Game CenterはiOSと同じように動作し、アプリ内の設定から制御できます。",
 
         dataSharingTitle: "データ共有",
         dataSharingText: "私たちはあなたの個人情報を第三者に販売、取引、共有しません。データはアプリの機能を提供するために必要な範囲でのみ、上記のサービスプロバイダー（Google、Apple、Supabase）と共有されます。",
@@ -426,7 +456,7 @@ const translations = {
         control2: "設定 > プライバシー > リーダーボード同期でオンラインリーダーボード同期を無効化",
         control3: "設定 > プライバシー > データを削除でオンラインデータを削除",
         control4: "Game Centerを使うかどうかを選択",
-        control5: "電話のプライバシー設定で広告トラッキングを変更",
+        control5: "デバイスのプライバシー設定で広告トラッキングを変更（iOSのみ）",
         control6: "アプリを削除してすべてのローカルデータを削除",
 
         changesTitle: "このポリシーの変更",
@@ -456,7 +486,7 @@ const translations = {
         navAppStore: "App Store",
 
         heroTitle: "Lights Out: Reaction Timer",
-        heroSubtitle: "Von der F1 inspiriertes Reaktionstraining mit mehreren Spielmodi, globalen Bestenlisten und 10 offiziellen Teamthemen. Kostenlos auf iOS.",
+        heroSubtitle: "Von der F1 inspiriertes Reaktionstraining mit mehreren Spielmodi, globalen Bestenlisten und 10 offiziellen Teamthemen. Kostenlos auf iOS und Apple TV.",
         downloadAppStore: "Im App Store herunterladen",
         privacyPolicyLink: "Datenschutzrichtlinie",
 
@@ -509,8 +539,10 @@ const translations = {
         privacyHeaderTitle: "Datenschutzrichtlinie fuer Lights Out: Reaction Timer",
         privacyLastUpdated: "Zuletzt aktualisiert: 9. Februar 2026",
 
+        privacyAppliesTo: "Diese Richtlinie gilt fuer Lights Out: Reaction Timer auf allen Plattformen, einschliesslich iOS (iPhone) und tvOS (Apple TV).",
+
         simpleVersionTitle: "Die Einfache Version",
-        simpleVersionText: "Wir haben diese Spiele-App spassig und sicher gemacht! Wir zeigen Werbung, um die App kostenlos zu halten. Du hast volle Kontrolle darueber, welche Daten geteilt werden, und kannst deine Online-Daten jederzeit aus der App loeschen.",
+        simpleVersionText: "Wir haben diese Spiele-App spassig und sicher gemacht! Wir zeigen Werbung auf iOS, um die App kostenlos zu halten. Die Apple TV-Version hat keine Werbung. Du hast volle Kontrolle darueber, welche Daten geteilt werden, und kannst deine Online-Daten jederzeit aus der App loeschen.",
 
         whatWeDontTakeTitle: "Was wir NICHT Erfassen",
         whatWeDontTake1: "Wir fragen nicht nach deinem Namen, E-Mail oder Telefonnummer",
@@ -528,6 +560,7 @@ const translations = {
         aboutAdsTitle: "Werbung (Google AdMob)",
         aboutAdsText: "Wir zeigen Werbung, um die App kostenlos zu halten. Werbung wird waehrend Abkuehlungsphasen angezeigt, die durch wiederholte Fehlstarts ausgeloest werden. Google AdMob kann die Werbe-ID (IDFA) deines Geraets verwenden, wenn du die Erlaubnis ueber Apples App-Tracking-Transparenz-Aufforderung erteilst.",
         aboutAdsPersonalization: "Wenn du das Tracking ablehnst, wird weiterhin Werbung angezeigt, aber nicht personalisiert.",
+        aboutAdsTvos: "Apple TV (tvOS): Die tvOS-Version der App enthaelt keine Werbung. Auf Apple TV werden keine Anzeigen geschaltet und keine Werbe-IDs erfasst.",
         aboutAdsProvider: "Siehe Googles Datenschutzrichtlinie fuer Details zur werbebezogenen Datenerfassung.",
 
         leaderboardTitle: "Online-Bestenlisten und Profile (Supabase)",
@@ -539,19 +572,26 @@ const translations = {
         leaderboardNoEmail: "Es werden keine E-Mail-Adresse, kein echter Name und keine Kontaktinformationen erfasst.",
         leaderboardOptOut: "Du kannst die Online-Synchronisierung jederzeit unter Einstellungen > Datenschutz > Bestenlisten-Sync deaktivieren.",
 
-        whatStaysOnPhoneTitle: "Was auf deinem Telefon Bleibt",
+        whatStaysOnPhoneTitle: "Was auf deinem Geraet Bleibt",
         gameStuffTitle: "Deine Spieldaten",
         scoresText: "Deine Punkte:",
-        scoresDescription: "Alle deine Reaktionszeiten werden lokal auf deinem Telefon gespeichert.",
+        scoresDescription: "Alle deine Reaktionszeiten werden lokal auf deinem Geraet gespeichert.",
         settingsText: "Deine Einstellungen:",
-        settingsDescription: "Einstellungen wie Farben, Toene und Vibrationsauswahl bleiben auf deinem Telefon.",
+        settingsDescription: "Einstellungen wie Farben, Toene und Vibrationsauswahl bleiben auf deinem Geraet.",
         appIconText: "Dein App-Symbol:",
-        appIconDescription: "Das App-Symbol, das du auswaehlst, bleibt auf deinem Telefon.",
+        appIconDescription: "Das App-Symbol, das du auswaehlst, bleibt auf deinem Geraet (nur iOS).",
 
         gameCenterTitle: "Game Center (Apple GameKit)",
         gameCenter1: "Die App integriert sich mit Apple Game Center fuer Bestenlisten und Erfolge",
         gameCenter2: "Das ist optional - du kannst ohne spielen",
         gameCenter3: "Game Center-Daten werden vollstaendig von Apple unter Apples Datenschutzrichtlinie verwaltet",
+
+        tvosTitle: "Apple TV (tvOS) Spezifisch",
+        tvosText: "Die tvOS-Version von Lights Out: Reaction Timer teilt die meisten Datenschutzeigenschaften mit der iOS-Version, mit folgenden Unterschieden:",
+        tvos1: "Keine Werbung: Die tvOS-App enthaelt kein Google AdMob oder anderes Werbe-Framework. Es werden keine Anzeigen geschaltet und keine Werbe-IDs erfasst.",
+        tvos2: "Kein App-Tracking: Auf Apple TV gibt es keine App-Tracking-Transparenz-Aufforderung, da keine Werbedaten erfasst werden.",
+        tvos3: "Controller-Eingabe: Die App nutzt die Siri Remote ueber Apples Game Controller Framework. Es sind keine zusaetzlichen Geraeteberechtigungen erforderlich.",
+        tvos4: "Gleiche Online-Funktionen: Firebase Analytics, Supabase-Bestenlisten und Game Center funktionieren wie auf iOS und koennen ueber die App-Einstellungen gesteuert werden.",
 
         dataSharingTitle: "Datenweitergabe",
         dataSharingText: "Wir verkaufen, handeln oder teilen deine persoenlichen Informationen nicht mit Dritten. Daten werden nur mit den oben aufgefuehrten Dienstanbietern (Google, Apple, Supabase) geteilt, soweit dies fuer die App-Funktionalitaet erforderlich ist.",
@@ -568,7 +608,7 @@ const translations = {
         control2: "Online-Bestenlisten-Sync deaktivieren unter Einstellungen > Datenschutz > Bestenlisten-Sync",
         control3: "Online-Daten loeschen unter Einstellungen > Datenschutz > Meine Daten Loeschen",
         control4: "Waehle, ob du Game Center willst oder nicht",
-        control5: "Aendere Werbe-Tracking in deinen Telefon-Datenschutzeinstellungen",
+        control5: "Aendere Werbe-Tracking in deinen Geraete-Datenschutzeinstellungen (nur iOS)",
         control6: "Loesche die App, um alle lokalen Daten zu entfernen",
 
         changesTitle: "Aenderungen dieser Richtlinie",
@@ -598,7 +638,7 @@ const translations = {
         navAppStore: "App Store",
 
         heroTitle: "Lights Out: Reaction Timer",
-        heroSubtitle: "Entrainement de reaction inspire de la F1 avec plusieurs modes de jeu, classements mondiaux et 10 themes d'equipes officiels. Gratuit sur iOS.",
+        heroSubtitle: "Entrainement de reaction inspire de la F1 avec plusieurs modes de jeu, classements mondiaux et 10 themes d'equipes officiels. Gratuit sur iOS et Apple TV.",
         downloadAppStore: "Telecharger sur l'App Store",
         privacyPolicyLink: "Politique de Confidentialite",
 
@@ -651,8 +691,10 @@ const translations = {
         privacyHeaderTitle: "Politique de Confidentialite pour Lights Out: Reaction Timer",
         privacyLastUpdated: "Derniere mise a jour : 9 fevrier 2026",
 
+        privacyAppliesTo: "Cette politique s'applique a Lights Out: Reaction Timer sur toutes les plateformes, y compris iOS (iPhone) et tvOS (Apple TV).",
+
         simpleVersionTitle: "La Version Simple",
-        simpleVersionText: "Nous avons rendu cette application de jeu amusante et sure ! Nous montrons des publicites pour garder l'application gratuite. Vous avez le controle total sur les donnees partagees, et vous pouvez supprimer vos donnees en ligne a tout moment depuis l'application.",
+        simpleVersionText: "Nous avons rendu cette application de jeu amusante et sure ! Nous montrons des publicites sur iOS pour garder l'application gratuite. La version Apple TV n'a pas de publicites. Vous avez le controle total sur les donnees partagees, et vous pouvez supprimer vos donnees en ligne a tout moment depuis l'application.",
 
         whatWeDontTakeTitle: "Ce Que Nous ne Collectons PAS",
         whatWeDontTake1: "Nous ne demandons pas votre nom, email ou numero de telephone",
@@ -670,6 +712,7 @@ const translations = {
         aboutAdsTitle: "Publicite (Google AdMob)",
         aboutAdsText: "Nous montrons des publicites pour garder l'application gratuite. Les publicites sont affichees pendant les periodes de refroidissement declenchees par des faux departs repetes. Google AdMob peut utiliser l'identifiant publicitaire (IDFA) de votre appareil si vous accordez l'autorisation via l'invite de Transparence du Suivi d'Apple.",
         aboutAdsPersonalization: "Si vous refusez le suivi, les publicites seront toujours affichees mais ne seront pas personnalisees.",
+        aboutAdsTvos: "Apple TV (tvOS) : La version tvOS de l'application n'inclut pas de publicite. Aucune publicite n'est affichee et aucun identifiant publicitaire n'est collecte sur Apple TV.",
         aboutAdsProvider: "Voir la Politique de Confidentialite de Google pour les details sur la collecte de donnees publicitaires.",
 
         leaderboardTitle: "Classements en Ligne et Profils (Supabase)",
@@ -681,19 +724,26 @@ const translations = {
         leaderboardNoEmail: "Aucune adresse email, nom reel ou information de contact n'est collecte.",
         leaderboardOptOut: "Vous pouvez desactiver la synchronisation en ligne a tout moment dans Parametres > Confidentialite > Sync Classements.",
 
-        whatStaysOnPhoneTitle: "Ce Qui Reste sur Votre Telephone",
+        whatStaysOnPhoneTitle: "Ce Qui Reste sur Votre Appareil",
         gameStuffTitle: "Vos Donnees de Jeu",
         scoresText: "Vos Scores :",
-        scoresDescription: "Tous vos temps de reaction sont sauvegardes localement sur votre telephone.",
+        scoresDescription: "Tous vos temps de reaction sont sauvegardes localement sur votre appareil.",
         settingsText: "Vos Parametres :",
-        settingsDescription: "Les preferences comme les couleurs, sons et choix de vibration restent sur votre telephone.",
+        settingsDescription: "Les preferences comme les couleurs, sons et choix de vibration restent sur votre appareil.",
         appIconText: "Votre Icone d'Application :",
-        appIconDescription: "L'icone d'application que vous choisissez reste sur votre telephone.",
+        appIconDescription: "L'icone d'application que vous choisissez reste sur votre appareil (iOS uniquement).",
 
         gameCenterTitle: "Game Center (Apple GameKit)",
         gameCenter1: "L'application s'integre avec Apple Game Center pour les classements et les succes",
         gameCenter2: "C'est optionnel - vous pouvez jouer sans",
         gameCenter3: "Les donnees Game Center sont entierement gerees par Apple sous la Politique de Confidentialite d'Apple",
+
+        tvosTitle: "Specifique a Apple TV (tvOS)",
+        tvosText: "La version tvOS de Lights Out: Reaction Timer partage la plupart des caracteristiques de confidentialite avec la version iOS, avec les differences suivantes :",
+        tvos1: "Pas de publicite : L'application tvOS n'inclut pas Google AdMob ni aucun framework publicitaire. Aucune publicite n'est affichee et aucun identifiant publicitaire n'est collecte.",
+        tvos2: "Pas de suivi d'application : Il n'y a pas d'invite de Transparence du Suivi sur Apple TV puisqu'aucune donnee publicitaire n'est collectee.",
+        tvos3: "Telecommande : L'application utilise la Siri Remote via le framework Game Controller d'Apple. Aucune autorisation supplementaire n'est requise.",
+        tvos4: "Memes fonctionnalites en ligne : Firebase Analytics, les classements Supabase et Game Center fonctionnent de la meme maniere que sur iOS et peuvent etre controles dans les Parametres de l'application.",
 
         dataSharingTitle: "Partage de Donnees",
         dataSharingText: "Nous ne vendons, echangeons ou partageons pas vos informations personnelles avec des tiers. Les donnees ne sont partagees qu'avec les fournisseurs de services listes ci-dessus (Google, Apple, Supabase) dans la mesure necessaire pour fournir les fonctionnalites de l'application.",
@@ -710,7 +760,7 @@ const translations = {
         control2: "Desactiver la synchronisation des classements dans Parametres > Confidentialite > Sync Classements",
         control3: "Supprimer vos donnees en ligne dans Parametres > Confidentialite > Supprimer Mes Donnees",
         control4: "Choisir si vous voulez Game Center ou non",
-        control5: "Modifier le suivi publicitaire dans les parametres de confidentialite de votre telephone",
+        control5: "Modifier le suivi publicitaire dans les parametres de confidentialite de votre appareil (iOS uniquement)",
         control6: "Supprimer l'application pour retirer toutes les donnees locales",
 
         changesTitle: "Modifications de Cette Politique",
@@ -740,7 +790,7 @@ const translations = {
         navAppStore: "App Store",
 
         heroTitle: "Lights Out: Reaction Timer",
-        heroSubtitle: "Treinamento de reacao inspirado na F1 com multiplos modos de jogo, placares globais e 10 temas de equipes oficiais. Gratis no iOS.",
+        heroSubtitle: "Treinamento de reacao inspirado na F1 com multiplos modos de jogo, placares globais e 10 temas de equipes oficiais. Gratis no iOS e Apple TV.",
         downloadAppStore: "Baixar na App Store",
         privacyPolicyLink: "Politica de Privacidade",
 
@@ -793,8 +843,10 @@ const translations = {
         privacyHeaderTitle: "Politica de Privacidade para Lights Out: Reaction Timer",
         privacyLastUpdated: "Ultima atualizacao: 9 de fevereiro de 2026",
 
+        privacyAppliesTo: "Esta politica se aplica ao Lights Out: Reaction Timer em todas as plataformas, incluindo iOS (iPhone) e tvOS (Apple TV).",
+
         simpleVersionTitle: "A Versao Simples",
-        simpleVersionText: "Fizemos este aplicativo de jogo divertido e seguro! Mostramos anuncios para manter o app gratuito. Voce tem controle total sobre quais dados sao compartilhados, e pode excluir seus dados online a qualquer momento pelo app.",
+        simpleVersionText: "Fizemos este aplicativo de jogo divertido e seguro! Mostramos anuncios no iOS para manter o app gratuito. A versao Apple TV nao tem anuncios. Voce tem controle total sobre quais dados sao compartilhados, e pode excluir seus dados online a qualquer momento pelo app.",
 
         whatWeDontTakeTitle: "O Que NAO Coletamos",
         whatWeDontTake1: "Nao pedimos seu nome, email ou numero de telefone",
@@ -812,6 +864,7 @@ const translations = {
         aboutAdsTitle: "Publicidade (Google AdMob)",
         aboutAdsText: "Mostramos anuncios para manter o app gratuito. Os anuncios sao exibidos durante periodos de espera acionados por largadas falsas repetidas. O Google AdMob pode usar o Identificador de Publicidade (IDFA) do seu dispositivo se voce conceder permissao atraves do aviso de Transparencia de Rastreamento da Apple.",
         aboutAdsPersonalization: "Se voce recusar o rastreamento, os anuncios ainda serao exibidos mas nao serao personalizados.",
+        aboutAdsTvos: "Apple TV (tvOS): A versao tvOS do app nao inclui publicidade. Nenhum anuncio e exibido e nenhum identificador publicitario e coletado no Apple TV.",
         aboutAdsProvider: "Veja a Politica de Privacidade do Google para detalhes sobre a coleta de dados publicitarios.",
 
         leaderboardTitle: "Placares Online e Perfis (Supabase)",
@@ -823,19 +876,26 @@ const translations = {
         leaderboardNoEmail: "Nenhum endereco de email, nome real ou informacao de contato e coletado.",
         leaderboardOptOut: "Voce pode desativar a sincronizacao online a qualquer momento em Ajustes > Privacidade > Sincronizacao de Placares.",
 
-        whatStaysOnPhoneTitle: "O Que Fica no Seu Telefone",
+        whatStaysOnPhoneTitle: "O Que Fica no Seu Dispositivo",
         gameStuffTitle: "Seus Dados do Jogo",
         scoresText: "Suas Pontuacoes:",
-        scoresDescription: "Todos os seus tempos de reacao sao salvos localmente no seu telefone.",
+        scoresDescription: "Todos os seus tempos de reacao sao salvos localmente no seu dispositivo.",
         settingsText: "Suas Configuracoes:",
-        settingsDescription: "Preferencias como cores, sons e opcoes de vibracao ficam no seu telefone.",
+        settingsDescription: "Preferencias como cores, sons e opcoes de vibracao ficam no seu dispositivo.",
         appIconText: "Seu Icone do Aplicativo:",
-        appIconDescription: "O icone do aplicativo que voce escolher fica no seu telefone.",
+        appIconDescription: "O icone do aplicativo que voce escolher fica no seu dispositivo (apenas iOS).",
 
         gameCenterTitle: "Game Center (Apple GameKit)",
         gameCenter1: "O app se integra com o Apple Game Center para placares e conquistas",
         gameCenter2: "Isso e opcional - voce pode jogar sem ele",
         gameCenter3: "Os dados do Game Center sao gerenciados inteiramente pela Apple sob a Politica de Privacidade da Apple",
+
+        tvosTitle: "Especifico do Apple TV (tvOS)",
+        tvosText: "A versao tvOS do Lights Out: Reaction Timer compartilha a maioria das caracteristicas de privacidade com a versao iOS, com as seguintes diferencas:",
+        tvos1: "Sem publicidade: O app tvOS nao inclui Google AdMob ou qualquer framework publicitario. Nenhum anuncio e exibido e nenhum identificador publicitario e coletado.",
+        tvos2: "Sem rastreamento de apps: Nao ha solicitacao de Transparencia de Rastreamento no Apple TV, pois nenhum dado publicitario e coletado.",
+        tvos3: "Controle remoto: O app usa o Siri Remote atraves do framework Game Controller da Apple. Nenhuma permissao adicional do dispositivo e necessaria.",
+        tvos4: "Mesmas funcoes online: Firebase Analytics, placares do Supabase e Game Center funcionam da mesma forma que no iOS e podem ser controlados nas Configuracoes do app.",
 
         dataSharingTitle: "Compartilhamento de Dados",
         dataSharingText: "Nao vendemos, trocamos ou compartilhamos suas informacoes pessoais com terceiros. Os dados sao compartilhados apenas com os provedores de servicos listados acima (Google, Apple, Supabase) conforme necessario para fornecer a funcionalidade do app.",
@@ -852,7 +912,7 @@ const translations = {
         control2: "Desativar sincronizacao de placares em Ajustes > Privacidade > Sincronizacao de Placares",
         control3: "Excluir seus dados online em Ajustes > Privacidade > Excluir Meus Dados",
         control4: "Escolher se quer Game Center ou nao",
-        control5: "Alterar rastreamento de anuncios nas configuracoes de privacidade do seu telefone",
+        control5: "Alterar rastreamento de anuncios nas configuracoes de privacidade do seu dispositivo (apenas iOS)",
         control6: "Excluir o app para remover todos os dados locais",
 
         changesTitle: "Alteracoes Nesta Politica",
