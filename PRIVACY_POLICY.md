@@ -99,4 +99,4 @@ We may update this policy from time to time. Changes will be posted on this page
 
 ## Contact
 
-If you have questions about this privacy policy, contact us at [GRT.feedback@pm.me](mailto:GRT.feedback@pm.me).
+If you have questions about this privacy policy, contact us at GRT.feedback at pm.me.

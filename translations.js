@@ -158,7 +158,7 @@ const translations = {
         dataDeletionAndroid2: "Confirm the deletion in the dialog",
         dataDeletionAndroid3: "Your Supabase profile, leaderboard scores, and all local data (scores, preferences) will be permanently deleted",
         dataDeletionAndroid4: "To also remove Google Play Games data, open the Google Play Games app > Settings > Delete Play Games account & data",
-        dataDeletionText2: "You can also remove all local data from any platform by uninstalling the app. If you need assistance with data deletion, contact us at GRT.feedback@pm.me.",
+        dataDeletionText2: "You can also remove all local data from any platform by uninstalling the app. If you need assistance with data deletion, contact us at GRT.feedback at pm.me.",
 
         kidsParentsTitle: "Children's Privacy",
         kidsParentsText: "The app does not knowingly collect information from children under 13. All data collection is anonymous and does not include personal identifiers.",
@@ -176,7 +176,7 @@ const translations = {
 
         questionsTitle: "Contact",
         questionsText: "If you have questions about this privacy policy, contact us at",
-        contactEmail: "GRT.feedback@pm.me"
+        contactEmail: "GRT.feedback at pm.me"
     },
 
     es: {
@@ -326,7 +326,7 @@ const translations = {
         dataDeletionAndroid2: "Confirma la eliminacion en el dialogo",
         dataDeletionAndroid3: "Tu perfil de Supabase, puntuaciones y todos los datos locales (puntuaciones, preferencias) seran eliminados permanentemente",
         dataDeletionAndroid4: "Para eliminar tambien los datos de Google Play Games, abre la app Google Play Games > Configuracion > Eliminar cuenta y datos de Play Games",
-        dataDeletionText2: "Tambien puedes eliminar todos los datos locales de cualquier plataforma desinstalando la app. Si necesitas ayuda con la eliminacion de datos, contactanos en GRT.feedback@pm.me.",
+        dataDeletionText2: "Tambien puedes eliminar todos los datos locales de cualquier plataforma desinstalando la app. Si necesitas ayuda con la eliminacion de datos, contactanos en GRT.feedback at pm.me.",
 
         kidsParentsTitle: "Privacidad de los Ninos",
         kidsParentsText: "La app no recopila intencionalmente informacion de ninos menores de 13 anos. Toda la recopilacion de datos es anonima y no incluye identificadores personales.",
@@ -344,7 +344,7 @@ const translations = {
 
         questionsTitle: "Contacto",
         questionsText: "Si tienes preguntas sobre esta politica de privacidad, contactanos en",
-        contactEmail: "GRT.feedback@pm.me"
+        contactEmail: "GRT.feedback at pm.me"
     },
 
     ja: {
@@ -494,7 +494,7 @@ const translations = {
         dataDeletionAndroid2: "ダイアログで削除を確認します",
         dataDeletionAndroid3: "Supabaseプロフィール、リーダーボードスコア、すべてのローカルデータ（スコア、設定）が完全に削除されます",
         dataDeletionAndroid4: "Google Play Gamesのデータも削除するには、Google Play Gamesアプリ > 設定 > Play Gamesアカウントとデータの削除を開きます",
-        dataDeletionText2: "アプリをアンインストールすることで、どのプラットフォームからでもすべてのローカルデータを削除できます。データ削除にサポートが必要な場合は、GRT.feedback@pm.meまでご連絡ください。",
+        dataDeletionText2: "アプリをアンインストールすることで、どのプラットフォームからでもすべてのローカルデータを削除できます。データ削除にサポートが必要な場合は、GRT.feedback at pm.meまでご連絡ください。",
 
         kidsParentsTitle: "子どものプライバシー",
         kidsParentsText: "アプリは13歳未満の子どもから意図的に情報を収集しません。すべてのデータ収集は匿名であり、個人識別子は含まれません。",
@@ -512,7 +512,7 @@ const translations = {
 
         questionsTitle: "お問い合わせ",
         questionsText: "このプライバシーポリシーについてご質問がある場合は、こちらまでご連絡ください：",
-        contactEmail: "GRT.feedback@pm.me"
+        contactEmail: "GRT.feedback at pm.me"
     },
 
     de: {
@@ -662,7 +662,7 @@ const translations = {
         dataDeletionAndroid2: "Bestatige die Loeschung im Dialog",
         dataDeletionAndroid3: "Dein Supabase-Profil, Bestenlisten-Punktzahlen und alle lokalen Daten (Punktzahlen, Einstellungen) werden dauerhaft geloescht",
         dataDeletionAndroid4: "Um auch Google Play Games-Daten zu loeschen, oeffne die Google Play Games App > Einstellungen > Play Games-Konto und -Daten loeschen",
-        dataDeletionText2: "Du kannst auch alle lokalen Daten von jeder Plattform entfernen, indem du die App deinstallierst. Wenn du Hilfe bei der Datenloeschung benoetigst, kontaktiere uns unter GRT.feedback@pm.me.",
+        dataDeletionText2: "Du kannst auch alle lokalen Daten von jeder Plattform entfernen, indem du die App deinstallierst. Wenn du Hilfe bei der Datenloeschung benoetigst, kontaktiere uns unter GRT.feedback at pm.me.",
 
         kidsParentsTitle: "Datenschutz fuer Kinder",
         kidsParentsText: "Die App erfasst wissentlich keine Informationen von Kindern unter 13 Jahren. Alle Datenerfassung ist anonym und enthaelt keine persoenlichen Identifikatoren.",
@@ -680,7 +680,7 @@ const translations = {
 
         questionsTitle: "Kontakt",
         questionsText: "Bei Fragen zu dieser Datenschutzrichtlinie kontaktiere uns unter",
-        contactEmail: "GRT.feedback@pm.me"
+        contactEmail: "GRT.feedback at pm.me"
     },
 
     fr: {
@@ -830,7 +830,7 @@ const translations = {
         dataDeletionAndroid2: "Confirmez la suppression dans le dialogue",
         dataDeletionAndroid3: "Votre profil Supabase, les scores des classements et toutes les donnees locales (scores, preferences) seront definitivement supprimes",
         dataDeletionAndroid4: "Pour supprimer egalement les donnees Google Play Games, ouvrez l'application Google Play Games > Parametres > Supprimer le compte et les donnees Play Games",
-        dataDeletionText2: "Vous pouvez egalement supprimer toutes les donnees locales de n'importe quelle plateforme en desinstallant l'application. Si vous avez besoin d'aide pour la suppression de donnees, contactez-nous a GRT.feedback@pm.me.",
+        dataDeletionText2: "Vous pouvez egalement supprimer toutes les donnees locales de n'importe quelle plateforme en desinstallant l'application. Si vous avez besoin d'aide pour la suppression de donnees, contactez-nous a GRT.feedback at pm.me.",
 
         kidsParentsTitle: "Confidentialite des Enfants",
         kidsParentsText: "L'application ne collecte pas sciemment des informations aupres d'enfants de moins de 13 ans. Toute collecte de donnees est anonyme et n'inclut pas d'identifiants personnels.",
@@ -848,7 +848,7 @@ const translations = {
 
         questionsTitle: "Contact",
         questionsText: "Si vous avez des questions sur cette politique de confidentialite, contactez-nous a",
-        contactEmail: "GRT.feedback@pm.me"
+        contactEmail: "GRT.feedback at pm.me"
     },
 
     pt: {
@@ -998,7 +998,7 @@ const translations = {
         dataDeletionAndroid2: "Confirme a exclusao no dialogo",
         dataDeletionAndroid3: "Seu perfil do Supabase, pontuacoes dos placares e todos os dados locais (pontuacoes, preferencias) serao permanentemente excluidos",
         dataDeletionAndroid4: "Para tambem remover dados do Google Play Games, abra o app Google Play Games > Configuracoes > Excluir conta e dados do Play Games",
-        dataDeletionText2: "Voce tambem pode remover todos os dados locais de qualquer plataforma desinstalando o app. Se precisar de ajuda com a exclusao de dados, entre em contato conosco em GRT.feedback@pm.me.",
+        dataDeletionText2: "Voce tambem pode remover todos os dados locais de qualquer plataforma desinstalando o app. Se precisar de ajuda com a exclusao de dados, entre em contato conosco em GRT.feedback at pm.me.",
 
         kidsParentsTitle: "Privacidade das Criancas",
         kidsParentsText: "O app nao coleta intencionalmente informacoes de criancas menores de 13 anos. Toda coleta de dados e anonima e nao inclui identificadores pessoais.",
@@ -1016,6 +1016,6 @@ const translations = {
 
         questionsTitle: "Contato",
         questionsText: "Se voce tiver duvidas sobre esta politica de privacidade, entre em contato conosco em",
-        contactEmail: "GRT.feedback@pm.me"
+        contactEmail: "GRT.feedback at pm.me"
     }
 };
