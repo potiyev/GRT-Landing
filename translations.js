@@ -81,10 +81,10 @@ const translations = {
 
         // Privacy Policy page
         privacyHeaderTitle: "Privacy Policy for Lights Out: Reaction Timer",
-        privacyLastUpdated: "Last Updated: February 9, 2026",
+        privacyLastUpdated: "Last Updated: February 10, 2026",
 
         simpleVersionTitle: "The Simple Version",
-        privacyAppliesTo: "This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone) and tvOS (Apple TV).",
+        privacyAppliesTo: "This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone), Android, and tvOS (Apple TV).",
 
         simpleVersionText: "We made this game app fun and safe! We show ads on iOS to keep the app free. The Apple TV version has no ads. You have full control over what data is shared, and you can delete your online data at any time from the app.",
 
@@ -110,7 +110,7 @@ const translations = {
         leaderboardTitle: "Online Leaderboards & Profiles (Supabase)",
         leaderboardText: "The app uses Supabase to store online leaderboard scores and player profiles. When Leaderboard Sync is enabled, the following data is stored:",
         leaderboard1: "An anonymous device-generated UUID (player ID)",
-        leaderboard2: "Game Center display name (if authenticated)",
+        leaderboard2: "Game Center or Google Play Games display name (if authenticated)",
         leaderboard3: "Selected emoji avatar and theme",
         leaderboard4: "Game scores, streaks, and statistics",
         leaderboardNoEmail: "No email address, real name, or contact information is collected.",
@@ -125,10 +125,16 @@ const translations = {
         appIconText: "Your App Icon:",
         appIconDescription: "The app icon you pick stays on your device (iOS only).",
 
-        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenterTitle: "Game Center (Apple GameKit) \u2014 iOS & tvOS",
         gameCenter1: "The app integrates with Apple Game Center for leaderboards and achievements",
         gameCenter2: "This is optional - you can play without it",
         gameCenter3: "Game Center data is managed entirely by Apple under Apple's Privacy Policy",
+
+        playGamesTitle: "Google Play Games Services \u2014 Android",
+        playGames1: "The Android app integrates with Google Play Games Services for leaderboards",
+        playGames2: "This is optional - you can play without signing in",
+        playGames3: "Play Games data is managed by Google under Google's Privacy Policy",
+        playGames4: "To delete Play Games data, open the Google Play Games app and go to Settings",
 
         tvosTitle: "Apple TV (tvOS) Specific",
         tvosText: "The tvOS version of Lights Out: Reaction Timer shares most privacy characteristics with the iOS version, with the following differences:",
@@ -141,8 +147,18 @@ const translations = {
         dataSharingText: "We do not sell, trade, or share your personal information with third parties. Data is only shared with the service providers listed above (Google, Apple, Supabase) as necessary to provide app functionality.",
 
         dataDeletionTitle: "Data Deletion",
-        dataDeletionText1: "You can delete all your online data (Supabase profile and scores) at any time by going to Settings > Privacy > Delete My Data. This permanently removes your online profile and scores, and assigns you a new anonymous identity.",
-        dataDeletionText2: "Local data (saved on your device) and Game Center records are managed separately and are not affected by this action. To remove Game Center data, manage it through your device's Game Center settings.",
+        dataDeletionText1: "You can delete all your online data (Supabase profile and scores) at any time from within the app. This permanently removes your online profile, leaderboard scores, and statistics from our servers, and assigns you a new anonymous identity.",
+        dataDeletionIosTitle: "iOS & tvOS (iPhone, Apple TV)",
+        dataDeletionIos1: "Open the app and go to Settings > Privacy > Delete My Data",
+        dataDeletionIos2: "Confirm the deletion in the dialog",
+        dataDeletionIos3: "Your Supabase profile and all leaderboard scores will be permanently deleted",
+        dataDeletionIos4: "To also remove Game Center data, go to your device's Settings > Game Center",
+        dataDeletionAndroidTitle: "Android",
+        dataDeletionAndroid1: "Open the app and go to Settings > Privacy > Delete My Data",
+        dataDeletionAndroid2: "Confirm the deletion in the dialog",
+        dataDeletionAndroid3: "Your Supabase profile, leaderboard scores, and all local data (scores, preferences) will be permanently deleted",
+        dataDeletionAndroid4: "To also remove Google Play Games data, open the Google Play Games app > Settings > Delete Play Games account & data",
+        dataDeletionText2: "You can also remove all local data from any platform by uninstalling the app. If you need assistance with data deletion, contact us at GRT.feedback@pm.me.",
 
         kidsParentsTitle: "Children's Privacy",
         kidsParentsText: "The app does not knowingly collect information from children under 13. All data collection is anonymous and does not include personal identifiers.",
@@ -151,8 +167,8 @@ const translations = {
         control1: "Disable analytics in Settings > Privacy > Share Analytics",
         control2: "Disable online leaderboard sync in Settings > Privacy > Leaderboard Sync",
         control3: "Delete your online data in Settings > Privacy > Delete My Data",
-        control4: "Choose if you want Game Center or not",
-        control5: "Change ad tracking in your device's privacy settings (iOS only)",
+        control4: "Choose if you want Game Center (iOS) or Google Play Games (Android) or not",
+        control5: "Change ad tracking in your device's privacy settings",
         control6: "Delete the app to remove all local data",
 
         changesTitle: "Changes to This Policy",
@@ -233,9 +249,9 @@ const translations = {
         footerAppStoreLink: "Listado del App Store",
 
         privacyHeaderTitle: "Politica de Privacidad para Lights Out: Reaction Timer",
-        privacyLastUpdated: "Ultima actualizacion: 9 de febrero de 2026",
+        privacyLastUpdated: "Ultima actualizacion: 10 de febrero de 2026",
 
-        privacyAppliesTo: "Esta politica se aplica a Lights Out: Reaction Timer en todas las plataformas, incluyendo iOS (iPhone) y tvOS (Apple TV).",
+        privacyAppliesTo: "Esta politica se aplica a Lights Out: Reaction Timer en todas las plataformas, incluyendo iOS (iPhone), Android y tvOS (Apple TV).",
 
         simpleVersionTitle: "La Version Simple",
         simpleVersionText: "Hicimos esta aplicacion divertida y segura! Mostramos anuncios en iOS para mantener la app gratuita. La version de Apple TV no tiene anuncios. Tienes control total sobre que datos se comparten, y puedes eliminar tus datos en linea en cualquier momento desde la app.",
@@ -262,7 +278,7 @@ const translations = {
         leaderboardTitle: "Clasificaciones y Perfiles en Linea (Supabase)",
         leaderboardText: "La app usa Supabase para almacenar puntuaciones de clasificacion en linea y perfiles de jugadores. Cuando la Sincronizacion de Clasificaciones esta habilitada, se almacenan los siguientes datos:",
         leaderboard1: "Un UUID anonimo generado por el dispositivo (ID de jugador)",
-        leaderboard2: "Nombre de Game Center (si esta autenticado)",
+        leaderboard2: "Nombre de Game Center o Google Play Games (si esta autenticado)",
         leaderboard3: "Avatar emoji y tema seleccionados",
         leaderboard4: "Puntuaciones del juego, rachas y estadisticas",
         leaderboardNoEmail: "No se recopila correo electronico, nombre real ni informacion de contacto.",
@@ -277,10 +293,16 @@ const translations = {
         appIconText: "Tu Icono de Aplicacion:",
         appIconDescription: "El icono de aplicacion que elijas se queda en tu dispositivo (solo iOS).",
 
-        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenterTitle: "Game Center (Apple GameKit) \u2014 iOS y tvOS",
         gameCenter1: "La app se integra con Apple Game Center para clasificaciones y logros",
         gameCenter2: "Esto es opcional - puedes jugar sin el",
         gameCenter3: "Los datos de Game Center son gestionados completamente por Apple bajo la Politica de Privacidad de Apple",
+
+        playGamesTitle: "Google Play Games Services \u2014 Android",
+        playGames1: "La app de Android se integra con Google Play Games Services para clasificaciones",
+        playGames2: "Esto es opcional - puedes jugar sin iniciar sesion",
+        playGames3: "Los datos de Play Games son gestionados por Google bajo la Politica de Privacidad de Google",
+        playGames4: "Para eliminar datos de Play Games, abre la app Google Play Games y ve a Configuracion",
 
         tvosTitle: "Especifico de Apple TV (tvOS)",
         tvosText: "La version tvOS de Lights Out: Reaction Timer comparte la mayoria de las caracteristicas de privacidad con la version iOS, con las siguientes diferencias:",
@@ -293,8 +315,18 @@ const translations = {
         dataSharingText: "No vendemos, intercambiamos ni compartimos tu informacion personal con terceros. Los datos solo se comparten con los proveedores de servicios mencionados (Google, Apple, Supabase) segun sea necesario para la funcionalidad de la app.",
 
         dataDeletionTitle: "Eliminacion de Datos",
-        dataDeletionText1: "Puedes eliminar todos tus datos en linea (perfil y puntuaciones de Supabase) en cualquier momento yendo a Ajustes > Privacidad > Eliminar Mis Datos. Esto elimina permanentemente tu perfil y puntuaciones en linea, y te asigna una nueva identidad anonima.",
-        dataDeletionText2: "Los datos locales (guardados en tu dispositivo) y los registros de Game Center se gestionan por separado y no se ven afectados por esta accion. Para eliminar datos de Game Center, gestionalos a traves de los ajustes de Game Center de tu dispositivo.",
+        dataDeletionText1: "Puedes eliminar todos tus datos en linea (perfil y puntuaciones de Supabase) en cualquier momento desde la app. Esto elimina permanentemente tu perfil en linea, puntuaciones y estadisticas de nuestros servidores, y te asigna una nueva identidad anonima.",
+        dataDeletionIosTitle: "iOS y tvOS (iPhone, Apple TV)",
+        dataDeletionIos1: "Abre la app y ve a Ajustes > Privacidad > Eliminar Mis Datos",
+        dataDeletionIos2: "Confirma la eliminacion en el dialogo",
+        dataDeletionIos3: "Tu perfil de Supabase y todas las puntuaciones seran eliminados permanentemente",
+        dataDeletionIos4: "Para eliminar tambien los datos de Game Center, ve a Ajustes > Game Center en tu dispositivo",
+        dataDeletionAndroidTitle: "Android",
+        dataDeletionAndroid1: "Abre la app y ve a Ajustes > Privacidad > Eliminar Mis Datos",
+        dataDeletionAndroid2: "Confirma la eliminacion en el dialogo",
+        dataDeletionAndroid3: "Tu perfil de Supabase, puntuaciones y todos los datos locales (puntuaciones, preferencias) seran eliminados permanentemente",
+        dataDeletionAndroid4: "Para eliminar tambien los datos de Google Play Games, abre la app Google Play Games > Configuracion > Eliminar cuenta y datos de Play Games",
+        dataDeletionText2: "Tambien puedes eliminar todos los datos locales de cualquier plataforma desinstalando la app. Si necesitas ayuda con la eliminacion de datos, contactanos en GRT.feedback@pm.me.",
 
         kidsParentsTitle: "Privacidad de los Ninos",
         kidsParentsText: "La app no recopila intencionalmente informacion de ninos menores de 13 anos. Toda la recopilacion de datos es anonima y no incluye identificadores personales.",
@@ -303,8 +335,8 @@ const translations = {
         control1: "Desactivar analiticas en Ajustes > Privacidad > Compartir Analiticas",
         control2: "Desactivar sincronizacion de clasificaciones en Ajustes > Privacidad > Sincronizacion de Clasificaciones",
         control3: "Eliminar tus datos en linea en Ajustes > Privacidad > Eliminar Mis Datos",
-        control4: "Elegir si quieres Game Center o no",
-        control5: "Cambiar el seguimiento de anuncios en los ajustes de privacidad de tu dispositivo (solo iOS)",
+        control4: "Elegir si quieres Game Center (iOS) o Google Play Games (Android) o no",
+        control5: "Cambiar el seguimiento de anuncios en los ajustes de privacidad de tu dispositivo",
         control6: "Eliminar la app para borrar todos los datos locales",
 
         changesTitle: "Cambios a Esta Politica",
@@ -385,9 +417,9 @@ const translations = {
         footerAppStoreLink: "App Store リスト",
 
         privacyHeaderTitle: "Lights Out: Reaction Timer のプライバシーポリシー",
-        privacyLastUpdated: "最終更新：2026年2月9日",
+        privacyLastUpdated: "最終更新：2026年2月10日",
 
-        privacyAppliesTo: "このポリシーは、iOS（iPhone）およびtvOS（Apple TV）を含むすべてのプラットフォームのLights Out: Reaction Timerに適用されます。",
+        privacyAppliesTo: "このポリシーは、iOS（iPhone）、Android、およびtvOS（Apple TV）を含むすべてのプラットフォームのLights Out: Reaction Timerに適用されます。",
 
         simpleVersionTitle: "シンプル版",
         simpleVersionText: "このゲームアプリを楽しく安全に作りました！iOSではアプリを無料に保つために広告を表示します。Apple TV版には広告はありません。共有されるデータは完全にコントロールでき、アプリからいつでもオンラインデータを削除できます。",
@@ -414,7 +446,7 @@ const translations = {
         leaderboardTitle: "オンラインリーダーボードとプロフィール（Supabase）",
         leaderboardText: "アプリはSupabaseを使用してオンラインリーダーボードのスコアとプレイヤープロフィールを保存します。リーダーボード同期が有効な場合、以下のデータが保存されます：",
         leaderboard1: "匿名のデバイス生成UUID（プレイヤーID）",
-        leaderboard2: "Game Center表示名（認証済みの場合）",
+        leaderboard2: "Game CenterまたはGoogle Play Gamesの表示名（認証済みの場合）",
         leaderboard3: "選択した絵文字アバターとテーマ",
         leaderboard4: "ゲームスコア、連続記録、統計",
         leaderboardNoEmail: "メールアドレス、本名、連絡先情報は収集されません。",
@@ -429,10 +461,16 @@ const translations = {
         appIconText: "あなたのアプリアイコン：",
         appIconDescription: "選択したアプリアイコンはあなたのデバイスに残ります（iOSのみ）。",
 
-        gameCenterTitle: "Game Center（Apple GameKit）",
+        gameCenterTitle: "Game Center（Apple GameKit）\u2014 iOSとtvOS",
         gameCenter1: "アプリはApple Game Centerと連携してリーダーボードと実績を提供します",
         gameCenter2: "これはオプションです - なしでもプレイできます",
         gameCenter3: "Game CenterのデータはAppleのプライバシーポリシーの下でAppleが完全に管理します",
+
+        playGamesTitle: "Google Play Games Services \u2014 Android",
+        playGames1: "Android版アプリはGoogle Play Games Servicesと連携してリーダーボードを提供します",
+        playGames2: "これはオプションです - サインインなしでもプレイできます",
+        playGames3: "Play GamesのデータはGoogleのプライバシーポリシーの下でGoogleが管理します",
+        playGames4: "Play Gamesのデータを削除するには、Google Play Gamesアプリを開き設定へ移動してください",
 
         tvosTitle: "Apple TV（tvOS）固有の事項",
         tvosText: "Lights Out: Reaction TimerのtvOS版は、iOS版とほとんどのプライバシー特性を共有していますが、以下の違いがあります：",
@@ -445,8 +483,18 @@ const translations = {
         dataSharingText: "私たちはあなたの個人情報を第三者に販売、取引、共有しません。データはアプリの機能を提供するために必要な範囲でのみ、上記のサービスプロバイダー（Google、Apple、Supabase）と共有されます。",
 
         dataDeletionTitle: "データ削除",
-        dataDeletionText1: "設定 > プライバシー > データを削除からいつでもすべてのオンラインデータ（Supabaseプロフィールとスコア）を削除できます。これによりオンラインプロフィールとスコアが完全に削除され、新しい匿名IDが割り当てられます。",
-        dataDeletionText2: "ローカルデータ（デバイスに保存）とGame Centerの記録は別途管理され、この操作の影響を受けません。Game Centerのデータを削除するには、デバイスのGame Center設定から管理してください。",
+        dataDeletionText1: "アプリ内からいつでもすべてのオンラインデータ（Supabaseプロフィールとスコア）を削除できます。これによりオンラインプロフィール、リーダーボードスコア、統計がサーバーから完全に削除され、新しい匿名IDが割り当てられます。",
+        dataDeletionIosTitle: "iOSとtvOS（iPhone、Apple TV）",
+        dataDeletionIos1: "アプリを開き、設定 > プライバシー > データを削除に移動します",
+        dataDeletionIos2: "ダイアログで削除を確認します",
+        dataDeletionIos3: "Supabaseプロフィールとすべてのリーダーボードスコアが完全に削除されます",
+        dataDeletionIos4: "Game Centerのデータも削除するには、デバイスの設定 > Game Centerに移動してください",
+        dataDeletionAndroidTitle: "Android",
+        dataDeletionAndroid1: "アプリを開き、設定 > プライバシー > データを削除に移動します",
+        dataDeletionAndroid2: "ダイアログで削除を確認します",
+        dataDeletionAndroid3: "Supabaseプロフィール、リーダーボードスコア、すべてのローカルデータ（スコア、設定）が完全に削除されます",
+        dataDeletionAndroid4: "Google Play Gamesのデータも削除するには、Google Play Gamesアプリ > 設定 > Play Gamesアカウントとデータの削除を開きます",
+        dataDeletionText2: "アプリをアンインストールすることで、どのプラットフォームからでもすべてのローカルデータを削除できます。データ削除にサポートが必要な場合は、GRT.feedback@pm.meまでご連絡ください。",
 
         kidsParentsTitle: "子どものプライバシー",
         kidsParentsText: "アプリは13歳未満の子どもから意図的に情報を収集しません。すべてのデータ収集は匿名であり、個人識別子は含まれません。",
@@ -455,8 +503,8 @@ const translations = {
         control1: "設定 > プライバシー > アナリティクスの共有でアナリティクスを無効化",
         control2: "設定 > プライバシー > リーダーボード同期でオンラインリーダーボード同期を無効化",
         control3: "設定 > プライバシー > データを削除でオンラインデータを削除",
-        control4: "Game Centerを使うかどうかを選択",
-        control5: "デバイスのプライバシー設定で広告トラッキングを変更（iOSのみ）",
+        control4: "Game Center（iOS）またはGoogle Play Games（Android）を使うかどうかを選択",
+        control5: "デバイスのプライバシー設定で広告トラッキングを変更",
         control6: "アプリを削除してすべてのローカルデータを削除",
 
         changesTitle: "このポリシーの変更",
@@ -537,9 +585,9 @@ const translations = {
         footerAppStoreLink: "App Store Eintrag",
 
         privacyHeaderTitle: "Datenschutzrichtlinie fuer Lights Out: Reaction Timer",
-        privacyLastUpdated: "Zuletzt aktualisiert: 9. Februar 2026",
+        privacyLastUpdated: "Zuletzt aktualisiert: 10. Februar 2026",
 
-        privacyAppliesTo: "Diese Richtlinie gilt fuer Lights Out: Reaction Timer auf allen Plattformen, einschliesslich iOS (iPhone) und tvOS (Apple TV).",
+        privacyAppliesTo: "Diese Richtlinie gilt fuer Lights Out: Reaction Timer auf allen Plattformen, einschliesslich iOS (iPhone), Android und tvOS (Apple TV).",
 
         simpleVersionTitle: "Die Einfache Version",
         simpleVersionText: "Wir haben diese Spiele-App spassig und sicher gemacht! Wir zeigen Werbung auf iOS, um die App kostenlos zu halten. Die Apple TV-Version hat keine Werbung. Du hast volle Kontrolle darueber, welche Daten geteilt werden, und kannst deine Online-Daten jederzeit aus der App loeschen.",
@@ -566,7 +614,7 @@ const translations = {
         leaderboardTitle: "Online-Bestenlisten und Profile (Supabase)",
         leaderboardText: "Die App verwendet Supabase, um Online-Bestenlisten-Punktzahlen und Spielerprofile zu speichern. Wenn die Bestenlisten-Synchronisierung aktiviert ist, werden folgende Daten gespeichert:",
         leaderboard1: "Eine anonyme, vom Geraet generierte UUID (Spieler-ID)",
-        leaderboard2: "Game Center Anzeigename (falls authentifiziert)",
+        leaderboard2: "Game Center- oder Google Play Games-Anzeigename (falls authentifiziert)",
         leaderboard3: "Ausgewaehlter Emoji-Avatar und Thema",
         leaderboard4: "Spielpunktzahlen, Serien und Statistiken",
         leaderboardNoEmail: "Es werden keine E-Mail-Adresse, kein echter Name und keine Kontaktinformationen erfasst.",
@@ -581,10 +629,16 @@ const translations = {
         appIconText: "Dein App-Symbol:",
         appIconDescription: "Das App-Symbol, das du auswaehlst, bleibt auf deinem Geraet (nur iOS).",
 
-        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenterTitle: "Game Center (Apple GameKit) \u2014 iOS und tvOS",
         gameCenter1: "Die App integriert sich mit Apple Game Center fuer Bestenlisten und Erfolge",
         gameCenter2: "Das ist optional - du kannst ohne spielen",
         gameCenter3: "Game Center-Daten werden vollstaendig von Apple unter Apples Datenschutzrichtlinie verwaltet",
+
+        playGamesTitle: "Google Play Games Services \u2014 Android",
+        playGames1: "Die Android-App integriert sich mit Google Play Games Services fuer Bestenlisten",
+        playGames2: "Das ist optional - du kannst ohne Anmeldung spielen",
+        playGames3: "Play Games-Daten werden von Google unter Googles Datenschutzrichtlinie verwaltet",
+        playGames4: "Um Play Games-Daten zu loeschen, oeffne die Google Play Games App und gehe zu Einstellungen",
 
         tvosTitle: "Apple TV (tvOS) Spezifisch",
         tvosText: "Die tvOS-Version von Lights Out: Reaction Timer teilt die meisten Datenschutzeigenschaften mit der iOS-Version, mit folgenden Unterschieden:",
@@ -597,8 +651,18 @@ const translations = {
         dataSharingText: "Wir verkaufen, handeln oder teilen deine persoenlichen Informationen nicht mit Dritten. Daten werden nur mit den oben aufgefuehrten Dienstanbietern (Google, Apple, Supabase) geteilt, soweit dies fuer die App-Funktionalitaet erforderlich ist.",
 
         dataDeletionTitle: "Datenloeschung",
-        dataDeletionText1: "Du kannst alle deine Online-Daten (Supabase-Profil und Punktzahlen) jederzeit unter Einstellungen > Datenschutz > Meine Daten Loeschen entfernen. Dies loescht dauerhaft dein Online-Profil und deine Punktzahlen und weist dir eine neue anonyme Identitaet zu.",
-        dataDeletionText2: "Lokale Daten (auf deinem Geraet gespeichert) und Game Center-Eintraege werden separat verwaltet und sind von dieser Aktion nicht betroffen. Um Game Center-Daten zu entfernen, verwalte sie ueber die Game Center-Einstellungen deines Geraets.",
+        dataDeletionText1: "Du kannst alle deine Online-Daten (Supabase-Profil und Punktzahlen) jederzeit aus der App heraus loeschen. Dies loescht dauerhaft dein Online-Profil, Bestenlisten-Punktzahlen und Statistiken von unseren Servern und weist dir eine neue anonyme Identitaet zu.",
+        dataDeletionIosTitle: "iOS und tvOS (iPhone, Apple TV)",
+        dataDeletionIos1: "Oeffne die App und gehe zu Einstellungen > Datenschutz > Meine Daten Loeschen",
+        dataDeletionIos2: "Bestatige die Loeschung im Dialog",
+        dataDeletionIos3: "Dein Supabase-Profil und alle Bestenlisten-Punktzahlen werden dauerhaft geloescht",
+        dataDeletionIos4: "Um auch Game Center-Daten zu entfernen, gehe zu Einstellungen > Game Center auf deinem Geraet",
+        dataDeletionAndroidTitle: "Android",
+        dataDeletionAndroid1: "Oeffne die App und gehe zu Einstellungen > Datenschutz > Meine Daten Loeschen",
+        dataDeletionAndroid2: "Bestatige die Loeschung im Dialog",
+        dataDeletionAndroid3: "Dein Supabase-Profil, Bestenlisten-Punktzahlen und alle lokalen Daten (Punktzahlen, Einstellungen) werden dauerhaft geloescht",
+        dataDeletionAndroid4: "Um auch Google Play Games-Daten zu loeschen, oeffne die Google Play Games App > Einstellungen > Play Games-Konto und -Daten loeschen",
+        dataDeletionText2: "Du kannst auch alle lokalen Daten von jeder Plattform entfernen, indem du die App deinstallierst. Wenn du Hilfe bei der Datenloeschung benoetigst, kontaktiere uns unter GRT.feedback@pm.me.",
 
         kidsParentsTitle: "Datenschutz fuer Kinder",
         kidsParentsText: "Die App erfasst wissentlich keine Informationen von Kindern unter 13 Jahren. Alle Datenerfassung ist anonym und enthaelt keine persoenlichen Identifikatoren.",
@@ -607,8 +671,8 @@ const translations = {
         control1: "Analytik deaktivieren unter Einstellungen > Datenschutz > Analytik Teilen",
         control2: "Online-Bestenlisten-Sync deaktivieren unter Einstellungen > Datenschutz > Bestenlisten-Sync",
         control3: "Online-Daten loeschen unter Einstellungen > Datenschutz > Meine Daten Loeschen",
-        control4: "Waehle, ob du Game Center willst oder nicht",
-        control5: "Aendere Werbe-Tracking in deinen Geraete-Datenschutzeinstellungen (nur iOS)",
+        control4: "Waehle, ob du Game Center (iOS) oder Google Play Games (Android) willst oder nicht",
+        control5: "Aendere Werbe-Tracking in deinen Geraete-Datenschutzeinstellungen",
         control6: "Loesche die App, um alle lokalen Daten zu entfernen",
 
         changesTitle: "Aenderungen dieser Richtlinie",
@@ -689,9 +753,9 @@ const translations = {
         footerAppStoreLink: "Fiche App Store",
 
         privacyHeaderTitle: "Politique de Confidentialite pour Lights Out: Reaction Timer",
-        privacyLastUpdated: "Derniere mise a jour : 9 fevrier 2026",
+        privacyLastUpdated: "Derniere mise a jour : 10 fevrier 2026",
 
-        privacyAppliesTo: "Cette politique s'applique a Lights Out: Reaction Timer sur toutes les plateformes, y compris iOS (iPhone) et tvOS (Apple TV).",
+        privacyAppliesTo: "Cette politique s'applique a Lights Out: Reaction Timer sur toutes les plateformes, y compris iOS (iPhone), Android et tvOS (Apple TV).",
 
         simpleVersionTitle: "La Version Simple",
         simpleVersionText: "Nous avons rendu cette application de jeu amusante et sure ! Nous montrons des publicites sur iOS pour garder l'application gratuite. La version Apple TV n'a pas de publicites. Vous avez le controle total sur les donnees partagees, et vous pouvez supprimer vos donnees en ligne a tout moment depuis l'application.",
@@ -718,7 +782,7 @@ const translations = {
         leaderboardTitle: "Classements en Ligne et Profils (Supabase)",
         leaderboardText: "L'application utilise Supabase pour stocker les scores des classements en ligne et les profils des joueurs. Lorsque la Synchronisation des Classements est activee, les donnees suivantes sont stockees :",
         leaderboard1: "Un UUID anonyme genere par l'appareil (ID joueur)",
-        leaderboard2: "Nom d'affichage Game Center (si authentifie)",
+        leaderboard2: "Nom d'affichage Game Center ou Google Play Games (si authentifie)",
         leaderboard3: "Avatar emoji et theme selectionnes",
         leaderboard4: "Scores de jeu, series et statistiques",
         leaderboardNoEmail: "Aucune adresse email, nom reel ou information de contact n'est collecte.",
@@ -733,10 +797,16 @@ const translations = {
         appIconText: "Votre Icone d'Application :",
         appIconDescription: "L'icone d'application que vous choisissez reste sur votre appareil (iOS uniquement).",
 
-        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenterTitle: "Game Center (Apple GameKit) \u2014 iOS et tvOS",
         gameCenter1: "L'application s'integre avec Apple Game Center pour les classements et les succes",
         gameCenter2: "C'est optionnel - vous pouvez jouer sans",
         gameCenter3: "Les donnees Game Center sont entierement gerees par Apple sous la Politique de Confidentialite d'Apple",
+
+        playGamesTitle: "Google Play Games Services \u2014 Android",
+        playGames1: "L'application Android s'integre avec Google Play Games Services pour les classements",
+        playGames2: "C'est optionnel - vous pouvez jouer sans vous connecter",
+        playGames3: "Les donnees Play Games sont gerees par Google sous la Politique de Confidentialite de Google",
+        playGames4: "Pour supprimer les donnees Play Games, ouvrez l'application Google Play Games et allez dans Parametres",
 
         tvosTitle: "Specifique a Apple TV (tvOS)",
         tvosText: "La version tvOS de Lights Out: Reaction Timer partage la plupart des caracteristiques de confidentialite avec la version iOS, avec les differences suivantes :",
@@ -749,8 +819,18 @@ const translations = {
         dataSharingText: "Nous ne vendons, echangeons ou partageons pas vos informations personnelles avec des tiers. Les donnees ne sont partagees qu'avec les fournisseurs de services listes ci-dessus (Google, Apple, Supabase) dans la mesure necessaire pour fournir les fonctionnalites de l'application.",
 
         dataDeletionTitle: "Suppression de Donnees",
-        dataDeletionText1: "Vous pouvez supprimer toutes vos donnees en ligne (profil et scores Supabase) a tout moment en allant dans Parametres > Confidentialite > Supprimer Mes Donnees. Cela supprime definitivement votre profil et vos scores en ligne, et vous attribue une nouvelle identite anonyme.",
-        dataDeletionText2: "Les donnees locales (sauvegardees sur votre appareil) et les enregistrements Game Center sont geres separement et ne sont pas affectes par cette action. Pour supprimer les donnees Game Center, gerez-les via les parametres Game Center de votre appareil.",
+        dataDeletionText1: "Vous pouvez supprimer toutes vos donnees en ligne (profil et scores Supabase) a tout moment depuis l'application. Cela supprime definitivement votre profil en ligne, vos scores et vos statistiques de nos serveurs, et vous attribue une nouvelle identite anonyme.",
+        dataDeletionIosTitle: "iOS et tvOS (iPhone, Apple TV)",
+        dataDeletionIos1: "Ouvrez l'application et allez dans Parametres > Confidentialite > Supprimer Mes Donnees",
+        dataDeletionIos2: "Confirmez la suppression dans le dialogue",
+        dataDeletionIos3: "Votre profil Supabase et tous les scores des classements seront definitivement supprimes",
+        dataDeletionIos4: "Pour supprimer egalement les donnees Game Center, allez dans Reglages > Game Center sur votre appareil",
+        dataDeletionAndroidTitle: "Android",
+        dataDeletionAndroid1: "Ouvrez l'application et allez dans Parametres > Confidentialite > Supprimer Mes Donnees",
+        dataDeletionAndroid2: "Confirmez la suppression dans le dialogue",
+        dataDeletionAndroid3: "Votre profil Supabase, les scores des classements et toutes les donnees locales (scores, preferences) seront definitivement supprimes",
+        dataDeletionAndroid4: "Pour supprimer egalement les donnees Google Play Games, ouvrez l'application Google Play Games > Parametres > Supprimer le compte et les donnees Play Games",
+        dataDeletionText2: "Vous pouvez egalement supprimer toutes les donnees locales de n'importe quelle plateforme en desinstallant l'application. Si vous avez besoin d'aide pour la suppression de donnees, contactez-nous a GRT.feedback@pm.me.",
 
         kidsParentsTitle: "Confidentialite des Enfants",
         kidsParentsText: "L'application ne collecte pas sciemment des informations aupres d'enfants de moins de 13 ans. Toute collecte de donnees est anonyme et n'inclut pas d'identifiants personnels.",
@@ -759,8 +839,8 @@ const translations = {
         control1: "Desactiver les analyses dans Parametres > Confidentialite > Partager les Analyses",
         control2: "Desactiver la synchronisation des classements dans Parametres > Confidentialite > Sync Classements",
         control3: "Supprimer vos donnees en ligne dans Parametres > Confidentialite > Supprimer Mes Donnees",
-        control4: "Choisir si vous voulez Game Center ou non",
-        control5: "Modifier le suivi publicitaire dans les parametres de confidentialite de votre appareil (iOS uniquement)",
+        control4: "Choisir si vous voulez Game Center (iOS) ou Google Play Games (Android) ou non",
+        control5: "Modifier le suivi publicitaire dans les parametres de confidentialite de votre appareil",
         control6: "Supprimer l'application pour retirer toutes les donnees locales",
 
         changesTitle: "Modifications de Cette Politique",
@@ -841,9 +921,9 @@ const translations = {
         footerAppStoreLink: "Listagem da App Store",
 
         privacyHeaderTitle: "Politica de Privacidade para Lights Out: Reaction Timer",
-        privacyLastUpdated: "Ultima atualizacao: 9 de fevereiro de 2026",
+        privacyLastUpdated: "Ultima atualizacao: 10 de fevereiro de 2026",
 
-        privacyAppliesTo: "Esta politica se aplica ao Lights Out: Reaction Timer em todas as plataformas, incluindo iOS (iPhone) e tvOS (Apple TV).",
+        privacyAppliesTo: "Esta politica se aplica ao Lights Out: Reaction Timer em todas as plataformas, incluindo iOS (iPhone), Android e tvOS (Apple TV).",
 
         simpleVersionTitle: "A Versao Simples",
         simpleVersionText: "Fizemos este aplicativo de jogo divertido e seguro! Mostramos anuncios no iOS para manter o app gratuito. A versao Apple TV nao tem anuncios. Voce tem controle total sobre quais dados sao compartilhados, e pode excluir seus dados online a qualquer momento pelo app.",
@@ -870,7 +950,7 @@ const translations = {
         leaderboardTitle: "Placares Online e Perfis (Supabase)",
         leaderboardText: "O app usa Supabase para armazenar pontuacoes de placares online e perfis de jogadores. Quando a Sincronizacao de Placares esta ativada, os seguintes dados sao armazenados:",
         leaderboard1: "Um UUID anonimo gerado pelo dispositivo (ID do jogador)",
-        leaderboard2: "Nome de exibicao do Game Center (se autenticado)",
+        leaderboard2: "Nome de exibicao do Game Center ou Google Play Games (se autenticado)",
         leaderboard3: "Avatar emoji e tema selecionados",
         leaderboard4: "Pontuacoes do jogo, sequencias e estatisticas",
         leaderboardNoEmail: "Nenhum endereco de email, nome real ou informacao de contato e coletado.",
@@ -885,10 +965,16 @@ const translations = {
         appIconText: "Seu Icone do Aplicativo:",
         appIconDescription: "O icone do aplicativo que voce escolher fica no seu dispositivo (apenas iOS).",
 
-        gameCenterTitle: "Game Center (Apple GameKit)",
+        gameCenterTitle: "Game Center (Apple GameKit) \u2014 iOS e tvOS",
         gameCenter1: "O app se integra com o Apple Game Center para placares e conquistas",
         gameCenter2: "Isso e opcional - voce pode jogar sem ele",
         gameCenter3: "Os dados do Game Center sao gerenciados inteiramente pela Apple sob a Politica de Privacidade da Apple",
+
+        playGamesTitle: "Google Play Games Services \u2014 Android",
+        playGames1: "O app Android se integra com o Google Play Games Services para placares",
+        playGames2: "Isso e opcional - voce pode jogar sem fazer login",
+        playGames3: "Os dados do Play Games sao gerenciados pelo Google sob a Politica de Privacidade do Google",
+        playGames4: "Para excluir dados do Play Games, abra o app Google Play Games e va para Configuracoes",
 
         tvosTitle: "Especifico do Apple TV (tvOS)",
         tvosText: "A versao tvOS do Lights Out: Reaction Timer compartilha a maioria das caracteristicas de privacidade com a versao iOS, com as seguintes diferencas:",
@@ -901,8 +987,18 @@ const translations = {
         dataSharingText: "Nao vendemos, trocamos ou compartilhamos suas informacoes pessoais com terceiros. Os dados sao compartilhados apenas com os provedores de servicos listados acima (Google, Apple, Supabase) conforme necessario para fornecer a funcionalidade do app.",
 
         dataDeletionTitle: "Exclusao de Dados",
-        dataDeletionText1: "Voce pode excluir todos os seus dados online (perfil e pontuacoes do Supabase) a qualquer momento indo em Ajustes > Privacidade > Excluir Meus Dados. Isso remove permanentemente seu perfil e pontuacoes online, e atribui uma nova identidade anonima.",
-        dataDeletionText2: "Dados locais (salvos no seu dispositivo) e registros do Game Center sao gerenciados separadamente e nao sao afetados por esta acao. Para remover dados do Game Center, gerencie-os atraves das configuracoes do Game Center do seu dispositivo.",
+        dataDeletionText1: "Voce pode excluir todos os seus dados online (perfil e pontuacoes do Supabase) a qualquer momento pelo app. Isso remove permanentemente seu perfil online, pontuacoes e estatisticas dos nossos servidores, e atribui uma nova identidade anonima.",
+        dataDeletionIosTitle: "iOS e tvOS (iPhone, Apple TV)",
+        dataDeletionIos1: "Abra o app e va para Ajustes > Privacidade > Excluir Meus Dados",
+        dataDeletionIos2: "Confirme a exclusao no dialogo",
+        dataDeletionIos3: "Seu perfil do Supabase e todas as pontuacoes dos placares serao permanentemente excluidos",
+        dataDeletionIos4: "Para tambem remover dados do Game Center, va para Ajustes > Game Center no seu dispositivo",
+        dataDeletionAndroidTitle: "Android",
+        dataDeletionAndroid1: "Abra o app e va para Ajustes > Privacidade > Excluir Meus Dados",
+        dataDeletionAndroid2: "Confirme a exclusao no dialogo",
+        dataDeletionAndroid3: "Seu perfil do Supabase, pontuacoes dos placares e todos os dados locais (pontuacoes, preferencias) serao permanentemente excluidos",
+        dataDeletionAndroid4: "Para tambem remover dados do Google Play Games, abra o app Google Play Games > Configuracoes > Excluir conta e dados do Play Games",
+        dataDeletionText2: "Voce tambem pode remover todos os dados locais de qualquer plataforma desinstalando o app. Se precisar de ajuda com a exclusao de dados, entre em contato conosco em GRT.feedback@pm.me.",
 
         kidsParentsTitle: "Privacidade das Criancas",
         kidsParentsText: "O app nao coleta intencionalmente informacoes de criancas menores de 13 anos. Toda coleta de dados e anonima e nao inclui identificadores pessoais.",
@@ -911,8 +1007,8 @@ const translations = {
         control1: "Desativar analiticas em Ajustes > Privacidade > Compartilhar Analiticas",
         control2: "Desativar sincronizacao de placares em Ajustes > Privacidade > Sincronizacao de Placares",
         control3: "Excluir seus dados online em Ajustes > Privacidade > Excluir Meus Dados",
-        control4: "Escolher se quer Game Center ou nao",
-        control5: "Alterar rastreamento de anuncios nas configuracoes de privacidade do seu dispositivo (apenas iOS)",
+        control4: "Escolher se quer Game Center (iOS) ou Google Play Games (Android) ou nao",
+        control5: "Alterar rastreamento de anuncios nas configuracoes de privacidade do seu dispositivo",
         control6: "Excluir o app para remover todos os dados locais",
 
         changesTitle: "Alteracoes Nesta Politica",

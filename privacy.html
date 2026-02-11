@@ -28,8 +28,8 @@
     <div class="container">
         <header>
             <h1 data-translate="privacyHeaderTitle">Privacy Policy for Lights Out: Reaction Timer</h1>
-            <p class="last-updated" data-translate="privacyLastUpdated">Last Updated: February 9, 2026</p>
-            <p class="lead" data-translate="privacyAppliesTo">This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone) and tvOS (Apple TV).</p>
+            <p class="last-updated" data-translate="privacyLastUpdated">Last Updated: February 10, 2026</p>
+            <p class="lead" data-translate="privacyAppliesTo">This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone), Android, and tvOS (Apple TV).</p>
         </header>
 
         <main>
@@ -70,7 +70,7 @@
                 <p data-translate="leaderboardText">The app uses Supabase to store online leaderboard scores and player profiles. When Leaderboard Sync is enabled, the following data is stored:</p>
                 <ul>
                     <li data-translate="leaderboard1">An anonymous device-generated UUID (player ID)</li>
-                    <li data-translate="leaderboard2">Game Center display name (if authenticated)</li>
+                    <li data-translate="leaderboard2">Game Center or Google Play Games display name (if authenticated)</li>
                     <li data-translate="leaderboard3">Selected emoji avatar and theme</li>
                     <li data-translate="leaderboard4">Game scores, streaks, and statistics</li>
                 </ul>
@@ -90,11 +90,21 @@
                 </div>
 
                 <div class="subsection">
-                    <h3 data-translate="gameCenterTitle">Game Center (Apple GameKit)</h3>
+                    <h3 data-translate="gameCenterTitle">Game Center (Apple GameKit) — iOS &amp; tvOS</h3>
                     <ul>
                         <li data-translate="gameCenter1">The app integrates with Apple Game Center for leaderboards and achievements</li>
                         <li data-translate="gameCenter2">This is optional - you can play without it</li>
                         <li data-translate="gameCenter3">Game Center data is managed entirely by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="subsection">
+                    <h3 data-translate="playGamesTitle">Google Play Games Services — Android</h3>
+                    <ul>
+                        <li data-translate="playGames1">The Android app integrates with Google Play Games Services for leaderboards</li>
+                        <li data-translate="playGames2">This is optional - you can play without signing in</li>
+                        <li data-translate="playGames3">Play Games data is managed by Google under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a></li>
+                        <li data-translate="playGames4">To delete Play Games data, open the Google Play Games app and go to Settings</li>
                     </ul>
                 </div>
             </section>
@@ -117,8 +127,29 @@
 
             <section>
                 <h2 data-translate="dataDeletionTitle">Data Deletion</h2>
-                <p data-translate="dataDeletionText1">You can delete all your online data (Supabase profile and scores) at any time by going to <strong>Settings &gt; Privacy &gt; Delete My Data</strong>. This permanently removes your online profile and scores, and assigns you a new anonymous identity.</p>
-                <p data-translate="dataDeletionText2">Local data (saved on your device) and Game Center records are managed separately and are not affected by this action. To remove Game Center data, manage it through your device's Game Center settings.</p>
+                <p data-translate="dataDeletionText1">You can delete all your online data (Supabase profile and scores) at any time from within the app. This permanently removes your online profile, leaderboard scores, and statistics from our servers, and assigns you a new anonymous identity.</p>
+
+                <div class="subsection">
+                    <h3 data-translate="dataDeletionIosTitle">iOS &amp; tvOS (iPhone, Apple TV)</h3>
+                    <ol>
+                        <li data-translate="dataDeletionIos1">Open the app and go to <strong>Settings &gt; Privacy &gt; Delete My Data</strong></li>
+                        <li data-translate="dataDeletionIos2">Confirm the deletion in the dialog</li>
+                        <li data-translate="dataDeletionIos3">Your Supabase profile and all leaderboard scores will be permanently deleted</li>
+                        <li data-translate="dataDeletionIos4">To also remove Game Center data, go to your device's <strong>Settings &gt; Game Center</strong></li>
+                    </ol>
+                </div>
+
+                <div class="subsection">
+                    <h3 data-translate="dataDeletionAndroidTitle">Android</h3>
+                    <ol>
+                        <li data-translate="dataDeletionAndroid1">Open the app and go to <strong>Settings &gt; Privacy &gt; Delete My Data</strong></li>
+                        <li data-translate="dataDeletionAndroid2">Confirm the deletion in the dialog</li>
+                        <li data-translate="dataDeletionAndroid3">Your Supabase profile, leaderboard scores, and all local data (scores, preferences) will be permanently deleted</li>
+                        <li data-translate="dataDeletionAndroid4">To also remove Google Play Games data, open the <strong>Google Play Games app &gt; Settings &gt; Delete Play Games account &amp; data</strong></li>
+                    </ol>
+                </div>
+
+                <p data-translate="dataDeletionText2">You can also remove all local data from any platform by uninstalling the app. If you need assistance with data deletion, contact us at <a href="mailto:GRT.feedback@pm.me">GRT.feedback@pm.me</a>.</p>
             </section>
 
             <section>
@@ -132,8 +163,8 @@
                     <li data-translate="control1">Disable analytics in Settings &gt; Privacy &gt; Share Analytics</li>
                     <li data-translate="control2">Disable online leaderboard sync in Settings &gt; Privacy &gt; Leaderboard Sync</li>
                     <li data-translate="control3">Delete your online data in Settings &gt; Privacy &gt; Delete My Data</li>
-                    <li data-translate="control4">Choose if you want Game Center or not</li>
-                    <li data-translate="control5">Change ad tracking in your device's privacy settings (iOS only)</li>
+                    <li data-translate="control4">Choose if you want Game Center (iOS) or Google Play Games (Android) or not</li>
+                    <li data-translate="control5">Change ad tracking in your device's privacy settings</li>
                     <li data-translate="control6">Delete the app to remove all local data</li>
                 </ul>
             </section>
