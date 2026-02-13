@@ -28,14 +28,14 @@
     <div class="container">
         <header>
             <h1 data-translate="privacyHeaderTitle">Privacy Policy for Lights Out: Reaction Timer</h1>
-            <p class="last-updated" data-translate="privacyLastUpdated">Last Updated: February 10, 2026</p>
-            <p class="lead" data-translate="privacyAppliesTo">This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone), Android, and tvOS (Apple TV).</p>
+            <p class="last-updated" data-translate="privacyLastUpdated">Last Updated: February 12, 2026</p>
+            <p class="lead" data-translate="privacyAppliesTo">This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone), Android, tvOS (Apple TV), and watchOS (Apple Watch).</p>
         </header>
 
         <main>
             <section>
                 <h2 data-translate="simpleVersionTitle">The Simple Version</h2>
-                <p class="lead" data-translate="simpleVersionText">We made this game app fun and safe! We show ads to keep the app free. You have full control over what data is shared, and you can delete your online data at any time from the app.</p>
+                <p class="lead" data-translate="simpleVersionText">We made this game fun and safe! We show non-personalized ads on iOS and Android to keep the app free. You have full control over what data is shared, and you can delete your online data at any time from the app.</p>
             </section>
 
             <section>
@@ -46,22 +46,24 @@
                     <li data-translate="whatWeDontTake3">We don't track where you go or what other apps you use</li>
                     <li data-translate="whatWeDontTake4">We don't record you or listen to your conversations</li>
                     <li data-translate="whatWeDontTake5">We don't know your exact location</li>
+                    <li data-translate="whatWeDontTake6">We don't use your advertising identifier (IDFA) on iOS</li>
+                    <li data-translate="whatWeDontTake7">We don't serve personalized ads</li>
                 </ul>
             </section>
 
             <section>
-                <h2 data-translate="analyticsTitle">Analytics (Firebase Analytics)</h2>
+                <h2 data-translate="analyticsTitle">Analytics (Firebase Analytics) &mdash; Opt-In</h2>
                 <p data-translate="analyticsText1">The app uses Firebase Analytics to collect anonymous usage data such as screen views, game events (starts, completions, false starts), and session counts. This helps us understand how the app is used and improve it.</p>
-                <p data-translate="analyticsText2">No personally identifiable information is collected through analytics.</p>
-                <p><strong data-translate="analyticsOptOut">You can disable analytics at any time in Settings &gt; Privacy &gt; Share Analytics.</strong></p>
+                <p><strong data-translate="analyticsOptIn">Analytics is disabled by default.</strong> <span data-translate="analyticsOptInDetail">On first launch, you'll be asked if you'd like to opt in. No personally identifiable information is collected through analytics.</span></p>
+                <p><strong data-translate="analyticsOptOut">You can change your choice at any time in Settings &gt; Privacy &gt; Share Analytics.</strong></p>
                 <p data-translate="analyticsProvider">Firebase Analytics is provided by Google. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
             </section>
 
             <section>
-                <h2 data-translate="aboutAdsTitle">Advertising (Google AdMob)</h2>
-                <p data-translate="aboutAdsText">We show ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. Google AdMob may use your device's Advertising Identifier (IDFA) if you grant permission through Apple's App Tracking Transparency prompt.</p>
-                <p data-translate="aboutAdsPersonalization">If you decline tracking, ads will still be shown but will not be personalized.</p>
-                <p data-translate="aboutAdsTvos"><strong>Apple TV (tvOS):</strong> The tvOS version of the app does not include advertising. No ads are shown and no advertising identifiers are collected on Apple TV.</p>
+                <h2 data-translate="aboutAdsTitle">Advertising (Google AdMob) &mdash; iOS &amp; Android</h2>
+                <p data-translate="aboutAdsText">We show non-personalized ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. All ads are non-personalized &mdash; we explicitly disable ad personalization and never request access to your advertising identifier (IDFA on iOS).</p>
+                <p data-translate="aboutAdsNoATT">No App Tracking Transparency prompt is shown on iOS because we do not track you across apps or websites.</p>
+                <p data-translate="aboutAdsTvos"><strong>Apple TV (tvOS) and Apple Watch:</strong> These versions do not include advertising. No ads are shown and no advertising data is collected.</p>
                 <p data-translate="aboutAdsProvider">See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for details on ad-related data collection.</p>
             </section>
 
@@ -72,9 +74,10 @@
                     <li data-translate="leaderboard1">An anonymous device-generated UUID (player ID)</li>
                     <li data-translate="leaderboard2">Game Center or Google Play Games display name (if authenticated)</li>
                     <li data-translate="leaderboard3">Selected emoji avatar and theme</li>
-                    <li data-translate="leaderboard4">Game scores, streaks, and statistics</li>
+                    <li data-translate="leaderboard4">Game scores and streaks</li>
+                    <li data-translate="leaderboard5">Performance statistics (best reaction time, average reaction time, consistency score)</li>
                 </ul>
-                <p data-translate="leaderboardNoEmail">No email address, real name, or contact information is collected.</p>
+                <p data-translate="leaderboardNoEmail">No email address, real name, or contact information is collected. We do not store recent game history or last-played timestamps.</p>
                 <p><strong data-translate="leaderboardOptOut">You can disable online sync at any time in Settings &gt; Privacy &gt; Leaderboard Sync.</strong></p>
             </section>
 
@@ -90,19 +93,19 @@
                 </div>
 
                 <div class="subsection">
-                    <h3 data-translate="gameCenterTitle">Game Center (Apple GameKit) — iOS &amp; tvOS</h3>
+                    <h3 data-translate="gameCenterTitle">Game Center (Apple GameKit) &mdash; iOS &amp; tvOS</h3>
                     <ul>
                         <li data-translate="gameCenter1">The app integrates with Apple Game Center for leaderboards and achievements</li>
-                        <li data-translate="gameCenter2">This is optional - you can play without it</li>
+                        <li data-translate="gameCenter2">This is optional &mdash; you can play without it</li>
                         <li data-translate="gameCenter3">Game Center data is managed entirely by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a></li>
                     </ul>
                 </div>
 
                 <div class="subsection">
-                    <h3 data-translate="playGamesTitle">Google Play Games Services — Android</h3>
+                    <h3 data-translate="playGamesTitle">Google Play Games Services &mdash; Android</h3>
                     <ul>
                         <li data-translate="playGames1">The Android app integrates with Google Play Games Services for leaderboards</li>
-                        <li data-translate="playGames2">This is optional - you can play without signing in</li>
+                        <li data-translate="playGames2">This is optional &mdash; you can play without signing in</li>
                         <li data-translate="playGames3">Play Games data is managed by Google under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a></li>
                         <li data-translate="playGames4">To delete Play Games data, open the Google Play Games app and go to Settings</li>
                     </ul>
@@ -111,13 +114,18 @@
 
             <section>
                 <h2 data-translate="tvosTitle">Apple TV (tvOS) Specific</h2>
-                <p data-translate="tvosText">The tvOS version of Lights Out: Reaction Timer shares most privacy characteristics with the iOS version, with the following differences:</p>
+                <p data-translate="tvosText">The tvOS version shares most privacy characteristics with the iOS version, with these differences:</p>
                 <ul>
-                    <li data-translate="tvos1"><strong>No advertising:</strong> The tvOS app does not include Google AdMob or any advertising framework. No ads are displayed and no advertising identifiers are collected.</li>
-                    <li data-translate="tvos2"><strong>No app tracking:</strong> There is no App Tracking Transparency prompt on Apple TV since no advertising data is collected.</li>
-                    <li data-translate="tvos3"><strong>Controller input:</strong> The app uses the Siri Remote via Apple's Game Controller framework. No additional device permissions are required.</li>
-                    <li data-translate="tvos4"><strong>Same online features:</strong> Firebase Analytics, Supabase leaderboards, and Game Center work the same as on iOS and can be controlled through the in-app Settings.</li>
+                    <li data-translate="tvos1"><strong>No advertising:</strong> No ads, no advertising frameworks, no advertising identifiers.</li>
+                    <li data-translate="tvos2"><strong>No app tracking:</strong> No tracking prompts since no advertising data is collected.</li>
+                    <li data-translate="tvos3"><strong>Controller input:</strong> Uses the Siri Remote via Apple's Game Controller framework. No additional permissions required.</li>
+                    <li data-translate="tvos4"><strong>Same online features:</strong> Firebase Analytics (opt-in), Supabase leaderboards, and Game Center work the same as iOS.</li>
                 </ul>
+            </section>
+
+            <section>
+                <h2 data-translate="iapTitle">In-App Purchases</h2>
+                <p data-translate="iapText">The app includes optional tip jar purchases processed through Apple's StoreKit (iOS/tvOS) or Google Play Billing (Android). We do not store any payment information &mdash; Apple and Google handle all payment processing under their respective privacy policies.</p>
             </section>
 
             <section>
@@ -144,7 +152,7 @@
                     <ol>
                         <li data-translate="dataDeletionAndroid1">Open the app and go to <strong>Settings &gt; Privacy &gt; Delete My Data</strong></li>
                         <li data-translate="dataDeletionAndroid2">Confirm the deletion in the dialog</li>
-                        <li data-translate="dataDeletionAndroid3">Your Supabase profile, leaderboard scores, and all local data (scores, preferences) will be permanently deleted</li>
+                        <li data-translate="dataDeletionAndroid3">Your Supabase profile, leaderboard scores, and all local data will be permanently deleted</li>
                         <li data-translate="dataDeletionAndroid4">To also remove Google Play Games data, open the <strong>Google Play Games app &gt; Settings &gt; Delete Play Games account &amp; data</strong></li>
                     </ol>
                 </div>
@@ -160,12 +168,11 @@
             <section>
                 <h2 data-translate="controlTitle">What You Can Control</h2>
                 <ul>
-                    <li data-translate="control1">Disable analytics in Settings &gt; Privacy &gt; Share Analytics</li>
+                    <li data-translate="control1">Analytics is off by default &mdash; opt in only if you want to help</li>
                     <li data-translate="control2">Disable online leaderboard sync in Settings &gt; Privacy &gt; Leaderboard Sync</li>
                     <li data-translate="control3">Delete your online data in Settings &gt; Privacy &gt; Delete My Data</li>
                     <li data-translate="control4">Choose if you want Game Center (iOS) or Google Play Games (Android) or not</li>
-                    <li data-translate="control5">Change ad tracking in your device's privacy settings</li>
-                    <li data-translate="control6">Delete the app to remove all local data</li>
+                    <li data-translate="control5">Delete the app to remove all local data</li>
                 </ul>
             </section>
 
