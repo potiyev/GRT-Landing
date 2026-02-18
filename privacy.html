@@ -28,14 +28,14 @@
     <div class="container">
         <header>
             <h1 data-translate="privacyHeaderTitle">Privacy Policy for Lights Out: Reaction Timer</h1>
-            <p class="last-updated" data-translate="privacyLastUpdated">Last Updated: February 12, 2026</p>
+            <p class="last-updated" data-translate="privacyLastUpdated">Last Updated: February 17, 2026</p>
             <p class="lead" data-translate="privacyAppliesTo">This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone), Android, tvOS (Apple TV), and watchOS (Apple Watch).</p>
         </header>
 
         <main>
             <section>
                 <h2 data-translate="simpleVersionTitle">The Simple Version</h2>
-                <p class="lead" data-translate="simpleVersionText">We made this game fun and safe! We show non-personalized ads on iOS and Android to keep the app free. You have full control over what data is shared, and you can delete your online data at any time from the app.</p>
+                <p class="lead" data-translate="simpleVersionText">We made this game fun and safe! We show ads on iOS and Android to keep the app free. On iOS, you choose whether ads can be personalized through Apple's App Tracking Transparency prompt. You have full control over what data is shared, and you can delete your online data at any time from the app.</p>
             </section>
 
             <section>
@@ -46,8 +46,6 @@
                     <li data-translate="whatWeDontTake3">We don't track where you go or what other apps you use</li>
                     <li data-translate="whatWeDontTake4">We don't record you or listen to your conversations</li>
                     <li data-translate="whatWeDontTake5">We don't know your exact location</li>
-                    <li data-translate="whatWeDontTake6">We don't use your advertising identifier (IDFA) on iOS</li>
-                    <li data-translate="whatWeDontTake7">We don't serve personalized ads</li>
                 </ul>
             </section>
 
@@ -56,13 +54,14 @@
                 <p data-translate="analyticsText1">The app uses Firebase Analytics to collect anonymous usage data such as screen views, game events (starts, completions, false starts), and session counts. This helps us understand how the app is used and improve it.</p>
                 <p><strong data-translate="analyticsOptIn">Analytics is disabled by default.</strong> <span data-translate="analyticsOptInDetail">On first launch, you'll be asked if you'd like to opt in. No personally identifiable information is collected through analytics.</span></p>
                 <p><strong data-translate="analyticsOptOut">You can change your choice at any time in Settings &gt; Privacy &gt; Share Analytics.</strong></p>
+                <p data-translate="analyticsTvos"><strong>Apple TV (tvOS) and Apple Watch:</strong> These versions do not include Firebase Analytics. No analytics data is collected.</p>
                 <p data-translate="analyticsProvider">Firebase Analytics is provided by Google. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
             </section>
 
             <section>
                 <h2 data-translate="aboutAdsTitle">Advertising (Google AdMob) &mdash; iOS &amp; Android</h2>
-                <p data-translate="aboutAdsText">We show non-personalized ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. All ads are non-personalized &mdash; we explicitly disable ad personalization and never request access to your advertising identifier (IDFA on iOS).</p>
-                <p data-translate="aboutAdsNoATT">No App Tracking Transparency prompt is shown on iOS because we do not track you across apps or websites.</p>
+                <p data-translate="aboutAdsText">We show ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. On iOS, you will see an App Tracking Transparency (ATT) prompt asking whether you allow tracking. If you allow it, Google AdMob may use your device's advertising identifier (IDFA) to serve personalized ads. If you decline, ads will still be shown but will not be personalized.</p>
+                <p data-translate="aboutAdsAndroid"><strong>Android:</strong> Google AdMob may collect advertising data as described in Google's Privacy Policy. You can manage ad personalization in your device's Google settings.</p>
                 <p data-translate="aboutAdsTvos"><strong>Apple TV (tvOS) and Apple Watch:</strong> These versions do not include advertising. No ads are shown and no advertising data is collected.</p>
                 <p data-translate="aboutAdsProvider">See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for details on ad-related data collection.</p>
             </section>
@@ -119,7 +118,19 @@
                     <li data-translate="tvos1"><strong>No advertising:</strong> No ads, no advertising frameworks, no advertising identifiers.</li>
                     <li data-translate="tvos2"><strong>No app tracking:</strong> No tracking prompts since no advertising data is collected.</li>
                     <li data-translate="tvos3"><strong>Controller input:</strong> Uses the Siri Remote via Apple's Game Controller framework. No additional permissions required.</li>
-                    <li data-translate="tvos4"><strong>Same online features:</strong> Firebase Analytics (opt-in), Supabase leaderboards, and Game Center work the same as iOS.</li>
+                    <li data-translate="tvos4"><strong>No analytics:</strong> Firebase Analytics is not included on tvOS. No analytics data is collected.</li>
+                    <li data-translate="tvos5"><strong>Same online features:</strong> Supabase leaderboards and Game Center work the same as iOS and can be controlled through the in-app Settings.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 data-translate="watchosTitle">Apple Watch (watchOS) Specific</h2>
+                <p data-translate="watchosText">The watchOS version is a standalone companion app with minimal data collection:</p>
+                <ul>
+                    <li data-translate="watchos1"><strong>No advertising:</strong> No ads, no advertising frameworks, no advertising identifiers.</li>
+                    <li data-translate="watchos2"><strong>No analytics:</strong> No Firebase Analytics or any analytics framework.</li>
+                    <li data-translate="watchos3"><strong>No online features:</strong> The Watch app stores all game data locally on the watch. No Supabase sync, no Game Center.</li>
+                    <li data-translate="watchos4"><strong>Local only:</strong> All scores, settings, and game data stay on your Apple Watch.</li>
                 </ul>
             </section>
 
@@ -172,7 +183,8 @@
                     <li data-translate="control2">Disable online leaderboard sync in Settings &gt; Privacy &gt; Leaderboard Sync</li>
                     <li data-translate="control3">Delete your online data in Settings &gt; Privacy &gt; Delete My Data</li>
                     <li data-translate="control4">Choose if you want Game Center (iOS) or Google Play Games (Android) or not</li>
-                    <li data-translate="control5">Delete the app to remove all local data</li>
+                    <li data-translate="control5">Control ad personalization via the App Tracking Transparency prompt on iOS, or in your device's privacy settings</li>
+                    <li data-translate="control6">Delete the app to remove all local data</li>
                 </ul>
             </section>
 

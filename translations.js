@@ -63,7 +63,7 @@ const translations = {
         moreFeature3: "Background music and sound effects with full audio controls",
         moreFeature4: "Apple Watch companion app for quick practice",
         moreFeature5: "Privacy controls: opt out of analytics, disable online sync, or delete your data anytime",
-        moreFeature6: "6 languages: English, Spanish, French, German, Japanese, and Portuguese",
+        moreFeature6: "12 languages: English, German, Spanish, French, Japanese, Portuguese, Italian, Korean, Dutch, Turkish, Simplified Chinese, and Traditional Chinese",
         moreFeature7: "Completely free with no in-app purchases",
 
         // Homepage - Screenshots
@@ -81,12 +81,12 @@ const translations = {
 
         // Privacy Policy page
         privacyHeaderTitle: "Privacy Policy for Lights Out: Reaction Timer",
-        privacyLastUpdated: "Last Updated: February 10, 2026",
+        privacyLastUpdated: "Last Updated: February 17, 2026",
 
         simpleVersionTitle: "The Simple Version",
         privacyAppliesTo: "This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone), Android, and tvOS (Apple TV).",
 
-        simpleVersionText: "We made this game app fun and safe! We show ads on iOS to keep the app free. The Apple TV version has no ads. You have full control over what data is shared, and you can delete your online data at any time from the app.",
+        simpleVersionText: "We made this game fun and safe! We show ads on iOS and Android to keep the app free. On iOS, you choose whether ads can be personalized through Apple's App Tracking Transparency prompt. You have full control over what data is shared, and you can delete your online data at any time from the app.",
 
         whatWeDontTakeTitle: "What We DON'T Collect",
         whatWeDontTake1: "We don't ask for your name, email, or phone number",
@@ -95,16 +95,18 @@ const translations = {
         whatWeDontTake4: "We don't record you or listen to your conversations",
         whatWeDontTake5: "We don't know your exact location",
 
-        analyticsTitle: "Analytics (Firebase Analytics)",
+        analyticsTitle: "Analytics (Firebase Analytics) \u2014 Opt-In",
         analyticsText1: "The app uses Firebase Analytics to collect anonymous usage data such as screen views, game events (starts, completions, false starts), and session counts. This helps us understand how the app is used and improve it.",
-        analyticsText2: "No personally identifiable information is collected through analytics.",
-        analyticsOptOut: "You can disable analytics at any time in Settings > Privacy > Share Analytics.",
+        analyticsOptIn: "Analytics is disabled by default.",
+        analyticsOptInDetail: "On first launch, you'll be asked if you'd like to opt in. No personally identifiable information is collected through analytics.",
+        analyticsOptOut: "You can change your choice at any time in Settings > Privacy > Share Analytics.",
+        analyticsTvos: "Apple TV (tvOS) and Apple Watch: These versions do not include Firebase Analytics. No analytics data is collected.",
         analyticsProvider: "Firebase Analytics is provided by Google. See Google's Privacy Policy.",
 
-        aboutAdsTitle: "Advertising (Google AdMob)",
-        aboutAdsText: "We show ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. Google AdMob may use your device's Advertising Identifier (IDFA) if you grant permission through Apple's App Tracking Transparency prompt.",
-        aboutAdsPersonalization: "If you decline tracking, ads will still be shown but will not be personalized.",
-        aboutAdsTvos: "Apple TV (tvOS): The tvOS version of the app does not include advertising. No ads are shown and no advertising identifiers are collected on Apple TV.",
+        aboutAdsTitle: "Advertising (Google AdMob) \u2014 iOS & Android",
+        aboutAdsText: "We show ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. On iOS, you will see an App Tracking Transparency (ATT) prompt asking whether you allow tracking. If you allow it, Google AdMob may use your device's advertising identifier (IDFA) to serve personalized ads. If you decline, ads will still be shown but will not be personalized.",
+        aboutAdsAndroid: "Android: Google AdMob may collect advertising data as described in Google's Privacy Policy. You can manage ad personalization in your device's Google settings.",
+        aboutAdsTvos: "Apple TV (tvOS) and Apple Watch: These versions do not include advertising. No ads are shown and no advertising data is collected.",
         aboutAdsProvider: "See Google's Privacy Policy for details on ad-related data collection.",
 
         leaderboardTitle: "Online Leaderboards & Profiles (Supabase)",
@@ -141,7 +143,8 @@ const translations = {
         tvos1: "No advertising: The tvOS app does not include Google AdMob or any advertising framework. No ads are displayed and no advertising identifiers are collected.",
         tvos2: "No app tracking: There is no App Tracking Transparency prompt on Apple TV since no advertising data is collected.",
         tvos3: "Controller input: The app uses the Siri Remote via Apple's Game Controller framework. No additional device permissions are required.",
-        tvos4: "Same online features: Firebase Analytics, Supabase leaderboards, and Game Center work the same as on iOS and can be controlled through the in-app Settings.",
+        tvos4: "No analytics: Firebase Analytics is not included on tvOS. No analytics data is collected.",
+        tvos5: "Same online features: Supabase leaderboards and Game Center work the same as on iOS and can be controlled through the in-app Settings.",
 
         dataSharingTitle: "Data Sharing",
         dataSharingText: "We do not sell, trade, or share your personal information with third parties. Data is only shared with the service providers listed above (Google, Apple, Supabase) as necessary to provide app functionality.",
@@ -163,12 +166,19 @@ const translations = {
         kidsParentsTitle: "Children's Privacy",
         kidsParentsText: "The app does not knowingly collect information from children under 13. All data collection is anonymous and does not include personal identifiers.",
 
+        watchosTitle: "Apple Watch (watchOS) Specific",
+        watchosText: "The watchOS version is a standalone companion app with minimal data collection:",
+        watchos1: "No advertising: No ads, no advertising frameworks, no advertising identifiers.",
+        watchos2: "No analytics: No Firebase Analytics or any analytics framework.",
+        watchos3: "No online features: The Watch app stores all game data locally on the watch. No Supabase sync, no Game Center.",
+        watchos4: "Local only: All scores, settings, and game data stay on your Apple Watch.",
+
         controlTitle: "What You Can Control",
-        control1: "Disable analytics in Settings > Privacy > Share Analytics",
+        control1: "Analytics is off by default \u2014 opt in only if you want to help",
         control2: "Disable online leaderboard sync in Settings > Privacy > Leaderboard Sync",
         control3: "Delete your online data in Settings > Privacy > Delete My Data",
         control4: "Choose if you want Game Center (iOS) or Google Play Games (Android) or not",
-        control5: "Change ad tracking in your device's privacy settings",
+        control5: "Control ad personalization via the App Tracking Transparency prompt on iOS, or in your device's privacy settings",
         control6: "Delete the app to remove all local data",
 
         changesTitle: "Changes to This Policy",
@@ -234,7 +244,7 @@ const translations = {
         moreFeature3: "Musica de fondo y efectos de sonido con controles de audio completos",
         moreFeature4: "App complementaria para Apple Watch para practica rapida",
         moreFeature5: "Controles de privacidad: desactiva analiticas, sincronizacion en linea o elimina tus datos en cualquier momento",
-        moreFeature6: "6 idiomas: ingles, espanol, frances, aleman, japones y portugues",
+        moreFeature6: "12 idiomas: ingles, aleman, espanol, frances, japones, portugues, italiano, coreano, neerlandes, turco, chino simplificado y chino tradicional",
         moreFeature7: "Completamente gratis sin compras en la aplicacion",
 
         screenshotsTitle: "Capturas de Pantalla",
@@ -249,12 +259,12 @@ const translations = {
         footerAppStoreLink: "Listado del App Store",
 
         privacyHeaderTitle: "Politica de Privacidad para Lights Out: Reaction Timer",
-        privacyLastUpdated: "Ultima actualizacion: 10 de febrero de 2026",
+        privacyLastUpdated: "Ultima actualizacion: 17 de febrero de 2026",
 
         privacyAppliesTo: "Esta politica se aplica a Lights Out: Reaction Timer en todas las plataformas, incluyendo iOS (iPhone), Android y tvOS (Apple TV).",
 
         simpleVersionTitle: "La Version Simple",
-        simpleVersionText: "Hicimos esta aplicacion divertida y segura! Mostramos anuncios en iOS para mantener la app gratuita. La version de Apple TV no tiene anuncios. Tienes control total sobre que datos se comparten, y puedes eliminar tus datos en linea en cualquier momento desde la app.",
+        simpleVersionText: "Hicimos este juego divertido y seguro! Mostramos anuncios en iOS y Android para mantener la app gratuita. En iOS, tu decides si los anuncios pueden personalizarse a traves del aviso de App Tracking Transparency de Apple. Tienes control total sobre que datos se comparten, y puedes eliminar tus datos en linea en cualquier momento desde la app.",
 
         whatWeDontTakeTitle: "Lo Que NO Recopilamos",
         whatWeDontTake1: "No pedimos tu nombre, correo electronico o numero de telefono",
@@ -263,16 +273,18 @@ const translations = {
         whatWeDontTake4: "No te grabamos ni escuchamos tus conversaciones",
         whatWeDontTake5: "No conocemos tu ubicacion exacta",
 
-        analyticsTitle: "Analiticas (Firebase Analytics)",
+        analyticsTitle: "Analiticas (Firebase Analytics) \u2014 Opt-In",
         analyticsText1: "La app usa Firebase Analytics para recopilar datos de uso anonimos como vistas de pantalla, eventos de juego (inicios, finalizaciones, salidas falsas) y conteos de sesiones. Esto nos ayuda a entender como se usa la app y mejorarla.",
-        analyticsText2: "No se recopila informacion de identificacion personal a traves de las analiticas.",
-        analyticsOptOut: "Puedes desactivar las analiticas en cualquier momento en Ajustes > Privacidad > Compartir Analiticas.",
+        analyticsOptIn: "Las analiticas estan desactivadas por defecto.",
+        analyticsOptInDetail: "Al primer inicio, se te preguntara si deseas activarlas. No se recopila informacion de identificacion personal a traves de las analiticas.",
+        analyticsOptOut: "Puedes cambiar tu eleccion en cualquier momento en Ajustes > Privacidad > Compartir Analiticas.",
+        analyticsTvos: "Apple TV (tvOS) y Apple Watch: Estas versiones no incluyen Firebase Analytics. No se recopilan datos de analiticas.",
         analyticsProvider: "Firebase Analytics es proporcionado por Google. Consulta la Politica de Privacidad de Google.",
 
-        aboutAdsTitle: "Publicidad (Google AdMob)",
-        aboutAdsText: "Mostramos anuncios para mantener la app gratuita. Los anuncios se muestran durante periodos de espera activados por salidas falsas repetidas. Google AdMob puede usar el Identificador de Publicidad (IDFA) de tu dispositivo si otorgas permiso a traves del aviso de Transparencia de Seguimiento de Apple.",
-        aboutAdsPersonalization: "Si rechazas el seguimiento, los anuncios se seguiran mostrando pero no seran personalizados.",
-        aboutAdsTvos: "Apple TV (tvOS): La version de tvOS de la app no incluye publicidad. No se muestran anuncios ni se recopilan identificadores publicitarios en Apple TV.",
+        aboutAdsTitle: "Publicidad (Google AdMob) \u2014 iOS y Android",
+        aboutAdsText: "Mostramos anuncios para mantener la app gratuita. Los anuncios se muestran durante periodos de espera activados por salidas falsas repetidas. En iOS, veras un aviso de App Tracking Transparency (ATT) preguntando si permites el seguimiento. Si lo permites, Google AdMob puede usar el identificador publicitario (IDFA) de tu dispositivo para mostrar anuncios personalizados. Si lo rechazas, los anuncios se seguiran mostrando pero no seran personalizados.",
+        aboutAdsAndroid: "Android: Google AdMob puede recopilar datos publicitarios segun se describe en la Politica de Privacidad de Google. Puedes gestionar la personalizacion de anuncios en los ajustes de Google de tu dispositivo.",
+        aboutAdsTvos: "Apple TV (tvOS) y Apple Watch: Estas versiones no incluyen publicidad. No se muestran anuncios ni se recopilan datos publicitarios.",
         aboutAdsProvider: "Consulta la Politica de Privacidad de Google para detalles sobre la recopilacion de datos publicitarios.",
 
         leaderboardTitle: "Clasificaciones y Perfiles en Linea (Supabase)",
@@ -309,7 +321,15 @@ const translations = {
         tvos1: "Sin publicidad: La app de tvOS no incluye Google AdMob ni ningun framework publicitario. No se muestran anuncios y no se recopilan identificadores publicitarios.",
         tvos2: "Sin rastreo de apps: No hay solicitud de Transparencia de Seguimiento en Apple TV ya que no se recopilan datos publicitarios.",
         tvos3: "Control remoto: La app usa el Siri Remote a traves del framework Game Controller de Apple. No se requieren permisos adicionales del dispositivo.",
-        tvos4: "Mismas funciones en linea: Firebase Analytics, clasificaciones de Supabase y Game Center funcionan igual que en iOS y se pueden controlar desde los Ajustes de la app.",
+        tvos4: "Sin analiticas: Firebase Analytics no esta incluido en tvOS. No se recopilan datos de analiticas.",
+        tvos5: "Mismas funciones en linea: Las clasificaciones de Supabase y Game Center funcionan igual que en iOS y se pueden controlar desde los Ajustes de la app.",
+
+        watchosTitle: "Especifico de Apple Watch (watchOS)",
+        watchosText: "La version watchOS es una app complementaria independiente con recopilacion de datos minima:",
+        watchos1: "Sin publicidad: Sin anuncios, sin frameworks publicitarios, sin identificadores publicitarios.",
+        watchos2: "Sin analiticas: Sin Firebase Analytics ni ningun framework de analiticas.",
+        watchos3: "Sin funciones en linea: La app del Watch almacena todos los datos del juego localmente en el reloj. Sin sincronizacion con Supabase, sin Game Center.",
+        watchos4: "Solo local: Todos los puntajes, ajustes y datos del juego permanecen en tu Apple Watch.",
 
         dataSharingTitle: "Comparticion de Datos",
         dataSharingText: "No vendemos, intercambiamos ni compartimos tu informacion personal con terceros. Los datos solo se comparten con los proveedores de servicios mencionados (Google, Apple, Supabase) segun sea necesario para la funcionalidad de la app.",
@@ -332,11 +352,11 @@ const translations = {
         kidsParentsText: "La app no recopila intencionalmente informacion de ninos menores de 13 anos. Toda la recopilacion de datos es anonima y no incluye identificadores personales.",
 
         controlTitle: "Lo Que Puedes Controlar",
-        control1: "Desactivar analiticas en Ajustes > Privacidad > Compartir Analiticas",
+        control1: "Las analiticas estan desactivadas por defecto \u2014 activalas solo si quieres ayudar",
         control2: "Desactivar sincronizacion de clasificaciones en Ajustes > Privacidad > Sincronizacion de Clasificaciones",
         control3: "Eliminar tus datos en linea en Ajustes > Privacidad > Eliminar Mis Datos",
         control4: "Elegir si quieres Game Center (iOS) o Google Play Games (Android) o no",
-        control5: "Cambiar el seguimiento de anuncios en los ajustes de privacidad de tu dispositivo",
+        control5: "Controla la personalizacion de anuncios a traves del aviso de App Tracking Transparency en iOS, o en los ajustes de privacidad de tu dispositivo",
         control6: "Eliminar la app para borrar todos los datos locales",
 
         changesTitle: "Cambios a Esta Politica",
@@ -402,7 +422,7 @@ const translations = {
         moreFeature3: "BGMとサウンドエフェクト（フルオーディオコントロール付き）",
         moreFeature4: "Apple Watchコンパニオンアプリで素早く練習",
         moreFeature5: "プライバシーコントロール：分析のオプトアウト、オンライン同期の無効化、いつでもデータ削除",
-        moreFeature6: "6言語対応：英語、スペイン語、フランス語、ドイツ語、日本語、ポルトガル語",
+        moreFeature6: "12言語対応：英語、ドイツ語、スペイン語、フランス語、日本語、ポルトガル語、イタリア語、韓国語、オランダ語、トルコ語、簡体字中国語、繁体字中国語",
         moreFeature7: "アプリ内課金なしの完全無料",
 
         screenshotsTitle: "スクリーンショット",
@@ -417,12 +437,12 @@ const translations = {
         footerAppStoreLink: "App Store リスト",
 
         privacyHeaderTitle: "Lights Out: Reaction Timer のプライバシーポリシー",
-        privacyLastUpdated: "最終更新：2026年2月10日",
+        privacyLastUpdated: "最終更新：2026年2月17日",
 
         privacyAppliesTo: "このポリシーは、iOS（iPhone）、Android、およびtvOS（Apple TV）を含むすべてのプラットフォームのLights Out: Reaction Timerに適用されます。",
 
         simpleVersionTitle: "シンプル版",
-        simpleVersionText: "このゲームアプリを楽しく安全に作りました！iOSではアプリを無料に保つために広告を表示します。Apple TV版には広告はありません。共有されるデータは完全にコントロールでき、アプリからいつでもオンラインデータを削除できます。",
+        simpleVersionText: "このゲームを楽しく安全に作りました！iOSとAndroidではアプリを無料に保つために広告を表示します。iOSでは、AppleのApp Tracking Transparencyプロンプトを通じて広告のパーソナライズを許可するかどうかを選択できます。共有されるデータは完全にコントロールでき、アプリからいつでもオンラインデータを削除できます。",
 
         whatWeDontTakeTitle: "私たちが収集しないもの",
         whatWeDontTake1: "お名前、メールアドレス、電話番号は求めません",
@@ -431,16 +451,18 @@ const translations = {
         whatWeDontTake4: "録音や会話の盗聴はしません",
         whatWeDontTake5: "正確な位置は知りません",
 
-        analyticsTitle: "アナリティクス（Firebase Analytics）",
+        analyticsTitle: "アナリティクス（Firebase Analytics）\u2014 オプトイン",
         analyticsText1: "アプリはFirebase Analyticsを使用して、画面表示、ゲームイベント（開始、完了、フライング）、セッション数などの匿名の使用データを収集します。これにより、アプリの使用方法を理解し改善するのに役立ちます。",
-        analyticsText2: "アナリティクスを通じて個人を特定できる情報は収集されません。",
-        analyticsOptOut: "設定 > プライバシー > アナリティクスの共有でいつでもアナリティクスを無効にできます。",
+        analyticsOptIn: "アナリティクスはデフォルトで無効になっています。",
+        analyticsOptInDetail: "初回起動時にオプトインするかどうかを確認します。アナリティクスを通じて個人を特定できる情報は収集されません。",
+        analyticsOptOut: "設定 > プライバシー > アナリティクスの共有でいつでも選択を変更できます。",
+        analyticsTvos: "Apple TV（tvOS）およびApple Watch：これらのバージョンにはFirebase Analyticsは含まれていません。アナリティクスデータは収集されません。",
         analyticsProvider: "Firebase AnalyticsはGoogleが提供しています。Googleのプライバシーポリシーをご覧ください。",
 
-        aboutAdsTitle: "広告（Google AdMob）",
-        aboutAdsText: "アプリを無料に保つために広告を表示します。広告は繰り返しのフライングによるクールダウン期間中に表示されます。Appleのアプリトラッキング透明性プロンプトで許可を与えた場合、Google AdMobはデバイスの広告識別子（IDFA）を使用する場合があります。",
-        aboutAdsPersonalization: "トラッキングを拒否しても広告は表示されますが、パーソナライズされません。",
-        aboutAdsTvos: "Apple TV（tvOS）：tvOS版のアプリには広告は含まれていません。Apple TVでは広告は表示されず、広告識別子も収集されません。",
+        aboutAdsTitle: "広告（Google AdMob）\u2014 iOS & Android",
+        aboutAdsText: "アプリを無料に保つために広告を表示します。広告は繰り返しのフライングによるクールダウン期間中に表示されます。iOSでは、トラッキングを許可するかどうかを確認するApp Tracking Transparency（ATT）プロンプトが表示されます。許可した場合、Google AdMobはデバイスの広告識別子（IDFA）を使用してパーソナライズされた広告を配信する場合があります。拒否した場合、広告は引き続き表示されますがパーソナライズされません。",
+        aboutAdsAndroid: "Android：Google AdMobは、Googleのプライバシーポリシーに記載の通り広告データを収集する場合があります。デバイスのGoogle設定で広告のパーソナライズを管理できます。",
+        aboutAdsTvos: "Apple TV（tvOS）およびApple Watch：これらのバージョンには広告は含まれていません。広告は表示されず、広告データも収集されません。",
         aboutAdsProvider: "広告関連のデータ収集の詳細については、Googleのプライバシーポリシーをご覧ください。",
 
         leaderboardTitle: "オンラインリーダーボードとプロフィール（Supabase）",
@@ -477,7 +499,15 @@ const translations = {
         tvos1: "広告なし：tvOSアプリにはGoogle AdMobやその他の広告フレームワークは含まれていません。広告は表示されず、広告識別子も収集されません。",
         tvos2: "アプリトラッキングなし：広告データが収集されないため、Apple TVにはアプリトラッキング透明性のプロンプトはありません。",
         tvos3: "コントローラー入力：アプリはAppleのGame Controllerフレームワークを通じてSiri Remoteを使用します。追加のデバイス権限は必要ありません。",
-        tvos4: "同じオンライン機能：Firebase Analytics、Supabaseリーダーボード、Game CenterはiOSと同じように動作し、アプリ内の設定から制御できます。",
+        tvos4: "アナリティクスなし：Firebase AnalyticsはtvOSには含まれていません。アナリティクスデータは収集されません。",
+        tvos5: "同じオンライン機能：SupabaseリーダーボードとGame CenterはiOSと同じように動作し、アプリ内の設定から制御できます。",
+
+        watchosTitle: "Apple Watch（watchOS）固有の事項",
+        watchosText: "watchOS版は、データ収集が最小限のスタンドアロンのコンパニオンアプリです：",
+        watchos1: "広告なし：広告なし、広告フレームワークなし、広告識別子なし。",
+        watchos2: "アナリティクスなし：Firebase Analyticsやその他のアナリティクスフレームワークなし。",
+        watchos3: "オンライン機能なし：Watch版はすべてのゲームデータをウォッチ内にローカルに保存します。Supabase同期なし、Game Centerなし。",
+        watchos4: "ローカルのみ：すべてのスコア、設定、ゲームデータはApple Watchに残ります。",
 
         dataSharingTitle: "データ共有",
         dataSharingText: "私たちはあなたの個人情報を第三者に販売、取引、共有しません。データはアプリの機能を提供するために必要な範囲でのみ、上記のサービスプロバイダー（Google、Apple、Supabase）と共有されます。",
@@ -500,11 +530,11 @@ const translations = {
         kidsParentsText: "アプリは13歳未満の子どもから意図的に情報を収集しません。すべてのデータ収集は匿名であり、個人識別子は含まれません。",
 
         controlTitle: "あなたが制御できるもの",
-        control1: "設定 > プライバシー > アナリティクスの共有でアナリティクスを無効化",
+        control1: "アナリティクスはデフォルトで無効 \u2014 協力したい場合のみオプトイン",
         control2: "設定 > プライバシー > リーダーボード同期でオンラインリーダーボード同期を無効化",
         control3: "設定 > プライバシー > データを削除でオンラインデータを削除",
         control4: "Game Center（iOS）またはGoogle Play Games（Android）を使うかどうかを選択",
-        control5: "デバイスのプライバシー設定で広告トラッキングを変更",
+        control5: "iOSのApp Tracking Transparencyプロンプト、またはデバイスのプライバシー設定で広告のパーソナライズを管理",
         control6: "アプリを削除してすべてのローカルデータを削除",
 
         changesTitle: "このポリシーの変更",
@@ -570,7 +600,7 @@ const translations = {
         moreFeature3: "Hintergrundmusik und Soundeffekte mit vollen Audiosteuerungen",
         moreFeature4: "Apple Watch Begleit-App fuer schnelles Ueben",
         moreFeature5: "Datenschutzkontrollen: Analytik deaktivieren, Online-Sync ausschalten oder Daten jederzeit loeschen",
-        moreFeature6: "6 Sprachen: Englisch, Spanisch, Franzoesisch, Deutsch, Japanisch und Portugiesisch",
+        moreFeature6: "12 Sprachen: Englisch, Deutsch, Spanisch, Franzoesisch, Japanisch, Portugiesisch, Italienisch, Koreanisch, Niederlaendisch, Tuerkisch, Vereinfachtes Chinesisch und Traditionelles Chinesisch",
         moreFeature7: "Komplett kostenlos ohne In-App-Kaeufe",
 
         screenshotsTitle: "Screenshots",
@@ -585,12 +615,12 @@ const translations = {
         footerAppStoreLink: "App Store Eintrag",
 
         privacyHeaderTitle: "Datenschutzrichtlinie fuer Lights Out: Reaction Timer",
-        privacyLastUpdated: "Zuletzt aktualisiert: 10. Februar 2026",
+        privacyLastUpdated: "Zuletzt aktualisiert: 17. Februar 2026",
 
         privacyAppliesTo: "Diese Richtlinie gilt fuer Lights Out: Reaction Timer auf allen Plattformen, einschliesslich iOS (iPhone), Android und tvOS (Apple TV).",
 
         simpleVersionTitle: "Die Einfache Version",
-        simpleVersionText: "Wir haben diese Spiele-App spassig und sicher gemacht! Wir zeigen Werbung auf iOS, um die App kostenlos zu halten. Die Apple TV-Version hat keine Werbung. Du hast volle Kontrolle darueber, welche Daten geteilt werden, und kannst deine Online-Daten jederzeit aus der App loeschen.",
+        simpleVersionText: "Wir haben dieses Spiel spassig und sicher gemacht! Wir zeigen Werbung auf iOS und Android, um die App kostenlos zu halten. Auf iOS entscheidest du, ob Werbung personalisiert werden darf, ueber Apples App Tracking Transparency-Aufforderung. Du hast volle Kontrolle darueber, welche Daten geteilt werden, und kannst deine Online-Daten jederzeit aus der App loeschen.",
 
         whatWeDontTakeTitle: "Was wir NICHT Erfassen",
         whatWeDontTake1: "Wir fragen nicht nach deinem Namen, E-Mail oder Telefonnummer",
@@ -599,16 +629,18 @@ const translations = {
         whatWeDontTake4: "Wir nehmen dich nicht auf oder hoeren deine Gespraeche ab",
         whatWeDontTake5: "Wir kennen deinen genauen Standort nicht",
 
-        analyticsTitle: "Analytik (Firebase Analytics)",
+        analyticsTitle: "Analytik (Firebase Analytics) \u2014 Opt-In",
         analyticsText1: "Die App verwendet Firebase Analytics, um anonyme Nutzungsdaten wie Bildschirmaufrufe, Spielereignisse (Starts, Abschluesse, Fehlstarts) und Sitzungszahlen zu erfassen. Dies hilft uns zu verstehen, wie die App genutzt wird, und sie zu verbessern.",
-        analyticsText2: "Es werden keine persoenlich identifizierbaren Informationen durch Analytik erfasst.",
-        analyticsOptOut: "Du kannst Analytik jederzeit unter Einstellungen > Datenschutz > Analytik Teilen deaktivieren.",
+        analyticsOptIn: "Analytik ist standardmaessig deaktiviert.",
+        analyticsOptInDetail: "Beim ersten Start wirst du gefragt, ob du dich anmelden moechtest. Es werden keine persoenlich identifizierbaren Informationen durch Analytik erfasst.",
+        analyticsOptOut: "Du kannst deine Wahl jederzeit unter Einstellungen > Datenschutz > Analytik Teilen aendern.",
+        analyticsTvos: "Apple TV (tvOS) und Apple Watch: Diese Versionen enthalten kein Firebase Analytics. Es werden keine Analytikdaten erfasst.",
         analyticsProvider: "Firebase Analytics wird von Google bereitgestellt. Siehe Googles Datenschutzrichtlinie.",
 
-        aboutAdsTitle: "Werbung (Google AdMob)",
-        aboutAdsText: "Wir zeigen Werbung, um die App kostenlos zu halten. Werbung wird waehrend Abkuehlungsphasen angezeigt, die durch wiederholte Fehlstarts ausgeloest werden. Google AdMob kann die Werbe-ID (IDFA) deines Geraets verwenden, wenn du die Erlaubnis ueber Apples App-Tracking-Transparenz-Aufforderung erteilst.",
-        aboutAdsPersonalization: "Wenn du das Tracking ablehnst, wird weiterhin Werbung angezeigt, aber nicht personalisiert.",
-        aboutAdsTvos: "Apple TV (tvOS): Die tvOS-Version der App enthaelt keine Werbung. Auf Apple TV werden keine Anzeigen geschaltet und keine Werbe-IDs erfasst.",
+        aboutAdsTitle: "Werbung (Google AdMob) \u2014 iOS & Android",
+        aboutAdsText: "Wir zeigen Werbung, um die App kostenlos zu halten. Werbung wird waehrend Abkuehlungsphasen angezeigt, die durch wiederholte Fehlstarts ausgeloest werden. Auf iOS siehst du eine App Tracking Transparency (ATT)-Aufforderung, die fragt, ob du Tracking erlaubst. Wenn du zustimmst, kann Google AdMob die Werbe-ID (IDFA) deines Geraets verwenden, um personalisierte Werbung zu schalten. Wenn du ablehnst, wird weiterhin Werbung angezeigt, aber nicht personalisiert.",
+        aboutAdsAndroid: "Android: Google AdMob kann Werbedaten gemaess Googles Datenschutzrichtlinie erfassen. Du kannst die Werbepersonalisierung in den Google-Einstellungen deines Geraets verwalten.",
+        aboutAdsTvos: "Apple TV (tvOS) und Apple Watch: Diese Versionen enthalten keine Werbung. Es werden keine Anzeigen geschaltet und keine Werbedaten erfasst.",
         aboutAdsProvider: "Siehe Googles Datenschutzrichtlinie fuer Details zur werbebezogenen Datenerfassung.",
 
         leaderboardTitle: "Online-Bestenlisten und Profile (Supabase)",
@@ -645,7 +677,15 @@ const translations = {
         tvos1: "Keine Werbung: Die tvOS-App enthaelt kein Google AdMob oder anderes Werbe-Framework. Es werden keine Anzeigen geschaltet und keine Werbe-IDs erfasst.",
         tvos2: "Kein App-Tracking: Auf Apple TV gibt es keine App-Tracking-Transparenz-Aufforderung, da keine Werbedaten erfasst werden.",
         tvos3: "Controller-Eingabe: Die App nutzt die Siri Remote ueber Apples Game Controller Framework. Es sind keine zusaetzlichen Geraeteberechtigungen erforderlich.",
-        tvos4: "Gleiche Online-Funktionen: Firebase Analytics, Supabase-Bestenlisten und Game Center funktionieren wie auf iOS und koennen ueber die App-Einstellungen gesteuert werden.",
+        tvos4: "Keine Analytik: Firebase Analytics ist auf tvOS nicht enthalten. Es werden keine Analytikdaten erfasst.",
+        tvos5: "Gleiche Online-Funktionen: Supabase-Bestenlisten und Game Center funktionieren wie auf iOS und koennen ueber die App-Einstellungen gesteuert werden.",
+
+        watchosTitle: "Apple Watch (watchOS) Spezifisch",
+        watchosText: "Die watchOS-Version ist eine eigenstaendige Begleit-App mit minimaler Datenerfassung:",
+        watchos1: "Keine Werbung: Keine Anzeigen, keine Werbe-Frameworks, keine Werbe-IDs.",
+        watchos2: "Keine Analytik: Kein Firebase Analytics oder anderes Analytik-Framework.",
+        watchos3: "Keine Online-Funktionen: Die Watch-App speichert alle Spieldaten lokal auf der Uhr. Keine Supabase-Synchronisierung, kein Game Center.",
+        watchos4: "Nur lokal: Alle Punktzahlen, Einstellungen und Spieldaten bleiben auf deiner Apple Watch.",
 
         dataSharingTitle: "Datenweitergabe",
         dataSharingText: "Wir verkaufen, handeln oder teilen deine persoenlichen Informationen nicht mit Dritten. Daten werden nur mit den oben aufgefuehrten Dienstanbietern (Google, Apple, Supabase) geteilt, soweit dies fuer die App-Funktionalitaet erforderlich ist.",
@@ -668,11 +708,11 @@ const translations = {
         kidsParentsText: "Die App erfasst wissentlich keine Informationen von Kindern unter 13 Jahren. Alle Datenerfassung ist anonym und enthaelt keine persoenlichen Identifikatoren.",
 
         controlTitle: "Was du Kontrollieren Kannst",
-        control1: "Analytik deaktivieren unter Einstellungen > Datenschutz > Analytik Teilen",
+        control1: "Analytik ist standardmaessig deaktiviert \u2014 nur aktivieren, wenn du helfen moechtest",
         control2: "Online-Bestenlisten-Sync deaktivieren unter Einstellungen > Datenschutz > Bestenlisten-Sync",
         control3: "Online-Daten loeschen unter Einstellungen > Datenschutz > Meine Daten Loeschen",
         control4: "Waehle, ob du Game Center (iOS) oder Google Play Games (Android) willst oder nicht",
-        control5: "Aendere Werbe-Tracking in deinen Geraete-Datenschutzeinstellungen",
+        control5: "Werbepersonalisierung ueber die App Tracking Transparency-Aufforderung auf iOS oder in den Datenschutzeinstellungen deines Geraets steuern",
         control6: "Loesche die App, um alle lokalen Daten zu entfernen",
 
         changesTitle: "Aenderungen dieser Richtlinie",
@@ -738,7 +778,7 @@ const translations = {
         moreFeature3: "Musique de fond et effets sonores avec controles audio complets",
         moreFeature4: "Application Apple Watch pour s'entrainer rapidement",
         moreFeature5: "Controles de confidentialite : desactivez les analyses, la synchronisation en ligne ou supprimez vos donnees a tout moment",
-        moreFeature6: "6 langues : anglais, espagnol, francais, allemand, japonais et portugais",
+        moreFeature6: "12 langues : anglais, allemand, espagnol, francais, japonais, portugais, italien, coreen, neerlandais, turc, chinois simplifie et chinois traditionnel",
         moreFeature7: "Entierement gratuit sans achats integres",
 
         screenshotsTitle: "Captures d'Ecran",
@@ -753,12 +793,12 @@ const translations = {
         footerAppStoreLink: "Fiche App Store",
 
         privacyHeaderTitle: "Politique de Confidentialite pour Lights Out: Reaction Timer",
-        privacyLastUpdated: "Derniere mise a jour : 10 fevrier 2026",
+        privacyLastUpdated: "Derniere mise a jour : 17 fevrier 2026",
 
         privacyAppliesTo: "Cette politique s'applique a Lights Out: Reaction Timer sur toutes les plateformes, y compris iOS (iPhone), Android et tvOS (Apple TV).",
 
         simpleVersionTitle: "La Version Simple",
-        simpleVersionText: "Nous avons rendu cette application de jeu amusante et sure ! Nous montrons des publicites sur iOS pour garder l'application gratuite. La version Apple TV n'a pas de publicites. Vous avez le controle total sur les donnees partagees, et vous pouvez supprimer vos donnees en ligne a tout moment depuis l'application.",
+        simpleVersionText: "Nous avons rendu ce jeu amusant et sur ! Nous montrons des publicites sur iOS et Android pour garder l'application gratuite. Sur iOS, vous choisissez si les publicites peuvent etre personnalisees via l'invite App Tracking Transparency d'Apple. Vous avez le controle total sur les donnees partagees, et vous pouvez supprimer vos donnees en ligne a tout moment depuis l'application.",
 
         whatWeDontTakeTitle: "Ce Que Nous ne Collectons PAS",
         whatWeDontTake1: "Nous ne demandons pas votre nom, email ou numero de telephone",
@@ -767,16 +807,18 @@ const translations = {
         whatWeDontTake4: "Nous ne vous enregistrons pas ou n'ecoutons pas vos conversations",
         whatWeDontTake5: "Nous ne connaissons pas votre localisation exacte",
 
-        analyticsTitle: "Analyses (Firebase Analytics)",
+        analyticsTitle: "Analyses (Firebase Analytics) \u2014 Opt-In",
         analyticsText1: "L'application utilise Firebase Analytics pour collecter des donnees d'utilisation anonymes telles que les vues d'ecran, les evenements de jeu (demarrages, completions, faux departs) et les comptages de sessions. Cela nous aide a comprendre comment l'application est utilisee et a l'ameliorer.",
-        analyticsText2: "Aucune information personnellement identifiable n'est collectee via les analyses.",
-        analyticsOptOut: "Vous pouvez desactiver les analyses a tout moment dans Parametres > Confidentialite > Partager les Analyses.",
+        analyticsOptIn: "Les analyses sont desactivees par defaut.",
+        analyticsOptInDetail: "Au premier lancement, il vous sera demande si vous souhaitez activer les analyses. Aucune information personnellement identifiable n'est collectee via les analyses.",
+        analyticsOptOut: "Vous pouvez modifier votre choix a tout moment dans Parametres > Confidentialite > Partager les Analyses.",
+        analyticsTvos: "Apple TV (tvOS) et Apple Watch : Ces versions n'incluent pas Firebase Analytics. Aucune donnee analytique n'est collectee.",
         analyticsProvider: "Firebase Analytics est fourni par Google. Voir la Politique de Confidentialite de Google.",
 
-        aboutAdsTitle: "Publicite (Google AdMob)",
-        aboutAdsText: "Nous montrons des publicites pour garder l'application gratuite. Les publicites sont affichees pendant les periodes de refroidissement declenchees par des faux departs repetes. Google AdMob peut utiliser l'identifiant publicitaire (IDFA) de votre appareil si vous accordez l'autorisation via l'invite de Transparence du Suivi d'Apple.",
-        aboutAdsPersonalization: "Si vous refusez le suivi, les publicites seront toujours affichees mais ne seront pas personnalisees.",
-        aboutAdsTvos: "Apple TV (tvOS) : La version tvOS de l'application n'inclut pas de publicite. Aucune publicite n'est affichee et aucun identifiant publicitaire n'est collecte sur Apple TV.",
+        aboutAdsTitle: "Publicite (Google AdMob) \u2014 iOS & Android",
+        aboutAdsText: "Nous montrons des publicites pour garder l'application gratuite. Les publicites sont affichees pendant les periodes de refroidissement declenchees par des faux departs repetes. Sur iOS, vous verrez une invite App Tracking Transparency (ATT) vous demandant si vous autorisez le suivi. Si vous l'autorisez, Google AdMob peut utiliser l'identifiant publicitaire (IDFA) de votre appareil pour diffuser des publicites personnalisees. Si vous refusez, les publicites seront toujours affichees mais ne seront pas personnalisees.",
+        aboutAdsAndroid: "Android : Google AdMob peut collecter des donnees publicitaires comme decrit dans la Politique de Confidentialite de Google. Vous pouvez gerer la personnalisation des publicites dans les parametres Google de votre appareil.",
+        aboutAdsTvos: "Apple TV (tvOS) et Apple Watch : Ces versions n'incluent pas de publicite. Aucune publicite n'est affichee et aucune donnee publicitaire n'est collectee.",
         aboutAdsProvider: "Voir la Politique de Confidentialite de Google pour les details sur la collecte de donnees publicitaires.",
 
         leaderboardTitle: "Classements en Ligne et Profils (Supabase)",
@@ -813,7 +855,15 @@ const translations = {
         tvos1: "Pas de publicite : L'application tvOS n'inclut pas Google AdMob ni aucun framework publicitaire. Aucune publicite n'est affichee et aucun identifiant publicitaire n'est collecte.",
         tvos2: "Pas de suivi d'application : Il n'y a pas d'invite de Transparence du Suivi sur Apple TV puisqu'aucune donnee publicitaire n'est collectee.",
         tvos3: "Telecommande : L'application utilise la Siri Remote via le framework Game Controller d'Apple. Aucune autorisation supplementaire n'est requise.",
-        tvos4: "Memes fonctionnalites en ligne : Firebase Analytics, les classements Supabase et Game Center fonctionnent de la meme maniere que sur iOS et peuvent etre controles dans les Parametres de l'application.",
+        tvos4: "Pas d'analyses : Firebase Analytics n'est pas inclus sur tvOS. Aucune donnee analytique n'est collectee.",
+        tvos5: "Memes fonctionnalites en ligne : Les classements Supabase et Game Center fonctionnent de la meme maniere que sur iOS et peuvent etre controles dans les Parametres de l'application.",
+
+        watchosTitle: "Specifique a Apple Watch (watchOS)",
+        watchosText: "La version watchOS est une application compagnon autonome avec une collecte de donnees minimale :",
+        watchos1: "Pas de publicite : Aucune publicite, aucun framework publicitaire, aucun identifiant publicitaire.",
+        watchos2: "Pas d'analyses : Pas de Firebase Analytics ni aucun framework analytique.",
+        watchos3: "Pas de fonctionnalites en ligne : L'application Watch stocke toutes les donnees de jeu localement sur la montre. Pas de synchronisation Supabase, pas de Game Center.",
+        watchos4: "Local uniquement : Tous les scores, parametres et donnees de jeu restent sur votre Apple Watch.",
 
         dataSharingTitle: "Partage de Donnees",
         dataSharingText: "Nous ne vendons, echangeons ou partageons pas vos informations personnelles avec des tiers. Les donnees ne sont partagees qu'avec les fournisseurs de services listes ci-dessus (Google, Apple, Supabase) dans la mesure necessaire pour fournir les fonctionnalites de l'application.",
@@ -836,11 +886,11 @@ const translations = {
         kidsParentsText: "L'application ne collecte pas sciemment des informations aupres d'enfants de moins de 13 ans. Toute collecte de donnees est anonyme et n'inclut pas d'identifiants personnels.",
 
         controlTitle: "Ce Que Vous Pouvez Controler",
-        control1: "Desactiver les analyses dans Parametres > Confidentialite > Partager les Analyses",
+        control1: "Les analyses sont desactivees par defaut \u2014 activez-les uniquement si vous souhaitez contribuer",
         control2: "Desactiver la synchronisation des classements dans Parametres > Confidentialite > Sync Classements",
         control3: "Supprimer vos donnees en ligne dans Parametres > Confidentialite > Supprimer Mes Donnees",
         control4: "Choisir si vous voulez Game Center (iOS) ou Google Play Games (Android) ou non",
-        control5: "Modifier le suivi publicitaire dans les parametres de confidentialite de votre appareil",
+        control5: "Controler la personnalisation des publicites via l'invite App Tracking Transparency sur iOS, ou dans les parametres de confidentialite de votre appareil",
         control6: "Supprimer l'application pour retirer toutes les donnees locales",
 
         changesTitle: "Modifications de Cette Politique",
@@ -906,7 +956,7 @@ const translations = {
         moreFeature3: "Musica de fundo e efeitos sonoros com controles de audio completos",
         moreFeature4: "App complementar para Apple Watch para pratica rapida",
         moreFeature5: "Controles de privacidade: desative analiticas, sincronizacao online ou exclua seus dados a qualquer momento",
-        moreFeature6: "6 idiomas: ingles, espanhol, frances, alemao, japones e portugues",
+        moreFeature6: "12 idiomas: ingles, alemao, espanhol, frances, japones, portugues, italiano, coreano, neerlandes, turco, chines simplificado e chines tradicional",
         moreFeature7: "Completamente gratis sem compras no aplicativo",
 
         screenshotsTitle: "Capturas de Tela",
@@ -921,12 +971,12 @@ const translations = {
         footerAppStoreLink: "Listagem da App Store",
 
         privacyHeaderTitle: "Politica de Privacidade para Lights Out: Reaction Timer",
-        privacyLastUpdated: "Ultima atualizacao: 10 de fevereiro de 2026",
+        privacyLastUpdated: "Ultima atualizacao: 17 de fevereiro de 2026",
 
         privacyAppliesTo: "Esta politica se aplica ao Lights Out: Reaction Timer em todas as plataformas, incluindo iOS (iPhone), Android e tvOS (Apple TV).",
 
         simpleVersionTitle: "A Versao Simples",
-        simpleVersionText: "Fizemos este aplicativo de jogo divertido e seguro! Mostramos anuncios no iOS para manter o app gratuito. A versao Apple TV nao tem anuncios. Voce tem controle total sobre quais dados sao compartilhados, e pode excluir seus dados online a qualquer momento pelo app.",
+        simpleVersionText: "Fizemos este jogo divertido e seguro! Mostramos anuncios no iOS e Android para manter o app gratuito. No iOS, voce escolhe se os anuncios podem ser personalizados atraves do aviso de App Tracking Transparency da Apple. Voce tem controle total sobre quais dados sao compartilhados, e pode excluir seus dados online a qualquer momento pelo app.",
 
         whatWeDontTakeTitle: "O Que NAO Coletamos",
         whatWeDontTake1: "Nao pedimos seu nome, email ou numero de telefone",
@@ -935,16 +985,18 @@ const translations = {
         whatWeDontTake4: "Nao gravamos voce ou ouvimos suas conversas",
         whatWeDontTake5: "Nao sabemos sua localizacao exata",
 
-        analyticsTitle: "Analiticas (Firebase Analytics)",
+        analyticsTitle: "Analiticas (Firebase Analytics) \u2014 Opt-In",
         analyticsText1: "O app usa Firebase Analytics para coletar dados de uso anonimos como visualizacoes de tela, eventos de jogo (inicios, conclusoes, largadas falsas) e contagens de sessoes. Isso nos ajuda a entender como o app e usado e melhora-lo.",
-        analyticsText2: "Nenhuma informacao pessoalmente identificavel e coletada atraves das analiticas.",
-        analyticsOptOut: "Voce pode desativar as analiticas a qualquer momento em Ajustes > Privacidade > Compartilhar Analiticas.",
+        analyticsOptIn: "As analiticas estao desativadas por padrao.",
+        analyticsOptInDetail: "No primeiro uso, voce sera perguntado se deseja ativar as analiticas. Nenhuma informacao pessoalmente identificavel e coletada atraves das analiticas.",
+        analyticsOptOut: "Voce pode alterar sua escolha a qualquer momento em Ajustes > Privacidade > Compartilhar Analiticas.",
+        analyticsTvos: "Apple TV (tvOS) e Apple Watch: Essas versoes nao incluem Firebase Analytics. Nenhum dado de analiticas e coletado.",
         analyticsProvider: "Firebase Analytics e fornecido pelo Google. Veja a Politica de Privacidade do Google.",
 
-        aboutAdsTitle: "Publicidade (Google AdMob)",
-        aboutAdsText: "Mostramos anuncios para manter o app gratuito. Os anuncios sao exibidos durante periodos de espera acionados por largadas falsas repetidas. O Google AdMob pode usar o Identificador de Publicidade (IDFA) do seu dispositivo se voce conceder permissao atraves do aviso de Transparencia de Rastreamento da Apple.",
-        aboutAdsPersonalization: "Se voce recusar o rastreamento, os anuncios ainda serao exibidos mas nao serao personalizados.",
-        aboutAdsTvos: "Apple TV (tvOS): A versao tvOS do app nao inclui publicidade. Nenhum anuncio e exibido e nenhum identificador publicitario e coletado no Apple TV.",
+        aboutAdsTitle: "Publicidade (Google AdMob) \u2014 iOS & Android",
+        aboutAdsText: "Mostramos anuncios para manter o app gratuito. Os anuncios sao exibidos durante periodos de espera acionados por largadas falsas repetidas. No iOS, voce vera um aviso de App Tracking Transparency (ATT) perguntando se permite o rastreamento. Se permitir, o Google AdMob pode usar o Identificador de Publicidade (IDFA) do seu dispositivo para exibir anuncios personalizados. Se recusar, os anuncios ainda serao exibidos mas nao serao personalizados.",
+        aboutAdsAndroid: "Android: O Google AdMob pode coletar dados publicitarios conforme descrito na Politica de Privacidade do Google. Voce pode gerenciar a personalizacao de anuncios nas configuracoes do Google do seu dispositivo.",
+        aboutAdsTvos: "Apple TV (tvOS) e Apple Watch: Essas versoes nao incluem publicidade. Nenhum anuncio e exibido e nenhum dado publicitario e coletado.",
         aboutAdsProvider: "Veja a Politica de Privacidade do Google para detalhes sobre a coleta de dados publicitarios.",
 
         leaderboardTitle: "Placares Online e Perfis (Supabase)",
@@ -981,7 +1033,15 @@ const translations = {
         tvos1: "Sem publicidade: O app tvOS nao inclui Google AdMob ou qualquer framework publicitario. Nenhum anuncio e exibido e nenhum identificador publicitario e coletado.",
         tvos2: "Sem rastreamento de apps: Nao ha solicitacao de Transparencia de Rastreamento no Apple TV, pois nenhum dado publicitario e coletado.",
         tvos3: "Controle remoto: O app usa o Siri Remote atraves do framework Game Controller da Apple. Nenhuma permissao adicional do dispositivo e necessaria.",
-        tvos4: "Mesmas funcoes online: Firebase Analytics, placares do Supabase e Game Center funcionam da mesma forma que no iOS e podem ser controlados nas Configuracoes do app.",
+        tvos4: "Sem analiticas: Firebase Analytics nao esta incluido no tvOS. Nenhum dado de analiticas e coletado.",
+        tvos5: "Mesmas funcoes online: Os placares do Supabase e Game Center funcionam da mesma forma que no iOS e podem ser controlados nas Configuracoes do app.",
+
+        watchosTitle: "Especifico do Apple Watch (watchOS)",
+        watchosText: "A versao watchOS e um app companheiro independente com coleta minima de dados:",
+        watchos1: "Sem publicidade: Sem anuncios, sem frameworks publicitarios, sem identificadores publicitarios.",
+        watchos2: "Sem analiticas: Sem Firebase Analytics ou qualquer framework de analiticas.",
+        watchos3: "Sem funcoes online: O app do Watch armazena todos os dados do jogo localmente no relogio. Sem sincronizacao com Supabase, sem Game Center.",
+        watchos4: "Apenas local: Todas as pontuacoes, configuracoes e dados do jogo ficam no seu Apple Watch.",
 
         dataSharingTitle: "Compartilhamento de Dados",
         dataSharingText: "Nao vendemos, trocamos ou compartilhamos suas informacoes pessoais com terceiros. Os dados sao compartilhados apenas com os provedores de servicos listados acima (Google, Apple, Supabase) conforme necessario para fornecer a funcionalidade do app.",
@@ -1004,11 +1064,11 @@ const translations = {
         kidsParentsText: "O app nao coleta intencionalmente informacoes de criancas menores de 13 anos. Toda coleta de dados e anonima e nao inclui identificadores pessoais.",
 
         controlTitle: "O Que Voce Pode Controlar",
-        control1: "Desativar analiticas em Ajustes > Privacidade > Compartilhar Analiticas",
+        control1: "As analiticas estao desativadas por padrao \u2014 ative somente se quiser ajudar",
         control2: "Desativar sincronizacao de placares em Ajustes > Privacidade > Sincronizacao de Placares",
         control3: "Excluir seus dados online em Ajustes > Privacidade > Excluir Meus Dados",
         control4: "Escolher se quer Game Center (iOS) ou Google Play Games (Android) ou nao",
-        control5: "Alterar rastreamento de anuncios nas configuracoes de privacidade do seu dispositivo",
+        control5: "Controlar a personalizacao de anuncios pelo aviso de App Tracking Transparency no iOS, ou nas configuracoes de privacidade do seu dispositivo",
         control6: "Excluir o app para remover todos os dados locais",
 
         changesTitle: "Alteracoes Nesta Politica",
