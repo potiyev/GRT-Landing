@@ -596,6 +596,24 @@ footer {
     flex-wrap: wrap;
 }
 
+.android-beta {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #717171;
+    margin-bottom: 2px;
+}
+
+.android-beta-link {
+    font-size: 13px;
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.android-beta-link:hover {
+    text-decoration: underline;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 16px;
@@ -694,9 +712,13 @@ footer {
 }
 
 .feature-icon {
-    font-size: 32px;
     margin-bottom: 12px;
     line-height: 1;
+}
+
+.feature-icon .material-symbols-rounded {
+    font-size: 32px;
+    color: #0070f3;
 }
 
 .feature-card h3 {
@@ -734,6 +756,121 @@ footer {
     left: 16px;
     color: #00a699;
     font-weight: 700;
+}
+
+/* Support & FAQ section */
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.faq-item {
+    background: #f7f7f7;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.faq-item summary {
+    padding: 14px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #222222;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.15s ease;
+}
+
+.faq-item summary:hover {
+    background-color: #efefef;
+}
+
+.faq-item summary::before {
+    content: "+";
+    font-size: 18px;
+    font-weight: 600;
+    color: #0070f3;
+    flex-shrink: 0;
+    width: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.faq-item[open] summary::before {
+    content: "\2212";
+}
+
+.faq-item p {
+    padding: 0 16px 14px;
+    font-size: 14px;
+    color: #484848;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.contact-link {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.contact-card {
+    background: #f7f7f7;
+    border-radius: 12px;
+    padding: 32px;
+    border-left: 4px solid #0070f3;
+}
+
+.contact-card-inner {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.contact-icon {
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.contact-icon .material-symbols-rounded {
+    font-size: 32px;
+    color: #0070f3;
+}
+
+.contact-card p {
+    font-size: 15px;
+    color: #484848;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.contact-email {
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+.support-note {
+    font-size: 13px !important;
+    color: #717171 !important;
+    margin-top: 4px;
+}
+
+@media (max-width: 480px) {
+    .contact-card {
+        padding: 20px;
+    }
+
+    .contact-card-inner {
+        flex-direction: column;
+        gap: 12px;
+    }
 }
 
 @media (max-width: 768px) {
