@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cereal:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
 </head>
 <body>
     <!-- Top Navigation -->
@@ -22,6 +23,9 @@
                     <li><a href="https://apps.apple.com/us/app/grid-reaction-timer/id6748250349" target="_blank" rel="noopener noreferrer" class="nav-link nav-app-store" data-translate="navAppStore">App Store</a></li>
                 </ul>
                 <!-- Language selector will be added here by JavaScript -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="material-symbols-rounded" id="themeIcon">dark_mode</span>
+                </button>
             </div>
         </div>
     </nav>
@@ -211,5 +215,6 @@
     <!-- Translation scripts -->
     <script src="translations.js"></script>
     <script src="language-switcher.js"></script>
+    <script src="theme-toggle.js"></script>
 </body>
 </html>

@@ -57,7 +57,6 @@ class LanguageSwitcher {
         
         const currentLang = this.getCurrentLanguageInfo();
         button.innerHTML = `
-            <span class="flag ${this.currentLanguage}"></span>
             <span class="language-text">${currentLang.name}</span>
             <span class="arrow">▼</span>
         `;
@@ -86,7 +85,6 @@ class LanguageSwitcher {
             }
             
             option.innerHTML = `
-                <span class="flag ${lang.code}"></span>
                 <span class="language-name">${lang.name}</span>
             `;
             
@@ -196,7 +194,6 @@ class LanguageSwitcher {
         if (button) {
             const currentLang = this.getCurrentLanguageInfo();
             button.innerHTML = `
-                <span class="flag ${this.currentLanguage}"></span>
                 <span class="language-text">${currentLang.name}</span>
                 <span class="arrow">▼</span>
             `;
