@@ -1,12 +1,12 @@
 # Privacy Policy for Lights Out: Reaction Timer
 
-**Last Updated:** February 12, 2026
+**Last Updated:** March 24, 2026
 
 This policy applies to Lights Out: Reaction Timer on all platforms, including iOS (iPhone), Android, tvOS (Apple TV), and watchOS (Apple Watch).
 
 ## The Simple Version
 
-We made this game fun and safe! We show non-personalized ads on iOS and Android to keep the app free. The Apple TV and Apple Watch versions have no ads. You have full control over what data is shared, and you can delete your online data at any time from the app.
+We made this game fun and safe! We show ads on iOS and Android to keep the app free. On iOS, you choose whether ads can be personalized through Apple's App Tracking Transparency prompt. The Apple TV and Apple Watch versions have no ads. You have full control over what data is shared, and you can delete your online data at any time from the app.
 
 ## What We DON'T Collect
 
@@ -15,24 +15,22 @@ We made this game fun and safe! We show non-personalized ads on iOS and Android 
 - We don't track where you go or what other apps you use
 - We don't record you or listen to your conversations
 - We don't know your exact location
-- We don't use your advertising identifier (IDFA) on iOS
-- We don't serve personalized ads
 
-## Analytics (Firebase Analytics) — Opt-In
+## Analytics — Android Only
 
-The app uses Firebase Analytics to collect anonymous usage data such as screen views, game events (starts, completions, false starts), and session counts. This helps us understand how the app is used and improve it.
+The Android app may include Firebase Analytics to collect anonymous usage data such as screen views, game events (starts, completions, false starts), and session counts. This helps us understand how the app is used and improve it.
 
-**Analytics is disabled by default.** On first launch, you'll be asked if you'd like to opt in. No personally identifiable information is collected through analytics.
+**Analytics is disabled by default on Android.** iOS, Apple TV (tvOS), and Apple Watch do not include any analytics framework. No analytics data is collected on Apple platforms.
 
-**You can change your choice at any time in Settings > Privacy > Share Analytics.**
+**On Android, you can change your analytics choice at any time in Settings > Privacy > Share Analytics.**
 
-Firebase Analytics is provided by Google. See [Google's Privacy Policy](https://policies.google.com/privacy).
+Firebase Analytics on Android is provided by Google. See [Google's Privacy Policy](https://policies.google.com/privacy).
 
 ## Advertising (Google AdMob) — iOS & Android
 
-We show non-personalized ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. All ads are non-personalized — we explicitly disable ad personalization and never request access to your advertising identifier (IDFA on iOS).
+We show ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. On iOS, you will see an App Tracking Transparency (ATT) prompt asking whether you allow tracking. If you allow it, Google AdMob may use your device's advertising identifier (IDFA) to serve personalized ads. If you decline, ads will still be shown but will not be personalized.
 
-No App Tracking Transparency prompt is shown on iOS because we do not track you across apps or websites.
+**Android:** Google AdMob may collect advertising data as described in Google's Privacy Policy. You can manage ad personalization in your device's Google settings.
 
 **Apple TV (tvOS) and Apple Watch:** These versions do not include advertising. No ads are shown and no advertising data is collected.
 
@@ -77,7 +75,8 @@ The tvOS version shares most privacy characteristics with the iOS version, with 
 - **No advertising:** No ads, no advertising frameworks, no advertising identifiers.
 - **No app tracking:** No tracking prompts since no advertising data is collected.
 - **Controller input:** Uses the Siri Remote via Apple's Game Controller framework. No additional permissions required.
-- **Same online features:** Firebase Analytics (opt-in), Supabase leaderboards, and Game Center work the same as iOS.
+- **No analytics:** No analytics framework is included. No analytics data is collected.
+- **Same online features:** Supabase leaderboards and Game Center work the same as iOS and can be controlled through the in-app Settings.
 
 ## In-App Purchases
 
@@ -111,10 +110,11 @@ The app does not knowingly collect information from children under 13. All data 
 
 ## What You Can Control
 
-- Analytics is off by default — opt in only if you want to help
+- No analytics on iOS — Android analytics is opt-in and off by default
 - Disable online leaderboard sync in Settings > Privacy > Leaderboard Sync
 - Delete your online data in Settings > Privacy > Delete My Data
 - Choose if you want Game Center (iOS) or Google Play Games (Android) or not
+- Control ad personalization via the App Tracking Transparency prompt on iOS, or in your device's privacy settings
 - Delete the app to remove all local data
 
 ## Changes to This Policy
