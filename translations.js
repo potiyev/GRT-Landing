@@ -138,7 +138,7 @@ const translations = {
         analyticsOptInDetail: "The iOS app includes Microsoft Clarity, which records anonymised usage such as screen views and in-game events to help us improve the app. Clarity does not use the advertising identifier, and analytics storage consent follows your App Tracking Transparency choice. Apple TV (tvOS) and Apple Watch include no analytics framework.",
         analyticsOptOut: "On Android, you can change your analytics choice at any time in Settings > Privacy > Share Analytics.",
         analyticsTvos: "Apple TV (tvOS) and Apple Watch: These versions include no analytics framework. No analytics data is collected.",
-        analyticsProvider: "Firebase Analytics on Android is provided by Google (see Google's Privacy Policy). Clarity on iOS is provided by Microsoft (see Microsoft's Privacy Statement).",
+        analyticsProvider: "Firebase Analytics on Android is provided by Google (see <a href=\"https://policies.google.com/privacy\">Google's Privacy Policy</a>). Clarity on iOS is provided by Microsoft (see <a href=\"https://privacy.microsoft.com/privacystatement\">Microsoft's Privacy Statement</a>).",
 
         aboutAdsTitle: "Advertising (Google AdMob) \u2014 iOS & Android",
         aboutAdsText: "We show ads to keep the app free. Ads are displayed during cooldown periods triggered by repeated false starts. On iOS, you will see an App Tracking Transparency (ATT) prompt asking whether you allow tracking. If you allow it, Google AdMob may use your device's advertising identifier (IDFA) to serve personalized ads. If you decline, ads will still be shown but will not be personalized.",
@@ -352,7 +352,7 @@ const translations = {
         analyticsOptInDetail: "La app de iOS incluye Microsoft Clarity, que registra datos de uso anonimizados como vistas de pantalla y eventos del juego para ayudarnos a mejorar la app. Clarity no utiliza el identificador publicitario, y el consentimiento de almacenamiento de anal\u00edticas sigue tu elecci\u00f3n de App Tracking Transparency. Apple TV (tvOS) y Apple Watch no incluyen ning\u00fan framework de anal\u00edticas.",
         analyticsOptOut: "En Android, puedes cambiar tu eleccion de analiticas en cualquier momento en Ajustes > Privacidad > Compartir Analiticas.",
         analyticsTvos: "Apple TV (tvOS) y Apple Watch: Estas versiones no incluyen ning\u00fan framework de anal\u00edticas. No se recopilan datos de anal\u00edticas.",
-        analyticsProvider: "Firebase Analytics en Android es proporcionado por Google (consulta la Pol\u00edtica de Privacidad de Google). Clarity en iOS es proporcionado por Microsoft (consulta la Declaraci\u00f3n de Privacidad de Microsoft).",
+        analyticsProvider: "Firebase Analytics en Android es proporcionado por Google (consulta la <a href=\"https://policies.google.com/privacy\">Pol\u00edtica de Privacidad de Google</a>). Clarity en iOS es proporcionado por Microsoft (consulta la <a href=\"https://privacy.microsoft.com/privacystatement\">Declaraci\u00f3n de Privacidad de Microsoft</a>).",
 
         aboutAdsTitle: "Publicidad (Google AdMob) \u2014 iOS y Android",
         aboutAdsText: "Mostramos anuncios para mantener la app gratuita. Los anuncios se muestran durante periodos de espera activados por salidas falsas repetidas. En iOS, veras un aviso de App Tracking Transparency (ATT) preguntando si permites el seguimiento. Si lo permites, Google AdMob puede usar el identificador publicitario (IDFA) de tu dispositivo para mostrar anuncios personalizados. Si lo rechazas, los anuncios se seguiran mostrando pero no seran personalizados.",
@@ -491,7 +491,7 @@ const translations = {
         competeSectionTitle: "競い合い、進捗を追跡",
         featureLeaderboardsTitle: "グローバルリーダーボード",
         featureLeaderboardsDesc: "Game Centerとオンラインリーダーボード（週間リセット付き）。絵文字アバター、連続記録、統計付きのプレイヤープロフィールを表示。",
-        featureAchievementsTitle: "40以上の実績",
+        featureAchievementsTitle: "49の実績",
         featureAchievementsDesc: "反応速度ティア、累計プレイマイルストーン、Reaction Gridの記録、ピットレーンの偉業などの実績をアンロック。Game CenterとPlay Gamesに同期。",
         featureStreaksTitle: "デイリーストリーク",
         featureStreaksDesc: "毎日プレイしてストリークを構築。ストリークバッジはリーダーボードに表示され、みんなに見えます。",
@@ -499,12 +499,12 @@ const translations = {
         featureAnalyticsDesc: "自己ベスト、平均、セッション履歴、精度を追跡。実際のF1ドライバーベンチマークとタイムを比較。",
 
         moreSectionTitle: "その他の機能",
-        moreFeature1: "61のモータースポーツと反応速度に関する豆知識がローテーション",
+        moreFeature1: "63のモータースポーツと反応速度に関する豆知識がローテーション",
         moreFeature2: "各ゲームイベントに合わせたハプティックフィードバック",
         moreFeature3: "BGMとサウンドエフェクト（フルオーディオコントロール付き）",
         moreFeature4: "Apple Watchコンパニオンアプリで素早く練習",
         moreFeature5: "プライバシーコントロール：オンライン同期の無効化、広告パーソナライズの管理、いつでもデータ削除",
-        moreFeature6: "24以上の言語対応：英語、ドイツ語、スペイン語、フランス語、日本語、ポルトガル語、イタリア語、韓国語、オランダ語、トルコ語、アラビア語、ヒンディー語、ロシア語など",
+        moreFeature6: "24の言語に対応：英語、ドイツ語、スペイン語、フランス語、日本語、ポルトガル語、イタリア語、韓国語、オランダ語、トルコ語、アラビア語、ヒンディー語、ロシア語など",
         moreFeature7: "無料プレイ。広告削除やテーマの早期アンロックはオプションのアプリ内課金で",
         moreFeature8: "iOS、Android、Apple TV、Apple Watchで利用可能",
         screenshot1Alt: "ローンチシーケンスゲームモード",
@@ -560,13 +560,13 @@ const translations = {
         whatWeDontTake4: "録音や会話の盗聴はしません",
         whatWeDontTake5: "正確な位置は知りません",
 
-        analyticsTitle: "アナリティクス \u2014 Androidのみ",
+        analyticsTitle: "アナリティクス",
         analyticsText1: "Android版アプリには、画面表示、ゲームイベント（開始、完了、フライング）、セッション数などの匿名の使用データを収集するFirebase Analyticsが含まれる場合があります。これにより、アプリの使用方法を理解し改善するのに役立ちます。",
         analyticsOptIn: "Androidではアナリティクスはデフォルトで無効になっています。",
-        analyticsOptInDetail: "iOS、Apple TV（tvOS）、Apple Watchにはアナリティクスフレームワークは含まれていません。Appleプラットフォームではアナリティクスデータは収集されません。",
+        analyticsOptInDetail: "iOS版アプリにはMicrosoft Clarityが含まれており、画面表示やゲーム内イベントなどの匿名化された使用データを記録し、アプリの改善に役立てます。Clarityは広告識別子を使用せず、アナリティクスの保存に関する同意はApp Tracking Transparencyの選択に従います。Apple TV（tvOS）およびApple Watchにはアナリティクスフレームワークは含まれていません。",
         analyticsOptOut: "Androidでは、設定 > プライバシー > アナリティクスの共有でいつでもアナリティクスの選択を変更できます。",
-        analyticsTvos: "iOSおよびApple TV（tvOS）：これらのバージョンにはアナリティクスフレームワークは含まれていません。アナリティクスデータは収集されません。",
-        analyticsProvider: "AndroidのFirebase AnalyticsはGoogleが提供しています。Googleのプライバシーポリシーをご覧ください。",
+        analyticsTvos: "Apple TV（tvOS）およびApple Watch：これらのバージョンにはアナリティクスフレームワークは含まれていません。アナリティクスデータは収集されません。",
+        analyticsProvider: "AndroidのFirebase AnalyticsはGoogleが提供しています（<a href=\"https://policies.google.com/privacy\">Googleのプライバシーポリシー</a>をご覧ください）。iOSのClarityはMicrosoftが提供しています（<a href=\"https://privacy.microsoft.com/privacystatement\">Microsoftのプライバシーに関する声明</a>をご覧ください）。",
 
         aboutAdsTitle: "広告（Google AdMob）\u2014 iOS & Android",
         aboutAdsText: "アプリを無料に保つために広告を表示します。広告は繰り返しのフライングによるクールダウン期間中に表示されます。iOSでは、トラッキングを許可するかどうかを確認するApp Tracking Transparency（ATT）プロンプトが表示されます。許可した場合、Google AdMobはデバイスの広告識別子（IDFA）を使用してパーソナライズされた広告を配信する場合があります。拒否した場合、広告は引き続き表示されますがパーソナライズされません。",
@@ -622,7 +622,7 @@ const translations = {
         iapText: "アプリにはオプションのアプリ内課金が含まれます — チップ、全テーマをアンロック、広告を削除、Pit Passシーズンパス — これらはApple StoreKit（iOS/tvOS）またはGoogle Play Billing（Android）を通じて処理されます。支払い情報は保存されません — 支払い処理はすべて、AppleおよびGoogleがそれぞれのプライバシーポリシーに基づいて行います。",
 
         dataSharingTitle: "データ共有",
-        dataSharingText: "私たちはあなたの個人情報を第三者に販売、取引、共有しません。データはアプリの機能を提供するために必要な範囲でのみ、上記のサービスプロバイダー（Google、Apple、Supabase）と共有されます。",
+        dataSharingText: "私たちはあなたの個人情報を第三者に販売、取引、共有しません。データはアプリの機能を提供するために必要な範囲でのみ、上記のサービスプロバイダー（Google、Apple、Microsoft、Supabase）と共有されます。",
 
         dataDeletionTitle: "データ削除",
         dataDeletionText1: "アプリ内からいつでもすべてのオンラインデータ（Supabaseプロフィールとスコア）を削除できます。これによりオンラインプロフィール、リーダーボードスコア、統計がサーバーから完全に削除され、新しい匿名IDが割り当てられます。",
@@ -780,7 +780,7 @@ const translations = {
         analyticsOptInDetail: "Die iOS-App enth\u00e4lt Microsoft Clarity, das anonymisierte Nutzungsdaten wie Bildschirmaufrufe und Spielereignisse erfasst, um uns bei der Verbesserung der App zu helfen. Clarity verwendet nicht die Werbe-ID, und die Einwilligung zur Speicherung von Analytikdaten richtet sich nach deiner App-Tracking-Transparency-Wahl. Apple TV (tvOS) und Apple Watch enthalten kein Analytik-Framework.",
         analyticsOptOut: "Auf Android kannst du deine Analytik-Einstellung jederzeit unter Einstellungen > Datenschutz > Analytik Teilen aendern.",
         analyticsTvos: "Apple TV (tvOS) und Apple Watch: Diese Versionen enthalten kein Analytik-Framework. Es werden keine Analytikdaten erfasst.",
-        analyticsProvider: "Firebase Analytics auf Android wird von Google bereitgestellt (siehe Googles Datenschutzrichtlinie). Clarity auf iOS wird von Microsoft bereitgestellt (siehe Microsofts Datenschutzerkl\u00e4rung).",
+        analyticsProvider: "Firebase Analytics auf Android wird von Google bereitgestellt (siehe <a href=\"https://policies.google.com/privacy\">Googles Datenschutzrichtlinie</a>). Clarity auf iOS wird von Microsoft bereitgestellt (siehe <a href=\"https://privacy.microsoft.com/privacystatement\">Microsofts Datenschutzerkl\u00e4rung</a>).",
 
         aboutAdsTitle: "Werbung (Google AdMob) \u2014 iOS & Android",
         aboutAdsText: "Wir zeigen Werbung, um die App kostenlos zu halten. Werbung wird waehrend Abkuehlungsphasen angezeigt, die durch wiederholte Fehlstarts ausgeloest werden. Auf iOS siehst du eine App Tracking Transparency (ATT)-Aufforderung, die fragt, ob du Tracking erlaubst. Wenn du zustimmst, kann Google AdMob die Werbe-ID (IDFA) deines Geraets verwenden, um personalisierte Werbung zu schalten. Wenn du ablehnst, wird weiterhin Werbung angezeigt, aber nicht personalisiert.",
@@ -994,7 +994,7 @@ const translations = {
         analyticsOptInDetail: "L'application iOS inclut Microsoft Clarity, qui enregistre des donn\u00e9es d'utilisation anonymis\u00e9es telles que les vues d'\u00e9cran et les \u00e9v\u00e9nements de jeu pour nous aider \u00e0 am\u00e9liorer l'application. Clarity n'utilise pas l'identifiant publicitaire, et le consentement au stockage des donn\u00e9es d'analyse suit votre choix App Tracking Transparency. Apple TV (tvOS) et Apple Watch n'incluent aucun framework d'analyse.",
         analyticsOptOut: "Sur Android, vous pouvez modifier votre choix d'analyse a tout moment dans Parametres > Confidentialite > Partager les Analyses.",
         analyticsTvos: "Apple TV (tvOS) et Apple Watch : Ces versions n'incluent aucun framework d'analyse. Aucune donn\u00e9e analytique n'est collect\u00e9e.",
-        analyticsProvider: "Firebase Analytics sur Android est fourni par Google (voir la Politique de Confidentialit\u00e9 de Google). Clarity sur iOS est fourni par Microsoft (voir la D\u00e9claration de Confidentialit\u00e9 de Microsoft).",
+        analyticsProvider: "Firebase Analytics sur Android est fourni par Google (voir la <a href=\"https://policies.google.com/privacy\">Politique de Confidentialit\u00e9 de Google</a>). Clarity sur iOS est fourni par Microsoft (voir la <a href=\"https://privacy.microsoft.com/privacystatement\">D\u00e9claration de Confidentialit\u00e9 de Microsoft</a>).",
 
         aboutAdsTitle: "Publicite (Google AdMob) \u2014 iOS & Android",
         aboutAdsText: "Nous montrons des publicites pour garder l'application gratuite. Les publicites sont affichees pendant les periodes de refroidissement declenchees par des faux departs repetes. Sur iOS, vous verrez une invite App Tracking Transparency (ATT) vous demandant si vous autorisez le suivi. Si vous l'autorisez, Google AdMob peut utiliser l'identifiant publicitaire (IDFA) de votre appareil pour diffuser des publicites personnalisees. Si vous refusez, les publicites seront toujours affichees mais ne seront pas personnalisees.",
@@ -1208,7 +1208,7 @@ const translations = {
         analyticsOptInDetail: "O app iOS inclui o Microsoft Clarity, que registra dados de uso anonimizados, como visualiza\u00e7\u00f5es de tela e eventos do jogo, para nos ajudar a melhorar o app. O Clarity n\u00e3o usa o identificador de publicidade, e o consentimento de armazenamento de anal\u00edticas segue sua escolha de App Tracking Transparency. Apple TV (tvOS) e Apple Watch n\u00e3o incluem nenhum framework de anal\u00edticas.",
         analyticsOptOut: "No Android, voce pode alterar sua escolha de analiticas a qualquer momento em Ajustes > Privacidade > Compartilhar Analiticas.",
         analyticsTvos: "Apple TV (tvOS) e Apple Watch: Essas vers\u00f5es n\u00e3o incluem nenhum framework de anal\u00edticas. Nenhum dado de anal\u00edticas \u00e9 coletado.",
-        analyticsProvider: "O Firebase Analytics no Android \u00e9 fornecido pelo Google (veja a Pol\u00edtica de Privacidade do Google). O Clarity no iOS \u00e9 fornecido pela Microsoft (veja a Declara\u00e7\u00e3o de Privacidade da Microsoft).",
+        analyticsProvider: "O Firebase Analytics no Android \u00e9 fornecido pelo Google (veja a <a href=\"https://policies.google.com/privacy\">Pol\u00edtica de Privacidade do Google</a>). O Clarity no iOS \u00e9 fornecido pela Microsoft (veja a <a href=\"https://privacy.microsoft.com/privacystatement\">Declara\u00e7\u00e3o de Privacidade da Microsoft</a>).",
 
         aboutAdsTitle: "Publicidade (Google AdMob) \u2014 iOS & Android",
         aboutAdsText: "Mostramos anuncios para manter o app gratuito. Os anuncios sao exibidos durante periodos de espera acionados por largadas falsas repetidas. No iOS, voce vera um aviso de App Tracking Transparency (ATT) perguntando se permite o rastreamento. Se permitir, o Google AdMob pode usar o Identificador de Publicidade (IDFA) do seu dispositivo para exibir anuncios personalizados. Se recusar, os anuncios ainda serao exibidos mas nao serao personalizados.",
