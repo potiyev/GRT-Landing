@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Lights Out: Reaction Timer</title>
+    <link rel="icon" type="image/png" href="/assets/app-icon.png">
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        /* Page-specific: rival invite landing (served via GitHub Pages 404 fallback
+           because Pages has no server routing for /rival/<code> paths). */
+        .rival-wrap {
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 48px 24px;
+            gap: 16px;
+        }
+        .rival-code {
+            font-family: "SF Mono", ui-monospace, Menlo, monospace;
+            font-size: clamp(2rem, 8vw, 3.5rem);
+            letter-spacing: 0.35em;
+            padding: 16px 28px 16px calc(28px + 0.35em);
+            border: 2px dashed currentColor;
+            border-radius: 14px;
+            user-select: all;
+        }
+        .rival-copy-btn {
+            font-size: 1rem;
+            padding: 10px 22px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            background: #e10600;
+            color: #fff;
+            font-weight: 600;
+        }
+        .rival-steps {
+            max-width: 480px;
+            opacity: 0.85;
+            line-height: 1.6;
+        }
+        .rival-badges {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8px;
+        }
+        .rival-badges img { height: 54px; }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- Rival invite landing (shown when the path matches /rival/<code>) -->
+        <section id="rivalLanding" class="rival-wrap hidden">
+            <h1>🏁 You've been challenged!</h1>
+            <p class="rival-steps">A friend wants you as their rival in
+                <strong>Lights Out: Reaction Timer</strong>. Your rival code:</p>
+            <div class="rival-code" id="rivalCode"></div>
+            <button class="rival-copy-btn" id="copyBtn">Copy code</button>
+            <p class="rival-steps">
+                1. Install the game below.<br>
+                2. Open <strong>Leaderboard</strong> and tap the <strong>rivals</strong> button.<br>
+                3. Enter the code to link up — then beat their time.
+            </p>
+            <div class="rival-badges">
+                <a href="https://apps.apple.com/app/id6748250349">
+                    <img src="/assets/app-store-badge.svg" alt="Download on the App Store"
+                         onerror="this.parentElement.textContent='App Store'">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.vladdesigns.lightsout">
+                    <img src="/assets/google-play-badge.svg" alt="Get it on Google Play">
+                </a>
+            </div>
+        </section>
+
+        <!-- Generic 404 -->
+        <section id="notFound" class="rival-wrap">
+            <h1>404</h1>
+            <p>That page doesn't exist.</p>
+            <p><a href="/">← Back to gridreactiontimer.com</a></p>
+        </section>
+    </main>
+
+    <script>
+        (function () {
+            var m = location.pathname.match(/^\/rival\/([0-9A-Za-z]{4,8})\/?$/);
+            if (!m) return;
+            var code = m[1].toUpperCase();
+            document.getElementById('notFound').classList.add('hidden');
+            document.getElementById('rivalLanding').classList.remove('hidden');
+            document.getElementById('rivalCode').textContent = code;
+            document.getElementById('copyBtn').addEventListener('click', function () {
+                navigator.clipboard.writeText(code).then(function () {
+                    document.getElementById('copyBtn').textContent = 'Copied!';
+                });
+            });
+        })();
+    </script>
+</body>
+</html>

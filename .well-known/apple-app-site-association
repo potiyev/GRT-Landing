@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["WLP39RPDQS.VladDesigns.GridReactionTimer"],
+        "components": [
+          { "/": "/rival/*", "comment": "Rival invite links" }
+        ]
+      }
+    ]
+  }
+}

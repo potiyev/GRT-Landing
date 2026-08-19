@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.vladdesigns.lightsout",
+      "sha256_cert_fingerprints": [
+        "F4:A9:65:6A:58:A2:1E:B8:1D:4F:98:83:69:2F:2B:06:A6:C9:39:CB:30:04:C0:93:95:82:75:9E:A9:79:03:3A"
+      ]
+    }
+  }
+]
