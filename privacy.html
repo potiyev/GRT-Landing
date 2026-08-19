@@ -20,7 +20,7 @@
                     <li><a href="index.html" class="nav-link" data-translate="navHome">Home</a></li>
                     <li><a href="support.html" class="nav-link" data-translate="navSupport">Support</a></li>
                     <li><a href="privacy.html" class="nav-link active" data-translate="navPrivacy">Privacy</a></li>
-                    <li><a href="https://apps.apple.com/us/app/grid-reaction-timer/id6748250349" target="_blank" rel="noopener noreferrer" class="nav-link nav-app-store" data-translate="navAppStore">App Store</a></li>
+                    <li><a href="https://apps.apple.com/app/id6748250349" target="_blank" rel="noopener noreferrer" class="nav-link nav-app-store" data-translate="navAppStore">App Store</a></li>
                 </ul>
                 <!-- Language selector will be added here by JavaScript -->
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
@@ -55,12 +55,12 @@
             </section>
 
             <section>
-                <h2 data-translate="analyticsTitle">Analytics &mdash; Android Only</h2>
+                <h2 data-translate="analyticsTitle">Analytics</h2>
                 <p data-translate="analyticsText1">The Android app may include Firebase Analytics to collect anonymous usage data such as screen views, game events (starts, completions, false starts), and session counts. This helps us understand how the app is used and improve it.</p>
-                <p><strong data-translate="analyticsOptIn">Analytics is disabled by default on Android.</strong> <span data-translate="analyticsOptInDetail">iOS, Apple TV (tvOS), and Apple Watch do not include any analytics framework. No analytics data is collected on Apple platforms.</span></p>
+                <p><strong data-translate="analyticsOptIn">Analytics is disabled by default on Android.</strong> <span data-translate="analyticsOptInDetail">The iOS app includes Microsoft Clarity, which records anonymised usage such as screen views and in-game events to help us improve the app. Clarity does not use the advertising identifier, and analytics storage consent follows your App Tracking Transparency choice. Apple TV (tvOS) and Apple Watch include no analytics framework.</span></p>
                 <p><strong data-translate="analyticsOptOut">On Android, you can change your analytics choice at any time in Settings &gt; Privacy &gt; Share Analytics.</strong></p>
-                <p data-translate="analyticsTvos"><strong>iOS and Apple TV (tvOS):</strong> These versions do not include any analytics framework. No analytics data is collected.</p>
-                <p data-translate="analyticsProvider">Firebase Analytics on Android is provided by Google. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+                <p data-translate="analyticsTvos"><strong>Apple TV (tvOS) and Apple Watch:</strong> These versions include no analytics framework. No analytics data is collected.</p>
+                <p data-translate="analyticsProvider">Firebase Analytics on Android is provided by Google (see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>). Clarity on iOS is provided by Microsoft (see <a href="https://privacy.microsoft.com/privacystatement">Microsoft's Privacy Statement</a>).</p>
             </section>
 
             <section>
@@ -134,19 +134,19 @@
                 <ul>
                     <li data-translate="watchos1"><strong>No advertising:</strong> No ads, no advertising frameworks, no advertising identifiers.</li>
                     <li data-translate="watchos2"><strong>No analytics:</strong> No analytics framework of any kind. No analytics data is collected.</li>
-                    <li data-translate="watchos3"><strong>No online features:</strong> The Watch app stores all game data locally on the watch. No Supabase sync, no Game Center.</li>
+                    <li data-translate="watchos3"><strong>Limited online features:</strong> The Watch app stores game data locally and submits Reaction Grid scores to Game Center leaderboards. There is no Supabase sync on watchOS.</li>
                     <li data-translate="watchos4"><strong>Local only:</strong> All scores, settings, and game data stay on your Apple Watch.</li>
                 </ul>
             </section>
 
             <section>
                 <h2 data-translate="iapTitle">In-App Purchases</h2>
-                <p data-translate="iapText">The app includes optional tip jar purchases processed through Apple's StoreKit (iOS/tvOS) or Google Play Billing (Android). We do not store any payment information &mdash; Apple and Google handle all payment processing under their respective privacy policies.</p>
+                <p data-translate="iapText">The app includes optional in-app purchases &mdash; tips, Unlock All Themes, Remove Ads, and the Pit Pass season pass &mdash; processed through Apple's StoreKit (iOS/tvOS) or Google Play Billing (Android). We do not store any payment information &mdash; Apple and Google handle all payment processing under their respective privacy policies.</p>
             </section>
 
             <section>
                 <h2 data-translate="dataSharingTitle">Data Sharing</h2>
-                <p data-translate="dataSharingText">We do not sell, trade, or share your personal information with third parties. Data is only shared with the service providers listed above (Google, Apple, Supabase) as necessary to provide app functionality.</p>
+                <p data-translate="dataSharingText">We do not sell, trade, or share your personal information with third parties. Data is only shared with the service providers listed above (Google, Apple, Microsoft, Supabase) as necessary to provide app functionality.</p>
             </section>
 
             <section>
