@@ -76,7 +76,7 @@ The tvOS version shares most privacy characteristics with the iOS version, with 
 - **No app tracking:** No tracking prompts since no advertising data is collected.
 - **Controller input:** Uses the Siri Remote via Apple's Game Controller framework. No additional permissions required.
 - **No analytics:** No analytics framework is included. No analytics data is collected.
-- **Same online features:** Supabase leaderboards and Game Center work the same as iOS and can be controlled through the in-app Settings.
+- **Online leaderboards (opt-in):** On first launch, the Apple TV app asks before uploading your scores and player name to the online leaderboard. Nothing is uploaded unless you choose Upload My Scores, and you can change this anytime in Settings > Privacy > Leaderboard Sync. Game Center works the same as on iOS.
 
 ## In-App Purchases
 

@@ -183,7 +183,7 @@ const translations = {
         tvos2: "No app tracking: There is no App Tracking Transparency prompt on Apple TV since no advertising data is collected.",
         tvos3: "Controller input: The app uses the Siri Remote via Apple's Game Controller framework. No additional device permissions are required.",
         tvos4: "No analytics: No analytics framework is included. No analytics data is collected.",
-        tvos5: "Same online features: Supabase leaderboards and Game Center work the same as on iOS and can be controlled through the in-app Settings.",
+        tvos5: "Online leaderboards (opt-in): On first launch, the Apple TV app asks before uploading your scores and player name to the online leaderboard. Nothing is uploaded unless you choose Upload My Scores, and you can change this anytime in Settings > Privacy > Leaderboard Sync. Game Center works the same as on iOS.",
 
         dataSharingTitle: "Data Sharing",
         dataSharingText: "We do not sell, trade, or share your personal information with third parties. Data is only shared with the service providers listed above (Google, Apple, Microsoft, Supabase) as necessary to provide app functionality.",
@@ -399,7 +399,7 @@ const translations = {
         tvos2: "Sin rastreo de apps: No hay solicitud de Transparencia de Seguimiento en Apple TV ya que no se recopilan datos publicitarios.",
         tvos3: "Control remoto: La app usa el Siri Remote a traves del framework Game Controller de Apple. No se requieren permisos adicionales del dispositivo.",
         tvos4: "Sin analiticas: No se incluye ningun framework de analiticas. No se recopilan datos de analiticas.",
-        tvos5: "Mismas funciones en linea: Las clasificaciones de Supabase y Game Center funcionan igual que en iOS y se pueden controlar desde los Ajustes de la app.",
+        tvos5: "Clasificaciones en linea (opcional): En el primer inicio, la app de Apple TV pregunta antes de subir tus puntuaciones y tu nombre de jugador a la clasificacion en linea. No se sube nada a menos que elijas Subir mis puntuaciones, y puedes cambiarlo en cualquier momento en Ajustes > Privacidad > Sincronizacion de clasificacion. Game Center funciona igual que en iOS.",
 
         watchosTitle: "Especifico de Apple Watch (watchOS)",
         watchosText: "La version watchOS es una app complementaria independiente con recopilacion de datos minima:",
@@ -615,7 +615,7 @@ const translations = {
         tvos2: "アプリトラッキングなし：広告データが収集されないため、Apple TVにはアプリトラッキング透明性のプロンプトはありません。",
         tvos3: "コントローラー入力：アプリはAppleのGame Controllerフレームワークを通じてSiri Remoteを使用します。追加のデバイス権限は必要ありません。",
         tvos4: "アナリティクスなし：アナリティクスフレームワークは含まれていません。アナリティクスデータは収集されません。",
-        tvos5: "同じオンライン機能：SupabaseリーダーボードとGame CenterはiOSと同じように動作し、アプリ内の設定から制御できます。",
+        tvos5: "オンラインリーダーボード（任意）：Apple TV版は初回起動時に、スコアとプレイヤー名をオンラインリーダーボードにアップロードする前に確認します。「スコアをアップロード」を選ばない限り何も送信されず、設定 > プライバシー > リーダーボード同期からいつでも変更できます。Game CenterはiOSと同じように動作します。",
 
         watchosTitle: "Apple Watch（watchOS）固有の事項",
         watchosText: "watchOS版は、データ収集が最小限のスタンドアロンのコンパニオンアプリです：",
@@ -831,7 +831,7 @@ const translations = {
         tvos2: "Kein App-Tracking: Auf Apple TV gibt es keine App-Tracking-Transparenz-Aufforderung, da keine Werbedaten erfasst werden.",
         tvos3: "Controller-Eingabe: Die App nutzt die Siri Remote ueber Apples Game Controller Framework. Es sind keine zusaetzlichen Geraeteberechtigungen erforderlich.",
         tvos4: "Keine Analytik: Kein Analytik-Framework enthalten. Es werden keine Analytikdaten erfasst.",
-        tvos5: "Gleiche Online-Funktionen: Supabase-Bestenlisten und Game Center funktionieren wie auf iOS und koennen ueber die App-Einstellungen gesteuert werden.",
+        tvos5: "Online-Bestenlisten (freiwillig): Beim ersten Start fragt die Apple-TV-App, bevor deine Ergebnisse und dein Spielername in die Online-Bestenliste hochgeladen werden. Ohne Auswahl von Ergebnisse hochladen wird nichts uebertragen, und du kannst dies jederzeit unter Einstellungen > Datenschutz > Bestenlisten-Sync aendern. Game Center funktioniert wie auf iOS.",
 
         watchosTitle: "Apple Watch (watchOS) Spezifisch",
         watchosText: "Die watchOS-Version ist eine eigenstaendige Begleit-App mit minimaler Datenerfassung:",
@@ -1047,7 +1047,7 @@ const translations = {
         tvos2: "Pas de suivi d'application : Il n'y a pas d'invite de Transparence du Suivi sur Apple TV puisqu'aucune donnee publicitaire n'est collectee.",
         tvos3: "Telecommande : L'application utilise la Siri Remote via le framework Game Controller d'Apple. Aucune autorisation supplementaire n'est requise.",
         tvos4: "Pas d'analyses : Aucun framework d'analyse n'est inclus. Aucune donnee analytique n'est collectee.",
-        tvos5: "Memes fonctionnalites en ligne : Les classements Supabase et Game Center fonctionnent de la meme maniere que sur iOS et peuvent etre controles dans les Parametres de l'application.",
+        tvos5: "Classements en ligne (sur accord) : Au premier lancement, l'app Apple TV demande votre accord avant d'envoyer vos scores et votre nom de joueur au classement en ligne. Rien n'est envoye si vous ne choisissez pas Envoyer mes scores, et vous pouvez modifier ce choix a tout moment dans Parametres > Confidentialite > Synchronisation du classement. Game Center fonctionne comme sur iOS.",
 
         watchosTitle: "Specifique a Apple Watch (watchOS)",
         watchosText: "La version watchOS est une application compagnon autonome avec une collecte de donnees minimale :",
@@ -1263,7 +1263,7 @@ const translations = {
         tvos2: "Sem rastreamento de apps: Nao ha solicitacao de Transparencia de Rastreamento no Apple TV, pois nenhum dado publicitario e coletado.",
         tvos3: "Controle remoto: O app usa o Siri Remote atraves do framework Game Controller da Apple. Nenhuma permissao adicional do dispositivo e necessaria.",
         tvos4: "Sem analiticas: Nenhum framework de analiticas esta incluido. Nenhum dado de analiticas e coletado.",
-        tvos5: "Mesmas funcoes online: Os placares do Supabase e Game Center funcionam da mesma forma que no iOS e podem ser controlados nas Configuracoes do app.",
+        tvos5: "Placares online (opcional): Na primeira abertura, o app para Apple TV pergunta antes de enviar suas pontuacoes e seu nome de jogador ao placar online. Nada e enviado a menos que voce escolha Enviar minhas pontuacoes, e voce pode mudar isso a qualquer momento em Configuracoes > Privacidade > Sincronizacao do placar. O Game Center funciona como no iOS.",
 
         watchosTitle: "Especifico do Apple Watch (watchOS)",
         watchosText: "A versao watchOS e um app companheiro independente com coleta minima de dados:",
